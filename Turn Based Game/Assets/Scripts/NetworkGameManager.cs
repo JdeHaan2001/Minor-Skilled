@@ -5,7 +5,7 @@ using Mirror;
 
 public class NetworkGameManager : NetworkManager
 {
-    Dictionary<NetworkConnection, GameObject> playerDict = new Dictionary<NetworkConnection, GameObject>(5);
+    public Dictionary<NetworkConnection, GameObject> playerDict { get; private set; }
     public static NetworkGameManager Instance { get; private set; }
 
     public override void Awake()
@@ -15,24 +15,36 @@ public class NetworkGameManager : NetworkManager
         else
             Instance = this;
 
+        playerDict = new Dictionary<NetworkConnection, GameObject>(5);
+
         base.Awake();
     }
 
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)
     {
-        //Add player to playerDict
+        Debug.Log(conn + " Has connected");
         GameObject playerObj = Instantiate(playerPrefab);
+        Player player = playerObj.GetComponent<Player>();
+        if (player == null) Debug.LogError("Object doesn't have Player script attached");
+
+        player.SetConnection(conn);
+        player.SetID(conn.connectionId);
+        GameManager.Instance.SetPlayerState(playerObj.GetComponent<Player>(), PlayerState.Waiting);
+
         playerDict.Add(conn, playerObj);
 
         NetworkServer.AddConnection(conn);
-        GameManager.Instance.SendMessageToAllClients($"{conn} has connected");
+        GameEvents.Instance.PlayerConnect();
+        //GameManager.Instance.SendMessageToAllClients($"{conn} has connected");
     }
 
     public override void OnServerDisconnect(NetworkConnectionToClient conn)
     {
-        //Send message to all clients that a client disconnected
+        Debug.Log(conn + " Has disconnected");
+        GameManager.Instance.SetPlayerState(playerDict[conn].GetComponent<Player>(), PlayerState.Disconnected);
+
         playerDict.Remove(conn);
         base.OnServerDisconnect(conn);
-        GameManager.Instance.SendMessageToAllClients($"{conn} has Disconnected");
+        //GameManager.Instance.SendMessageToAllClients($"{conn} has Disconnected");
     }
 }

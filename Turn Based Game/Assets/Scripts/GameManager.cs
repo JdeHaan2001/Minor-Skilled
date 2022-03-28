@@ -17,17 +17,37 @@ public class GameManager : NetworkBehaviour
             Instance = this;
     }
 
-    [ClientRpc][ServerCallback]
-    public void SendMessageToAllClients(string pText)
+    private void Start()
+    {
+        GameEvents.Instance.OnPlayerConnect += SendMessageToAllClients;
+    }
+
+
+    public void SendMessageToAllClients()
+    {
+        sendMessageToClients("Client has connected");
+    }
+
+    [ClientRpc]
+    private void sendMessageToClients(string pText)
     {
         serverMsgTxt.text = "All: " + pText;
         Debug.Log("All: " + pText);
     }
 
-    [TargetRpc][ServerCallback]
+    [TargetRpc]
     public void SendMessageToTarget(NetworkConnection conn, string pText)
     {
         serverMsgTxt.text = "You: " + pText;
         Debug.Log("You" + pText);
+    }
+
+    [ServerCallback]
+    public void SetPlayerState(Player pPlayer, PlayerState pState)
+    {
+        if (pPlayer != null)
+            pPlayer.SetCurrentState(pState);
+        else
+            Debug.LogWarning("Player is NULL", this);
     }
 }

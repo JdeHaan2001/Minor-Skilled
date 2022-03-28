@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public PlayerState currentState { get; private set; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public bool IsReady { get; set; }
+
+    public int ID { get; private set; }
+    public NetworkConnection connection { get; private set; }
+
+    public void SetCurrentState(PlayerState pState) => currentState = pState;
+    [Server]
+    public void SetID(int pID) => ID = pID;
+    [Server]
+    public void SetConnection(NetworkConnection conn) => connection = conn;
 }
