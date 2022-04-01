@@ -21,16 +21,27 @@ public class GameEvents : NetworkBehaviour
 
     public event Action OnPlayerConnect;
     public event Action OnPlayerDisconnect;
+    public event Action OnPlayerReady;
+    public event Action OnServerStopped;
 
     public void PlayerConnect()
     {
         if (OnPlayerConnect != null)
             OnPlayerConnect();
     }
-
     public void PlayerDisconnect()
     {
         if (OnPlayerDisconnect != null)
             OnPlayerDisconnect();
+    }
+    public void PlayerReady()
+    {
+        if (OnPlayerReady != null)
+            OnPlayerReady();
+    }
+    public void ServerStopped()
+    {
+        if (OnServerStopped != null)
+            OnServerStopped();
     }
 }

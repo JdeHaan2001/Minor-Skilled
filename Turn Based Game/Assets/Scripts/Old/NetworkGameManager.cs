@@ -20,6 +20,12 @@ public class NetworkGameManager : NetworkManager
         base.Awake();
     }
 
+    public override void OnStartServer()
+    {
+        base.OnStartServer();
+        Debug.Log("Server has started");
+    }
+
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)
     {
         Debug.Log(conn + " Has connected");
@@ -35,16 +41,19 @@ public class NetworkGameManager : NetworkManager
 
         NetworkServer.AddConnection(conn);
         GameEvents.Instance.PlayerConnect();
+        //NetworkServer.Spawn(playerObj, conn);
+        //GameManager.Instance.CmdSendPlayerMessage($"{conn} has connected");
         //GameManager.Instance.SendMessageToAllClients($"{conn} has connected");
     }
 
     public override void OnServerDisconnect(NetworkConnectionToClient conn)
     {
         Debug.Log(conn + " Has disconnected");
-        GameManager.Instance.SetPlayerState(playerDict[conn].GetComponent<Player>(), PlayerState.Disconnected);
+        //GameManager.Instance.SetPlayerState(playerDict[conn].GetComponent<Player>(), PlayerState.Disconnected);
 
-        playerDict.Remove(conn);
+        //playerDict.Remove(conn);
         base.OnServerDisconnect(conn);
+        //GameManager.Instance.CmdSendPlayerMessage($"{conn} has Disconnected");
         //GameManager.Instance.SendMessageToAllClients($"{conn} has Disconnected");
     }
 }

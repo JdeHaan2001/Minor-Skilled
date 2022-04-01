@@ -7,6 +7,7 @@ using TMPro;
 public class GameManager : NetworkBehaviour
 {
     public TextMeshProUGUI serverMsgTxt = null;
+    public SceneScript SceneScript;
     public static GameManager Instance { get; private set; }
 
     private void Awake()
@@ -22,6 +23,12 @@ public class GameManager : NetworkBehaviour
         GameEvents.Instance.OnPlayerConnect += SendMessageToAllClients;
     }
 
+    [Command]
+    public void CmdSendPlayerMessage(string pMessage)
+    {
+        if (SceneScript)
+            SceneScript.statusText = pMessage;
+    }
 
     public void SendMessageToAllClients()
     {

@@ -1,37 +1,53 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Mirror;
+
 public class RoundSystem : NetworkBehaviour
 {
-    #region server
-    [ServerCallback]
-    public void StartRound()
+    private TBGNetworkManager networkManager;
+    private TBGNetworkManager NetworkManager
     {
+        get
+        {
+            if (networkManager != null) return networkManager;
+            return networkManager = TBGNetworkManager.singleton as TBGNetworkManager;
+        }
+    }
+
+    //Server
+    public override void OnStartServer()
+    {
+        GameEvents.Instance.OnServerStopped += CleanUpServer;
+        GameEvents.Instance.OnPlayerReady += CheckStartRound;
+    }
+
+    [ServerCallback]
+    private void OnDestroy() => CleanUpServer();
+
+    [Server]
+    private void CleanUpServer()
+    {
+        GameEvents.Instance.OnServerStopped -= CleanUpServer;
+        GameEvents.Instance.OnPlayerReady -= CheckStartRound;
+    }
+
+    [ServerCallback]
+    public void StartRound() => RpcStartRound();
+
+    [Server]
+    private void CheckStartRound()
+    {
+        if (NetworkManager.playerList.Count(x => x.GetComponent<Client>().IsReady) != NetworkManager.playerList.Count) return;
+
         RpcStartRound();
     }
 
-    [Server]
-    private void CheckToStartRound(NetworkConnection conn)
-    {
-        int count = 0;
-
-        foreach (KeyValuePair<NetworkConnection, GameObject> connection in NetworkGameManager.Instance.playerDict)
-        {
-            if (connection.Value.GetComponent<Player>().IsReady)
-                count++;
-        }
-
-        if (count != NetworkGameManager.Instance.playerDict.Count) return;
-    }
-    #endregion
-
-    #region Client
+    //Client
     [ClientRpc]
     private void RpcStartRound()
     {
         Debug.Log("Start Round");
-        //Check Highest Card
     }
-    #endregion
 }
