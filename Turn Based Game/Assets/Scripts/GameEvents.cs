@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using Mirror;
 
-public class GameEvents : NetworkBehaviour
+public class GameEvents
 {
     public static GameEvents Instance = null;
 
@@ -12,8 +12,7 @@ public class GameEvents : NetworkBehaviour
     {
         if (Instance != null)
         {
-            Debug.LogWarning("Multiple instances of this object were found", this);
-            Destroy(this.gameObject);
+            Debug.LogWarning("Multiple instances of this object were found");
         }
         else
             Instance = this;

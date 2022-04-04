@@ -119,7 +119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1731244445725290404
 RectTransform:
   m_ObjectHideFlags: 0
@@ -221,7 +221,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2405075431100710683}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2823997909404760440}
+        m_TargetAssemblyTypeName: Client, Assembly-CSharp
+        m_MethodName: CmdGetNumber
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5147044943792182153
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,8 +381,8 @@ MonoBehaviour:
   IsReady: 0
   ID: 1
   gameNumber: 0
-  ReadyText: {fileID: 6045938344873938226}
-  GetNumberButton: {fileID: 9212445450205570447}
+  ReadyText: {fileID: 0}
+  GetNumberButton: {fileID: 0}
 --- !u!1 &7617255195144419639
 GameObject:
   m_ObjectHideFlags: 0

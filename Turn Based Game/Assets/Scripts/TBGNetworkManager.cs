@@ -8,9 +8,12 @@ using UnityEditor;
 public class TBGNetworkManager : NetworkManager
 {
     public List<GameObject> playerList { get; private set; }
-    public TBGNetworkManager Instance { get; private set; }
+    public List<Client> ClientList { get; set; } = new List<Client>();
+    public static TBGNetworkManager Instance { get; private set; }
     [SerializeField] private SceneScript sceneScript;
     [SerializeField] private GameObject roundSystem;
+
+    public GameEvents events { get; private set; } = new GameEvents();
 
     public override void Awake()
     {
@@ -28,29 +31,33 @@ public class TBGNetworkManager : NetworkManager
         base.OnStartServer();
         Debug.Log("Server has started");
 
-        GameObject roundSystemInstance = Instantiate(roundSystem);
-        NetworkServer.Spawn(roundSystemInstance);
+        //GameObject roundSystemInstance = Instantiate(roundSystem);
+        //NetworkServer.Spawn(roundSystemInstance);
     }
 
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)
     {
         Debug.Log(conn + " Has connected");
-        GameObject playerObj = playerPrefab.gameObject;
+        GameObject playerObj = Instantiate(playerPrefab);
         Client client = playerObj.GetComponent<Client>();
         if (client == null) Debug.LogError("Object doesn't have Client script attached");
 
         client.SetBaseClientInfo(conn, conn.connectionId, PlayerState.WaitWithoutCard, false);
 
         playerList.Add(playerObj);
+        ClientList.Add(client);
+        Debug.Log("ClientList count server: " + ClientList.Count);
+        NetworkServer.AddPlayerForConnection(conn, playerObj);
+    }
 
-        NetworkServer.AddConnection(conn);
-
-        base.OnServerAddPlayer(conn);
+    public string PlayerToString(int pIndex = 0)
+    {
+        return playerList[0].GetComponent<Client>().ToString();
     }
 
     public override void OnStopServer()
     {
-        GameEvents.Instance.ServerStopped();
+        events.ServerStopped();
 
         playerList.Clear();
     }
