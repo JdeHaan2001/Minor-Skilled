@@ -11,7 +11,6 @@ public class Player : NetworkBehaviour
 
     private void Awake()
     {
-
         serverMsg = FindObjectOfType<ServerMessages>();
     }
 
