@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Mirror;
 
 public class ServerMessages : NetworkBehaviour
 {
-    public static ServerMessages Instance { get; set; }
+    public Text ServerText;
 
-    private void Awake()
+    [SyncVar(hook = nameof(OnStatusTextChanged))]
+    public string statusText;
+
+    private void OnStatusTextChanged(string Old, string New)
     {
-        if (Instance != null)
-            Instance = this;
-        else
-            Destroy(this.gameObject);
+        ServerText.text = statusText;
     }
 }
