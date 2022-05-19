@@ -11,10 +11,11 @@ public class PlayingCard : ScriptableObject
     public int cardValue { get; private set; }
     public Sprite cardSprite { get; private set; }
 
-    public void InitCard(CardType pCardType, int pValue)
+    public void InitCard(CardType pCardType, int pValue, Sprite pSprite)
     {
         cardType = pCardType;
         cardValue = pValue;
+        cardSprite = pSprite;
     }
 
     public Sprite GetSprite() => cardSprite;

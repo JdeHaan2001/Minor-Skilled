@@ -9,12 +9,24 @@ public class GameManager : NetworkBehaviour
     private List<PlayingCard> playingCardList = new List<PlayingCard>();
     private List<PlayingCard> cardsToBePlayed;
     private List<PlayingCard> playedCards = new List<PlayingCard>();
+    private List<Sprite> cardSpritesSpades = new List<Sprite>();
+    private List<Sprite> cardSpritesClubs = new List<Sprite>();
+    private List<Sprite> cardSpritesHearts = new List<Sprite>();
+    private List<Sprite> cardSpritesDiamonds = new List<Sprite>();
 
-    [Range(0, 4)]
-    public int JokerAmount = 2;
+    //[Range(0, 4)]
+    private int JokerAmount = 0;
 
     public override void OnStartServer()
     {
+        //TODO: Load art for cards into a list
+        Object[] loadedSprites = Resources.LoadAll("Cards", typeof(Sprite));
+
+        for (int s = 0; s < loadedSprites.Length; s++)
+        {
+            cardSpritesSpades.Add(loadedSprites[s] as Sprite);
+        }
+
         for (int i = 1; i <= 52; i++)
         {
             if (i <= 13) 
@@ -50,7 +62,9 @@ public class GameManager : NetworkBehaviour
     private PlayingCard MakePlayingCard(CardType pCardType, int pValue)
     {
         PlayingCard card = new PlayingCard();
-        card.InitCard(pCardType, pValue);
+
+        //TODO: Get correct sprite in InitCard  
+        //card.InitCard(pCardType, pValue);
         return card;
     }
 }
