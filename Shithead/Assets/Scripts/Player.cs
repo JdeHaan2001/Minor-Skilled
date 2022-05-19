@@ -5,6 +5,10 @@ using Mirror;
 
 public class Player : NetworkBehaviour
 {
+    private List<PlayingCard> cardsInHand = new List<PlayingCard>();
+    private List<PlayingCard> cardsFaceDown = new List<PlayingCard>(3);
+    private List<PlayingCard> cardsFaceUp = new List<PlayingCard>(3);
+
     private ServerMessages serverMsg;
 
     private int ID;

@@ -8,11 +8,12 @@ public class GameNetworkManager : NetworkManager
 {
     public ServerMessages ServerMsg;
 
-    private List<Player> connections = new List<Player>();
+    private Dictionary<int, Player> connections = new Dictionary<int, Player>();
+
+    
 
     public override void OnStartServer()
     {
-        base.OnStartServer();
         connections.Clear();
 
         Debug.Log($"Server has started at {DateTime.Now}");
@@ -22,7 +23,6 @@ public class GameNetworkManager : NetworkManager
     {
         Debug.Log($"Stopping Server at {DateTime.Now}");
         connections.Clear();
-        base.OnStopServer();
     }
 
     public override void OnServerConnect(NetworkConnectionToClient conn)
@@ -33,8 +33,16 @@ public class GameNetworkManager : NetworkManager
         Player player = playerObj.GetComponent<Player>();
         player.SetClientID(conn.connectionId);
 
-        connections.Add(player);
+        connections.Add(conn.connectionId, player);
         NetworkServer.AddPlayerForConnection(conn, playerObj);
 
+    }
+
+    public override void OnServerDisconnect(NetworkConnectionToClient conn)
+    {
+        ServerMsg.statusText = $"{conn.connectionId} has left";
+        NetworkServer.Destroy(connections[conn.connectionId].gameObject);
+        connections.Remove(conn.connectionId);
+        Debug.Log($"{conn} has left the server");
     }
 }
