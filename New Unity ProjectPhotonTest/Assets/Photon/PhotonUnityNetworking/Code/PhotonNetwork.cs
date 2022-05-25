@@ -1126,6 +1126,7 @@ namespace Photon.Pun
                 Debug.LogError("Can't connect: Loading settings failed. ServerSettings asset must be in any 'Resources' folder as: " + ServerSettingsFileName);
                 return false;
             }
+            Debug.Log("Can connect using settings");
 
             return ConnectUsingSettings(PhotonServerSettings.AppSettings, PhotonServerSettings.StartInOfflineMode);
         }
