@@ -393,7 +393,8 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 6910969155039824132}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -410,6 +411,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beams: {fileID: 1616447991}
+  PlayerUIPrefab: {fileID: 799312466390012675, guid: 35233511cb360034393b0ace0ba0ecfc, type: 3}
+  Health: 1
 --- !u!1 &6246278552534307975
 GameObject:
   m_ObjectHideFlags: 0
