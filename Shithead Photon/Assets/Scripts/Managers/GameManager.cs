@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
+    public List<Player> playerList { get; } = new List<Player>();
+
     private int playersInRoom = 0;
     private int playersReady = 0;
 
@@ -22,20 +24,15 @@ public class GameManager : MonoBehaviourPunCallbacks
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         Debug.LogFormat("OnPlayerEnteredRoom() {0}", newPlayer.NickName);
-
-        playersInRoom++;
-        //if (PhotonNetwork.IsMasterClient)
-        //{
-        //    Debug.LogFormat("OnPlayerEnteredRoom IsMasterClient {0}", PhotonNetwork.IsMasterClient);
-
-        //    LoadLobby();
-        //}
+        playerList.Add(newPlayer);
+        Debug.Log("Players in room: " + playerList.Count);
     }
 
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
         Debug.LogFormat("OnPlayerLeftRoom() {0}", otherPlayer.NickName);
-        playersInRoom--;
+        playerList.Remove(otherPlayer);
+        Debug.Log("Players in room: " + playerList.Count);
     }
 
     public override void OnJoinedRoom()
