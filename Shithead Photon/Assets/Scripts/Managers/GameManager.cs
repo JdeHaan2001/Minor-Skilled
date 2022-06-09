@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviourPunCallbacks
 {
     public List<Player> playerList { get; } = new List<Player>();
 
-    private int playersInRoom = 0;
     private int playersReady = 0;
 
     private void LoadLobby()
@@ -48,4 +47,6 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.LeaveRoom();
     }
+
+   
 }

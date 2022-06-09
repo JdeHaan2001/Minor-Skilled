@@ -2,19 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum CardType { CLUBS, SPADES, DIAMONDS, HEARTS, JOKER };
+public enum CardType { Clubs, Spades, Diamonds, Hearts, Joker };
 
-public class PlayingCard : ScriptableObject
+public class PlayingCard
 {
     public CardType cardType { get; private set; }
     public int cardValue { get; private set; }
     public Sprite cardSprite { get; private set; }
+
+    public PlayingCard (CardType pCardType, int pValue, Sprite pSprite)
+    {
+        cardType = pCardType;
+        cardValue = pValue;
+        cardSprite = pSprite;
+
+        Debug.Log("Comes here");
+    }
 
     public void InitCard(CardType pCardType, int pValue, Sprite pSprite)
     {
         cardType = pCardType;
         cardValue = pValue;
         cardSprite = pSprite;
+
+        //Debug.Log("Comes here");
     }
 
     public Sprite GetSprite() => cardSprite;
@@ -23,6 +34,6 @@ public class PlayingCard : ScriptableObject
 
     public override string ToString()
     {
-        return $"Card Type: {cardValue}\n Card Value: {cardValue}";
+        return $"Card Type: {cardType}\n Card Value: {cardValue}";
     }
 }

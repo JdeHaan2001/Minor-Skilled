@@ -91,4 +91,5 @@ public class Launcher : MonoBehaviourPunCallbacks
         PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = maxPlayersPerRoom });
         Debug.Log("Created a room");
     }
+    
 }
