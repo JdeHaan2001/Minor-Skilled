@@ -9,7 +9,6 @@
 // </summary>
 // <author>developer@photonengine.com</author>
 // ----------------------------------------------------------------------------
-
 #if UNITY_4_7 || UNITY_5 || UNITY_5_3_OR_NEWER
 #define SUPPORTED_UNITY
 #endif
@@ -40,6 +39,12 @@ namespace Photon.Realtime
     [Serializable]
     public class Player
     {
+        
+        //private PlayingCard test = null;
+        //public List<PlayingCard> CardsInHand = new List<PlayingCard>();
+        //public List<PlayingCard> CardsFaceUp = new List<PlayingCard>();
+        //public List<PlayingCard> CardsFaceDown = new List<PlayingCard>();
+        
         public bool IsReady { get; set; }
 
         /// <summary>

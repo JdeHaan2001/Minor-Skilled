@@ -688,6 +688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1621537164}
+  - component: {fileID: 1621537166}
   - component: {fileID: 1621537165}
   m_Layer: 0
   m_Name: CardManager
@@ -722,3 +723,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d866c31760d97ff479dad1316e1d8920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playingCardList: []
+--- !u!114 &1621537166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621537163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 1621537165}
+  sceneViewId: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
