@@ -58,13 +58,15 @@ public class PlayingCard
         int cv = BitConverter.ToInt32(value, 0); //cv = card value
 
         //texture
-        byte[] texture = new byte[bytes.Length - 8]; //Gets the remaining bytes out of the given byte array
+        byte[] texture = new byte[bytes.Length - (type.Length + value.Length)]; //Gets the remaining bytes out of the given byte array
         Array.Copy(bytes, 8, texture, 0, texture.Length);
         if (BitConverter.IsLittleEndian)
             Array.Reverse(texture);
         Texture2D text = new Texture2D(2, 2, TextureFormat.RGBA32, false);
         text.LoadRawTextureData(texture);
         text.Apply();
+
+        Debug.Log($"Deserialized stuff {ct} {cv} {text.width}");
 
         Sprite sprite = Sprite.Create(text, Rect.zero, Vector2.zero);
 

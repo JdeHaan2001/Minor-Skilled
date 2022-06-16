@@ -4,9 +4,12 @@ using UnityEngine;
 using System.Linq;
 using Photon.Pun;
 using Photon.Realtime;
+using Hastable = ExitGames.Client.Photon.Hashtable;
 
 public class CardManager : GameManager
 {
+    //TODO: Make override function to update the playingcardlist
+
     [SerializeField] private List<PlayingCard> playingCardList = new List<PlayingCard>();
     private List<PlayingCard> cardsToBePlayed;
     private List<PlayingCard> playedCards = new List<PlayingCard>();
@@ -14,6 +17,7 @@ public class CardManager : GameManager
 
     private ExitGames.Client.Photon.Hashtable customProperties = new ExitGames.Client.Photon.Hashtable();
     private const string keyCardsToBePlayed = "cardsToBePlayed";
+    private PlayingCard _card = null;
 
     //[Range(0, 4)]
     private int JokerAmount = 0;
@@ -52,7 +56,11 @@ public class CardManager : GameManager
         //customProperties[keyCardsToBePlayed] = playingCardList;
         //PhotonNetwork.SetPlayerCustomProperties(customProperties);
 
-        this.photonView.RPC("SetCardsToBePlayed", RpcTarget.All, playingCardList);
+        //this.photonView.RPC("SetCardsToBePlayed", RpcTarget.All, playingCardList);
+        //this.photonView.RPC("SetCard", RpcTarget.AllViaServer, playingCardList[0]);
+
+        if (photonView.IsMine)
+            PhotonNetwork.CurrentRoom.SetCustomProperties(new Hastable() { { "Cards", playingCardList.ToArray() } });
     }
 
     private PlayingCard MakePlayingCard(CardType pCardType, int pValue)
@@ -108,4 +116,19 @@ public class CardManager : GameManager
 
     [PunRPC]
     private void SetCardsToBePlayed(PlayingCard[] pList) => cardsToBePlayed = pList.ToList();
+
+    [PunRPC]
+    private void SetCard(PlayingCard card) => _card = card;
+
+    private void SendCards(PlayingCard data)
+    {
+        this.photonView.RPC("RPCReceiveCards", RpcTarget.All, PlayingCard.Serialize(data));
+    }
+
+    [PunRPC]
+    private void RPCReceiveCards(byte[] datas)
+    {
+        PlayingCard card = (PlayingCard)PlayingCard.Deserialize(datas);
+        Debug.Log("Received byte array");
+    }
 }

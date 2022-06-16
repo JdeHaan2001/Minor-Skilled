@@ -38,13 +38,7 @@ namespace Photon.Realtime
     /// </remarks>
     [Serializable]
     public class Player
-    {
-        
-        //private PlayingCard test = null;
-        //public List<PlayingCard> CardsInHand = new List<PlayingCard>();
-        //public List<PlayingCard> CardsFaceUp = new List<PlayingCard>();
-        //public List<PlayingCard> CardsFaceDown = new List<PlayingCard>();
-        
+    {        
         public bool IsReady { get; set; }
 
         /// <summary>

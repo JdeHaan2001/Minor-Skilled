@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using ExitGames.Client.Photon;
+using Hastable = ExitGames.Client.Photon.Hashtable;
 
 public class Launcher : MonoBehaviourPunCallbacks
 {
@@ -30,6 +32,10 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     private void Start()
     {
+        //Making sure that we can send PlayingCard classes over the photon network
+        PhotonPeer.RegisterType(typeof(PlayingCard), (byte)'M', PlayingCard.Serialize, PlayingCard.Deserialize);
+        Debug.Log("Registered custom PlayingCard Type");
+
         progressLabel.SetActive(false);
         controlPanel.SetActive(true);
     }
@@ -88,8 +94,26 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         //Create a new room when the client can't join a room
         //Could be because no room exists or all rooms are full
-        PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = maxPlayersPerRoom });
+        CreateRoom();
         Debug.Log("Created a room");
+    }
+
+    private void CreateRoom()
+    {
+        int randomRoomName = Random.Range(0, 5000);
+        RoomOptions roomOptions =
+            new RoomOptions()
+            {
+                IsVisible = true,
+                IsOpen = true,
+                MaxPlayers = maxPlayersPerRoom,
+            };
+
+        Hastable RoomCustomProps = new Hastable();
+        RoomCustomProps.Add("Cards", new PlayingCard[] { });
+        roomOptions.CustomRoomProperties = RoomCustomProps;
+
+        PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = maxPlayersPerRoom });
     }
     
 }
