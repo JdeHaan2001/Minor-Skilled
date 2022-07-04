@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Photon.Realtime;
-using Photon.Pun;
+//using Photon.Pun;
 
 public class GamePlayer : MonoBehaviour
 {
@@ -20,7 +20,7 @@ public class GamePlayer : MonoBehaviour
         throw new NotImplementedException("Playcard() hasn't been implemented yet");
     }
 
-    [PunRPC]
+    //[PunRPC]
     private void updateUI()
     {
         throw new NotImplementedException("updateUI() Hasn't been implemented yet");

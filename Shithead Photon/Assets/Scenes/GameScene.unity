@@ -724,6 +724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playingCardList: []
+  spriteAtlas: {fileID: 4343727234628468602, guid: eff570b64f22d874da94b183e8c31163, type: 2}
 --- !u!114 &1621537166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,8 +743,7 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents:
-  - {fileID: 1621537165}
+  ObservedComponents: []
   sceneViewId: 1
   InstantiationId: 0
   isRuntimeInstantiated: 0
