@@ -13,6 +13,12 @@ public class PlayingCard
     public int cardValue { get; private set; }
     public Sprite cardSprite { get; private set; }
 
+    /// <summary>
+    /// Initializes a playing card
+    /// </summary>
+    /// <param name="pCardType"></param>
+    /// <param name="pValue"></param>
+    /// <param name="pSprite"></param>
     public PlayingCard (CardType pCardType, int pValue, Sprite pSprite)
     {
         cardType = pCardType;
@@ -20,10 +26,15 @@ public class PlayingCard
         cardSprite = pSprite;
     }
 
+    /// <summary>
+    /// Initializes a playing card without a card Sprite. cardSprite value will be null
+    /// </summary>
+    /// <param name="pCardType"></param>
+    /// <param name="pValue"></param>
     public PlayingCard (CardType pCardType, int pValue)
     {
         cardType = pCardType;
-        cardValue = pValue;
+        cardValue = pValue; 
     }
 
     #region serialization
@@ -97,6 +108,7 @@ public class PlayingCard
     public Sprite GetSprite() => cardSprite;
     public CardType GetCardType() => cardType;
     public int GetCardValue() => cardValue;
+    public void SetSprite(Sprite pSprite) => cardSprite = pSprite;
 
     public static byte[] Serialize(PlayingCard pCard)
     {
