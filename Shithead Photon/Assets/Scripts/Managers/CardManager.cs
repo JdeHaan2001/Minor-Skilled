@@ -62,13 +62,8 @@ public class CardManager : GameManager
             //}
             #endregion
 
-            //int[] cardInts = new int[playingCardList.Count];
-
             List<PlayingCard> shuffledList = new List<PlayingCard>(shuffleCards(playingCardList));
             playingCardList = shuffledList;
-
-            //for (int i = 0; i < playingCardList.Count; i++)
-            //    cardInts[i] = PlayingCard.CardToInt(playingCardList[i]);
 
             this.photonView.RPC("SetCardsToBePlayed", RpcTarget.All, CardArrayToIntArray(playingCardList.ToArray()));
         }
@@ -85,7 +80,14 @@ public class CardManager : GameManager
         for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             this.photonView.RPC("dealCards", PhotonNetwork.PlayerList[i]);
 
-        //TODO: Set Starting player
+        //Set Starting player
+        if (PhotonNetwork.IsMasterClient)
+        {
+            this.photonView.RPC("setPlayerState", PhotonNetwork.PlayerList[0], (int)PlayerStates.CurrentTurn);
+
+            for (int i = 1; i < PhotonNetwork.PlayerList.Length; i++)
+                this.photonView.RPC("setPlayerState", PhotonNetwork.PlayerList[i], (int)PlayerStates.WaitingForTurn);
+        }
     }
 
     /// <summary>
@@ -189,7 +191,14 @@ public class CardManager : GameManager
             {
                 cardsToBePlayed.Remove(cardsToBePlayed[j]);
             }
+
             Debug.Log("cardsToBePLayed length after player init: " + cardsToBePlayed.ToArray().Length);
             this.photonView.RPC("SetCardsToBePlayed", RpcTarget.All, CardArrayToIntArray(cardsToBePlayed.ToArray()));
+    }
+
+    [PunRPC]
+    private void setPlayerState(int pState)
+    {
+        playerObj.GetComponent<GamePlayer>().currentState = (PlayerStates)pState;
     }
 }
