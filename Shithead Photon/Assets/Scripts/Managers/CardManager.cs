@@ -85,12 +85,12 @@ public class CardManager : GameManager
             playerObj = GameObject.FindGameObjectWithTag("Player");//Would like to find a better way to get this
         }
 
-        for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
-            this.photonView.RPC("dealCards", PhotonNetwork.PlayerList[i]);
-
         //Set Starting player
         if (PhotonNetwork.IsMasterClient)
         {
+            for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
+                this.photonView.RPC("dealCards", PhotonNetwork.PlayerList[i]);
+
             this.photonView.RPC("setPlayerState", PhotonNetwork.PlayerList[0], (int)PlayerStates.CurrentTurn);
 
             for (int i = 1; i < PhotonNetwork.PlayerList.Length; i++)
@@ -233,6 +233,24 @@ public class CardManager : GameManager
     }
 
     /// <summary>
+    /// Converts an array of integers to an array playingcard objects
+    /// </summary>
+    /// <param name="pInts"></param>
+    /// <returns></returns>
+    private PlayingCard[] IntArrayToCardArray(int[] pInts)
+    {
+        PlayingCard[] cards = new PlayingCard[pInts.Length];
+
+        for (int i = 0; i < cards.Length; i++)
+        {
+            cards[i] = PlayingCard.IntToCard(pInts[i]);
+            cards[i].SetSprite(GetCardSprite(cards[i].cardType, cards[i].cardValue));
+        }
+
+        return cards;
+    }
+
+    /// <summary>
     /// Initializes the UI for the cards
     /// </summary>
     //TODO: Make functions for the foreach loops
@@ -301,19 +319,19 @@ public class CardManager : GameManager
             cardsToBePlayed[i].SetSprite(GetCardSprite(cardsToBePlayed[i].cardType, cardsToBePlayed[i].cardValue));
         }
 
-        //updateCardsToBePlayedList(cardsToBePlayed.ToArray());
+        this.photonView.RPC("updateCardsToBePlayedList", RpcTarget.All, CardArrayToIntArray(cardsToBePlayed.ToArray()));
     }
 
     [PunRPC]
     private void dealCards()
     {
+        GamePlayer player = playerObj.GetComponent<GamePlayer>();
+
         if (playerObj == null)
         {
             Debug.LogError("PlayerObj is null", this);
             return;
         }
-
-        GamePlayer player = playerObj.GetComponent<GamePlayer>();
 
         if (player == null)
         {
@@ -355,9 +373,10 @@ public class CardManager : GameManager
     /// aren't serializable by PUN
     /// </summary>
     [PunRPC]
-    private void updateCardsToBePlayedList(PlayingCard[] pCardArray)
+    private void updateCardsToBePlayedList(int[] pCardArray)
     {
-        cardsToBePlayed = pCardArray.ToList();
+        //cardsToBePlayed = pCardArray.ToList();
+        cardsToBePlayed = IntArrayToCardArray(pCardArray).ToList();
     }
 
     [PunRPC]
