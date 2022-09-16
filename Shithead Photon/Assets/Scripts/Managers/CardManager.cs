@@ -103,7 +103,26 @@ public class CardManager : GameManager
         if (cardObj.tag == "InHand")
         {
             Debug.Log($"InHand: {pType} : {pValue}");
-            checkCardValue(pType, pValue);
+            if (checkCardValue(pType, pValue))
+            {
+                GamePlayer player = playerObj.GetComponent<GamePlayer>();
+
+                player.GetCardInHand().Remove(cardObj.GetComponent<CardHolder>().card);
+                player.GetCardInHand().TrimExcess();
+                Destroy(cardObj);
+
+                if (cardsToBePlayed.Count != 0)
+                {
+                    PlayingCard card = cardsToBePlayed[0];
+
+                    player.GetCardInHand().Add(card);
+                    InstantiatePlayingCardInHand(card);
+
+                    cardsToBePlayed.Remove(card);
+                    cardsToBePlayed.TrimExcess();
+                    this.photonView.RPC("updateCardsToBePlayedList", RpcTarget.All, CardArrayToIntArray(cardsToBePlayed.ToArray()));
+                }
+            }
         }
         else if (cardObj.tag == "FaceUp" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0)
         {
@@ -124,9 +143,8 @@ public class CardManager : GameManager
     {
         if (pValue != 2 && pValue != 3 && pValue != 7 && pValue != 10)
         {
-            if (pValue >= lastPlayedCardValue)
+            if (pValue >= lastPlayedCardValue && lastPlayedCardValue != 1 || pValue == 1) //The ace is the highest card but has a value of 1 due to automisation issues
             {
-                //TODO: play card
                 lastPlayedCardValue = pValue;
                 Debug.Log("Spawning Card");
                 this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
@@ -140,21 +158,21 @@ public class CardManager : GameManager
             switch (pValue)
             {
                 case 2:
-                    lastPlayedCardValue = pValue;
-                    this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                    return true;
+                    //lastPlayedCardValue = pValue;
+                    //this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+                    return false;
                 case 3:
-                    lastPlayedCardValue = pValue;
-                    this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                    return true;
+                    //lastPlayedCardValue = pValue;
+                    //this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+                    return false;
                 case 7:
-                    lastPlayedCardValue = pValue;
-                    this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                    return true;
+                    //lastPlayedCardValue = pValue;
+                    //this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+                    return false;
                 case 10:
-                    lastPlayedCardValue = pValue;
-                    this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                    return true;
+                    //lastPlayedCardValue = pValue;
+                    //this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+                    return false;
             }
 
             return false;
@@ -162,6 +180,8 @@ public class CardManager : GameManager
         else
             return false;
     }
+
+    
 
     [PunRPC]
     private void updateLastPlayedCardUI(CardType pType, int pValue)
@@ -263,17 +283,7 @@ public class CardManager : GameManager
 
         foreach (PlayingCard card in gamePlayer.GetCardInHand())
         {
-            GameObject obj = Instantiate(cardHolderObj, new Vector3(cardSpawnPos.position.x, cardSpawnPos.position.y, 0f),
-                                        Quaternion.identity, cardSpawnPos);
-            obj.GetComponent<Image>().sprite = card.cardSprite;
-            obj.transform.name = card.cardSprite.name;
-            obj.tag = "InHand";
-
-            CardHolder holder = obj.GetComponent<CardHolder>();
-            holder.type = card.cardType;
-            holder.value = card.cardValue;
-
-            obj.GetComponent<CardButton>().CardClick += getCardValue;
+            InstantiatePlayingCardInHand(card);
         }
 
         foreach (PlayingCard card in gamePlayer.GetCardFaceUp())
@@ -305,6 +315,22 @@ public class CardManager : GameManager
 
             obj.GetComponent<CardButton>().CardClick += getCardValue;
         }
+    }
+
+    private void InstantiatePlayingCardInHand(PlayingCard pCard)
+    {
+        GameObject obj = Instantiate(cardHolderObj, new Vector3(cardSpawnPos.position.x, cardSpawnPos.position.y, 0f),
+                                        Quaternion.identity, cardSpawnPos);
+        obj.GetComponent<Image>().sprite = pCard.cardSprite;
+        obj.transform.name = pCard.cardSprite.name;
+        obj.tag = "InHand";
+
+        CardHolder holder = obj.GetComponent<CardHolder>();
+        holder.type = pCard.cardType;
+        holder.value = pCard.cardValue;
+        holder.card = pCard;
+
+        obj.GetComponent<CardButton>().CardClick += getCardValue;
     }
 
     [PunRPC]
