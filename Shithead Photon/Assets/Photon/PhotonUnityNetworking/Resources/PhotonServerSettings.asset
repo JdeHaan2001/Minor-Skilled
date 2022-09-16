@@ -46,6 +46,10 @@ MonoBehaviour:
   - RPCReceiveCards
   - SetCard
   - dealCards
+  - setPlayerState
+  - updateLastPlayedCardUI
+  - initCardUI
+  - updateCardsToBePlayedList
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

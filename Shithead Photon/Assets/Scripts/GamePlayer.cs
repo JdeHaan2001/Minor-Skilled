@@ -37,6 +37,9 @@ public class GamePlayer : MonoBehaviour
     public void AddCardInHand(PlayingCard pCard) => CardsInHand.Add(pCard);
     public void AddCardFaceUp(PlayingCard pCard) => CardsFaceUp.Add(pCard);
     public void AddCardFaceDown(PlayingCard pCard) => CardsFaceDown.Add(pCard);
+    public List<PlayingCard> GetCardInHand() => CardsInHand;
+    public List<PlayingCard> GetCardFaceUp() => CardsFaceUp;
+    public List<PlayingCard> GetCardFaceDown() => CardsFaceDown;
 
     public void PlayCard()
     {

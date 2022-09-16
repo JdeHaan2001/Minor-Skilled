@@ -105,9 +105,9 @@ public class PlayingCard
     //}
     #endregion
 
-    public Sprite GetSprite() => cardSprite;
-    public CardType GetCardType() => cardType;
-    public int GetCardValue() => cardValue;
+    //public Sprite GetSprite() => cardSprite;
+    //public CardType GetCardType() => cardType;
+    //public int GetCardValue() => cardValue;
     public void SetSprite(Sprite pSprite) => cardSprite = pSprite;
 
     public static byte[] Serialize(PlayingCard pCard)
