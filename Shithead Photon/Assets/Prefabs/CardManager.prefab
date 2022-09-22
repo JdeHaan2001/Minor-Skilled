@@ -68,4 +68,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playingCardList: []
   spriteAtlas: {fileID: 4343727234628468602, guid: eff570b64f22d874da94b183e8c31163, type: 2}
+  cardSpawnPos: {fileID: 0}
+  cardHolderObj: {fileID: 2579977195203930737, guid: 55b0cf795c2941549bff4cd3170b0549, type: 3}
+  canvas: {fileID: 0}
+  faceUpCardPos: {fileID: 0}
+  faceDownCardPos: {fileID: 0}
+  turnIndicator: {fileID: 0}
+  cardScale: 3.5
   PlayerPrefab: {fileID: 6797766170338406591, guid: b124546afe866f1408b3f07d8df99dd3, type: 3}
