@@ -355,9 +355,7 @@ public class CardManager : GameManager
         Debug.Log("CardsInHand" + gamePlayer.GetCardInHand());
 
         foreach (PlayingCard card in gamePlayer.GetCardInHand())
-        {
             InstantiatePlayingCardInHand(card);
-        }
 
         foreach (PlayingCard card in gamePlayer.GetCardFaceUp())
         {
@@ -487,7 +485,21 @@ public class CardManager : GameManager
     [PunRPC]
     private void setPlayerState(int pState)
     {
-        playerObj.GetComponent<GamePlayer>().currentState = (PlayerStates)pState;
+        if ((PlayerStates)pState == PlayerStates.CurrentTurn)
+        {
+            //Loop through cards in hand if they're playable
+
+            /*
+             * if playable 
+             *      set state to currentTurn
+             * Else 
+             *      set state to no cards playable
+             *      Grab cards
+             * */
+            playerObj.GetComponent<GamePlayer>().currentState = (PlayerStates)pState;
+        }
+        else
+            playerObj.GetComponent<GamePlayer>().currentState = (PlayerStates)pState;
     }
 
     [PunRPC]
