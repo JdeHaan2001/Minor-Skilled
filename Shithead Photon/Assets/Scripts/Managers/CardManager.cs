@@ -20,6 +20,8 @@ public class CardManager : GameManager
     [SerializeField] private Transform faceUpCardPos;
     [SerializeField] private Transform faceDownCardPos;
     [SerializeField] private Text turnIndicator;
+    [SerializeField] private Button leftButton;
+    [SerializeField] private Button rightButton;
 
     private List<PlayingCard> cardsToBePlayed = new List<PlayingCard>();
     private List<PlayingCard> playedCards = new List<PlayingCard>();
@@ -106,19 +108,24 @@ public class CardManager : GameManager
         }
     }
 
-    private void getCardValue(GameObject cardObj, CardType pType, int pValue) 
+    private void playCard(GameObject cardObj, CardType pType, int pValue) 
     {
         if (cardObj.tag == "InHand")
         {
             Debug.Log($"InHand: {pType} : {pValue}");
             if (checkCardValue(pType, pValue))
             {
+                handleCardPlay(pType, pValue);
+
                 //Update last played card value
                 this.photonView.RPC("setLastPlayedCardValue", RpcTarget.All, lastPlayedCardValue);
 
                 //Update the list that tracks all the played cards that are still in the game
-                playedCards.Add(cardObj.GetComponent<CardHolder>().card);
-                this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
+                if (pValue != 10)
+                {
+                    playedCards.Add(cardObj.GetComponent<CardHolder>().card);
+                    this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
+                }
 
                 //Updates the player's cards in hand list
                 GamePlayer player = playerObj.GetComponent<GamePlayer>();
@@ -140,29 +147,8 @@ public class CardManager : GameManager
                 }
 
                 //Sets playerstates to give an indication if it's their turn or not
-                for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
-                {
-                    if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer && 
-                        playerObj.GetComponent<GamePlayer>().currentState == PlayerStates.CurrentTurn)
-                    {
-                        setPlayerState((int)PlayerStates.WaitingForTurn);
-                        setTurnIndicatorText(waitForTurnText);
-
-                        if (i == PhotonNetwork.PlayerList.Length - 1)
-                        {
-                            this.photonView.RPC("setPlayerState", PhotonNetwork.PlayerList[0], (int)PlayerStates.CurrentTurn);
-                            this.photonView.RPC("setTurnIndicatorText", PhotonNetwork.PlayerList[0], currentTurnText);
-                            break;
-                        }
-                        else if (i < PhotonNetwork.PlayerList.Length - 1)
-                        {
-                            this.photonView.RPC("setPlayerState", PhotonNetwork.PlayerList[i + 1], (int)PlayerStates.CurrentTurn);
-                            this.photonView.RPC("setTurnIndicatorText", PhotonNetwork.PlayerList[i + 1], currentTurnText);
-                            break;
-                        }
-                    }
-                    
-                }
+                if(pValue != 10)
+                    handleNextRound();
             }
         }
         else if (cardObj.tag == "FaceUp" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0)
@@ -180,66 +166,111 @@ public class CardManager : GameManager
             Debug.Log($"Can't play {cardObj.tag}");
     }
 
+    private void handleNextRound()
+    {
+        for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
+        {
+            if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer &&
+                playerObj.GetComponent<GamePlayer>().currentState == PlayerStates.CurrentTurn)
+            {
+                setPlayerState((int)PlayerStates.WaitingForTurn);
+                setTurnIndicatorText(waitForTurnText);
+
+                if (i == PhotonNetwork.PlayerList.Length - 1)
+                {
+                    this.photonView.RPC("setPlayerState", PhotonNetwork.PlayerList[0], (int)PlayerStates.CurrentTurn);
+                    this.photonView.RPC("setTurnIndicatorText", PhotonNetwork.PlayerList[0], currentTurnText);
+                    break;
+                }
+                else if (i < PhotonNetwork.PlayerList.Length - 1)
+                {
+                    this.photonView.RPC("setPlayerState", PhotonNetwork.PlayerList[i + 1], (int)PlayerStates.CurrentTurn);
+                    this.photonView.RPC("setTurnIndicatorText", PhotonNetwork.PlayerList[i + 1], currentTurnText);
+                    break;
+                }
+            }
+        }
+    }
+
+    private void handleCardPlay(CardType pType, int pValue)
+    {
+        if (pValue != 2 && pValue != 3 && pValue != 7 && pValue != 10)
+        {
+            if (lastPlayedCardValue == 1 && pValue == 1)
+            {
+                lastPlayedCardValue = pValue;
+                this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+            }
+            else if (pValue >= lastPlayedCardValue && lastPlayedCardValue != 1) //The ace is the highest card but has a value of 1 due to automisation issues
+            {
+                lastPlayedCardValue = pValue;
+                this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+            }
+        }
+        else if (pValue == 2 || pValue == 3 || pValue == 7 || pValue == 10)
+        {
+            switch (pValue)
+            {
+                case 2:
+                    lastPlayedCardValue = 0;
+                    this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+                    break;
+                case 3:
+                    this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+                    break;
+                case 7:
+                    if (7 >= lastPlayedCardValue)
+                    {
+                        lastPlayedCardValue = pValue;
+                        this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+                    }
+                    break;
+                case 10:
+                    lastPlayedCardValue = 0;
+                    playedCards.Clear();
+                    playedCards.TrimExcess();
+                    this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
+                    this.photonView.RPC("destroyLastPlayedCardObj", RpcTarget.All);
+                    break;
+            }
+        }
+    }
+
     private bool checkCardValue(CardType pType, int pValue)
     {
-        if (playerObj.GetComponent<GamePlayer>().currentState == PlayerStates.CurrentTurn)
+        if (pValue != 2 && pValue != 3 && pValue != 7 && pValue != 10)
         {
-            if (pValue != 2 && pValue != 3 && pValue != 7 && pValue != 10)
+            if (lastPlayedCardValue == 1 && pValue == 1)
             {
-                if (lastPlayedCardValue == 1 && pValue == 1) 
-                {
-                    lastPlayedCardValue = pValue;
-                    this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                    return true;
-                }
-                else if (pValue >= lastPlayedCardValue && lastPlayedCardValue != 1) //The ace is the highest card but has a value of 1 due to automisation issues
-                {
-                    lastPlayedCardValue = pValue;
-                    this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                    return true;
-                }
-                else
-                    return false;
+                return true;
             }
-            else if (pValue == 2 || pValue == 3 || pValue == 7 || pValue == 10)
+            else if (pValue >= lastPlayedCardValue && lastPlayedCardValue != 1) //The ace is the highest card but has a value of 1 due to automisation issues
             {
-                switch (pValue)
-                {
-                    case 2:
-                        lastPlayedCardValue = 0;
-                        this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                        return true;
-                    case 3:
-                        this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                        return true;
-                    case 7:
-                        if (7 >= lastPlayedCardValue)
-                        {
-                            lastPlayedCardValue = pValue;
-                            this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
-                            return true;
-                        }
-                        else
-                            return false;
-                    case 10:
-                        lastPlayedCardValue = 0;
-                        playedCards.Clear();
-                        playedCards.TrimExcess();
-                        this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
-                        this.photonView.RPC("destroyLastPlayedCardObj", RpcTarget.All);
-                        return true;
-                }
-
-                return false;
+                return true;
             }
             else
                 return false;
         }
-        else
+        else if (pValue == 2 || pValue == 3 || pValue == 7 || pValue == 10)
         {
-            Debug.Log("Can't play, not your turn");
+            switch (pValue)
+            {
+                case 2:
+                    return true;
+                case 3:
+                    return true;
+                case 7:
+                    if (lastPlayedCardValue <= 7)
+                        return true;
+                    else
+                        return false;
+                case 10:
+                    return true;
+            }
             return false;
         }
+        else
+            return false;
     }
     
 
@@ -369,7 +400,7 @@ public class CardManager : GameManager
             holder.type = card.cardType;
             holder.value = card.cardValue;
 
-            obj.GetComponent<CardButton>().CardClick += getCardValue;
+            obj.GetComponent<CardButton>().CardClick += playCard;
         }
 
         foreach (PlayingCard card in gamePlayer.GetCardFaceDown())
@@ -384,7 +415,7 @@ public class CardManager : GameManager
             holder.type = card.cardType;
             holder.value = card.cardValue;
 
-            obj.GetComponent<CardButton>().CardClick += getCardValue;
+            obj.GetComponent<CardButton>().CardClick += playCard;
         }
     }
 
@@ -401,7 +432,7 @@ public class CardManager : GameManager
         holder.value = pCard.cardValue;
         holder.card = pCard;
 
-        obj.GetComponent<CardButton>().CardClick += getCardValue;
+        obj.GetComponent<CardButton>().CardClick += playCard;
     }
 
     [PunRPC]
@@ -487,16 +518,41 @@ public class CardManager : GameManager
     {
         if ((PlayerStates)pState == PlayerStates.CurrentTurn)
         {
-            //Loop through cards in hand if they're playable
+            GamePlayer player = playerObj.GetComponent<GamePlayer>();
+            if (player != null)
+            {
+                bool canPlay = false;
 
-            /*
-             * if playable 
-             *      set state to currentTurn
-             * Else 
-             *      set state to no cards playable
-             *      Grab cards
-             * */
-            playerObj.GetComponent<GamePlayer>().currentState = (PlayerStates)pState;
+                foreach (PlayingCard card in player.CardsInHand)
+                {
+                    if (checkCardValue(card.cardType, card.cardValue))
+                    {
+                        Debug.Log("Setting canPlay to TRUE");
+                        canPlay = true;
+                        break;
+                    }
+                }
+
+                if (canPlay)
+                    player.currentState = (PlayerStates)pState;
+                else
+                {
+                    Debug.Log("No cards are playable. Grabbing all cards");
+
+                    foreach (PlayingCard card in playedCards)
+                    {
+                        player.AddCardInHand(card);
+                        InstantiatePlayingCardInHand(card);
+                    }
+
+                    playedCards.Clear();
+                    playedCards.TrimExcess();
+                    this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
+                    this.photonView.RPC("destroyLastPlayedCardObj", RpcTarget.All);
+                    
+                    handleNextRound();
+                }
+            }
         }
         else
             playerObj.GetComponent<GamePlayer>().currentState = (PlayerStates)pState;
