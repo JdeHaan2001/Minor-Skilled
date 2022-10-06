@@ -44,11 +44,7 @@ public class LobbyManager : GameManager, IPunObservable
         //this.photonView.RPC("UpdateUI", RpcTarget.All);
     }
 
-    [PunRPC]
-    private void loadGameLevel()
-    {
-        PhotonNetwork.LoadLevel("GameScene");
-    }
+    
 
     private void Ready()
     {
@@ -64,7 +60,7 @@ public class LobbyManager : GameManager, IPunObservable
         Debug.Log("Players in Room: " + PhotonNetwork.CurrentRoom.PlayerCount);
 
         if (playersReady == PhotonNetwork.CurrentRoom.PlayerCount)
-            this.photonView.RPC("loadGameLevel", RpcTarget.All);
+            this.photonView.RPC("loadGameLevel", RpcTarget.All, "GameScene");
 
     }
 
@@ -113,6 +109,4 @@ public class LobbyManager : GameManager, IPunObservable
         }
 
     }
-
-    
 }
