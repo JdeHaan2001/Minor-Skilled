@@ -120,52 +120,67 @@ public class CardManager : GameManager
             Debug.Log($"InHand: {pType} : {pValue}");
             if (checkCardValue(pType, pValue))
             {
-                handleCardPlay(pType, pValue);
+                handleCardPlay(pType, pValue, cardObj);
 
-                //Update last played card value
-                this.photonView.RPC("setLastPlayedCardValue", RpcTarget.All, lastPlayedCardValue);
+                ////Update last played card value
+                //this.photonView.RPC("setLastPlayedCardValue", RpcTarget.All, lastPlayedCardValue);
 
-                //Update the list that tracks all the played cards that are still in the game
-                if (pValue != 10)
-                {
-                    playedCards.Add(cardObj.GetComponent<CardHolder>().card);
-                    this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
-                }
+                ////Update the list that tracks all the played cards that are still in the game
+                //if (pValue != 10)
+                //{
+                //    playedCards.Add(cardObj.GetComponent<CardHolder>().card);
+                //    this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
+                //}
 
-                //Updates the player's cards in hand list
-                GamePlayer player = playerObj.GetComponent<GamePlayer>();
+                ////Updates the player's cards in hand list
+                //GamePlayer player = playerObj.GetComponent<GamePlayer>();
 
-                player.GetCardInHand().Remove(cardObj.GetComponent<CardHolder>().card);
-                player.GetCardInHand().TrimExcess();
-                Destroy(cardObj);
+                //player.GetCardInHand().Remove(cardObj.GetComponent<CardHolder>().card);
+                //player.GetCardInHand().TrimExcess();
+                //Destroy(cardObj);
 
-                if (cardsToBePlayed.Count != 0)
-                {
-                    PlayingCard card = cardsToBePlayed[0];
+                //if (cardsToBePlayed.Count != 0)
+                //{
+                //    PlayingCard card = cardsToBePlayed[0];
 
-                    player.GetCardInHand().Add(card);
-                    InstantiatePlayingCardInHand(card);
+                //    player.GetCardInHand().Add(card);
+                //    InstantiatePlayingCardInHand(card);
 
-                    cardsToBePlayed.Remove(card);
-                    cardsToBePlayed.TrimExcess();
-                    this.photonView.RPC("updateCardsToBePlayedList", RpcTarget.All, CardArrayToIntArray(cardsToBePlayed.ToArray()));
-                }
+                //    cardsToBePlayed.Remove(card);
+                //    cardsToBePlayed.TrimExcess();
+                //    this.photonView.RPC("updateCardsToBePlayedList", RpcTarget.All, CardArrayToIntArray(cardsToBePlayed.ToArray()));
+                //}
 
-                //Sets playerstates to give an indication if it's their turn or not
-                if(pValue != 10)
-                    handleNextRound();
+                ////Sets playerstates to give an indication if it's their turn or not
+                //if(pValue != 10)
+                //    handleNextRound();
             }
         }
         else if (cardObj.tag == "FaceUp" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0)
         {
             Debug.Log($"FaceUp: {pType} : {pValue}");
-            checkCardValue(pType, pValue);
+            if (checkCardValue(pType, pValue))
+            {
+                handleCardPlay(pType, pValue, cardObj);
+            }
         }
         else if (cardObj.tag == "FaceDown" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0 &&
                  playerObj.GetComponent<GamePlayer>().CardsFaceUp.Count == 0)
         {
             Debug.Log($"FaceDown: {pType} : {pValue}");
-            checkCardValue(pType, pValue);
+
+            if (checkCardValue(pType, pValue))
+            {
+                handleCardPlay(pType, pValue, cardObj);
+            }
+
+            if (checkIfPlayerWon())
+            {
+                Debug.Log("Player won");
+                //End game
+                //Show win screen for local client
+                //Show lose screen for other clients
+            }
         }
         else
             Debug.Log($"Can't play {cardObj.tag}");
@@ -200,7 +215,7 @@ public class CardManager : GameManager
     /// <summary>
     /// Handles what happens when a card gets played
     /// </summary>
-    private void handleCardPlay(CardType pType, int pValue)
+    private void handleCardPlay(CardType pType, int pValue, GameObject cardObj)
     {
         if (pValue != 2 && pValue != 3 && pValue != 7 && pValue != 10)
         {
@@ -242,6 +257,39 @@ public class CardManager : GameManager
                     break;
             }
         }
+
+        //Update last played card value
+        this.photonView.RPC("setLastPlayedCardValue", RpcTarget.All, lastPlayedCardValue);
+
+        //Update the list that tracks all the played cards that are still in the game
+        if (pValue != 10)
+        {
+            playedCards.Add(cardObj.GetComponent<CardHolder>().card);
+            this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
+        }
+
+        //Updates the player's cards in hand list
+        GamePlayer player = playerObj.GetComponent<GamePlayer>();
+
+        player.GetCardInHand().Remove(cardObj.GetComponent<CardHolder>().card);
+        player.GetCardInHand().TrimExcess();
+        Destroy(cardObj);
+
+        if (cardsToBePlayed.Count != 0)
+        {
+            PlayingCard card = cardsToBePlayed[0];
+
+            player.GetCardInHand().Add(card);
+            InstantiatePlayingCardInHand(card);
+
+            cardsToBePlayed.Remove(card);
+            cardsToBePlayed.TrimExcess();
+            this.photonView.RPC("updateCardsToBePlayedList", RpcTarget.All, CardArrayToIntArray(cardsToBePlayed.ToArray()));
+        }
+
+        //Sets playerstates to give an indication if it's their turn or not
+        if (pValue != 10)
+            handleNextRound();
     }
 
     /// <summary>
@@ -604,6 +652,19 @@ public class CardManager : GameManager
                 Debug.Log("Setting canPlay to TRUE");
                 return true;
             }
+        }
+        return false;
+    }
+
+    private bool checkIfPlayerWon()
+    {
+        GamePlayer player = playerObj.GetComponent<GamePlayer>();
+
+        if (player != null) {
+            if (player.CardsInHand.Count == 0 && player.CardsFaceDown.Count == 0 && player.CardsFaceUp.Count == 0)
+                return true;
+            else
+                return false;
         }
         return false;
     }
