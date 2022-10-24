@@ -767,7 +767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &557399204
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1661,6 +1661,10 @@ PrefabInstance:
       propertyPath: turnIndicator
       value: 
       objectReference: {fileID: 309908096}
+    - target: {fileID: 2396435618035291260, guid: b7627853ed280b64393781e0cb84d517, type: 3}
+      propertyPath: winIndication
+      value: 
+      objectReference: {fileID: 102013563}
     - target: {fileID: 2396435618035291260, guid: b7627853ed280b64393781e0cb84d517, type: 3}
       propertyPath: faceDownCardPos
       value: 
