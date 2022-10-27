@@ -34,7 +34,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         //Making sure that we can send PlayingCard classes over the photon network
         //PhotonPeer.RegisterType(typeof(PlayingCard), (byte)'M', PlayingCard.Serialize, PlayingCard.Deserialize);
-        Debug.Log("Registered custom PlayingCard Type");
+        //Debug.Log("Registered custom PlayingCard Type");
 
         progressLabel.SetActive(false);
         controlPanel.SetActive(true);
@@ -78,6 +78,7 @@ public class Launcher : MonoBehaviourPunCallbacks
         controlPanel.SetActive(true);
         Debug.LogWarningFormat("PUN Basics Tutorial/Launcher: OnDisconnected() was called by PUN with reason {0}", cause);
     }
+
     public override void OnJoinedRoom()
     {
         Debug.Log("PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");

@@ -59,6 +59,7 @@ public class CardManager : GameManager
         {
             this.photonView.RPC("setPanelActive", RpcTarget.All, false, true);
 
+            //Makes all the playingcards
             for (int i = 1; i <= 52; i++)
             {
                 if (i <= 13)
@@ -114,41 +115,50 @@ public class CardManager : GameManager
     /// <summary>
     /// Gets called when a card is clicked
     /// </summary>
-    private void playCard(GameObject cardObj, CardType pType, int pValue) 
+    private void playCard(GameObject cardObj, CardType pType, int pValue)
     {
-        if (cardObj.tag == "InHand")
-        {
-            Debug.Log($"InHand: {pType} : {pValue}");
-            if (checkCardValue(pType, pValue))
-                handleCardPlay(pType, pValue, cardObj);
-        }
-        else if (cardObj.tag == "FaceUp" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0)
-        {
-            Debug.Log($"FaceUp: {pType} : {pValue}");
-            if (checkCardValue(pType, pValue))
-                handleCardPlay(pType, pValue, cardObj);
-        }
-        else if (cardObj.tag == "FaceDown" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0 &&
-                 playerObj.GetComponent<GamePlayer>().CardsFaceUp.Count == 0)
-        {
-            Debug.Log($"FaceDown: {pType} : {pValue}");
+        Debug.Log($"Player: {PhotonNetwork.NickName} is trying to play card {pType} {pValue}");
 
-            if (checkCardValue(pType, pValue))
-                handleCardPlay(pType, pValue, cardObj);
-
-            if (checkIfPlayerWon())
+        if (playerObj.GetComponent<GamePlayer>().currentState == PlayerStates.CurrentTurn)
+        {
+            if (cardObj.tag == "InHand")
             {
-                Debug.Log("Player won");
-                
-                setWinText(true);
-                this.photonView.RPC("setWinText", RpcTarget.Others, false);
-
-                setPanelActive(true, false);
-                this.photonView.RPC("setPanelActive", RpcTarget.Others, true, false);
+                Debug.Log($"InHand: {pType} : {pValue}");
+                if (checkCardValue(pType, pValue))
+                    handleCardPlay(pType, pValue, cardObj);
             }
+            else if (cardObj.tag == "FaceUp" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0)
+            {
+                Debug.Log($"FaceUp: {pType} : {pValue}");
+                if (checkCardValue(pType, pValue))
+                    handleCardPlay(pType, pValue, cardObj);
+            }
+            else if (cardObj.tag == "FaceDown" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0 &&
+                     playerObj.GetComponent<GamePlayer>().CardsFaceUp.Count == 0)
+            {
+                Debug.Log($"FaceDown: {pType} : {pValue}");
+
+                if (checkCardValue(pType, pValue))
+                    handleCardPlay(pType, pValue, cardObj);
+
+                if (checkIfPlayerWon())
+                {
+                    Debug.Log("Player won");
+
+                    setWinText(true);
+                    this.photonView.RPC("setWinText", RpcTarget.Others, false);
+
+                    setPanelActive(true, false);
+                    this.photonView.RPC("setPanelActive", RpcTarget.Others, true, false);
+                }
+            }
+            else
+                Debug.Log($"Can't play {cardObj.tag}");
         }
         else
-            Debug.Log($"Can't play {cardObj.tag}");
+        {
+            Debug.Log("Can't play. Not your turn");
+        }
     }
 
     /// <summary>
@@ -160,15 +170,17 @@ public class CardManager : GameManager
         {
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             {
-                Debug.Log("Checking state");
+                Debug.Log($"Checking player {PhotonNetwork.NickName}'s state");
+
                 if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer &&
                     playerObj.GetComponent<GamePlayer>().currentState == PlayerStates.CurrentTurn)
                 {
                     Debug.Log($"Previous state: {playerObj.GetComponent<GamePlayer>().currentState}. " +
                         $"New state: {PlayerStates.WaitingForTurn}");
 
-                    setPlayerState((int)PlayerStates.WaitingForTurn);
-                    setTurnIndicatorText(waitForTurnText);
+                    var timeL = new System.DateTimeOffset(System.DateTime.Now).ToUnixTimeSeconds();
+                    setPlayerState((int)PlayerStates.WaitingForTurn, new PhotonMessageInfo(PhotonNetwork.LocalPlayer, (int)timeL, this.photonView));
+                    setTurnIndicatorText(waitForTurnText, new PhotonMessageInfo(PhotonNetwork.LocalPlayer, (int)timeL, this.photonView));
 
                     if (i < PhotonNetwork.PlayerList.Length - 1)
                     {
@@ -182,6 +194,7 @@ public class CardManager : GameManager
                         this.photonView.RPC("setTurnIndicatorText", PhotonNetwork.PlayerList[0], currentTurnText);
                         break;
                     }
+                    break;
                 }
             }
         }
@@ -192,8 +205,9 @@ public class CardManager : GameManager
                 Debug.Log("Checking state");
                 if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer)
                 {
-                    setPlayerState((int)PlayerStates.WaitingForTurn);
-                    setTurnIndicatorText(waitForTurnText);
+                    var timeL = new System.DateTimeOffset(System.DateTime.Now).ToUnixTimeSeconds();
+                    setPlayerState((int)PlayerStates.WaitingForTurn, new PhotonMessageInfo(PhotonNetwork.LocalPlayer, (int)timeL , this.photonView));
+                    setTurnIndicatorText(waitForTurnText, new PhotonMessageInfo(PhotonNetwork.LocalPlayer, (int)timeL, this.photonView));
 
                     if (i < PhotonNetwork.PlayerList.Length - 1)
                     {
@@ -207,6 +221,7 @@ public class CardManager : GameManager
                         this.photonView.RPC("setTurnIndicatorText", PhotonNetwork.PlayerList[0], currentTurnText);
                         break;
                     }
+                    break;
                 }
             }
         }
@@ -256,6 +271,11 @@ public class CardManager : GameManager
                     this.photonView.RPC("destroyLastPlayedCardObj", RpcTarget.All);
                     break;
             }
+        }
+        else
+        {
+            Debug.Log("Can't play card, card has unknown value: " + pValue);
+            return;
         }
 
         //Update last played card value
@@ -362,6 +382,7 @@ public class CardManager : GameManager
     [PunRPC]
     private void setLastPlayedCardValue(int pValue)
     {
+        Debug.Log($"Chaning last played card value from {lastPlayedCardValue} to {pValue}");
         lastPlayedCardValue = pValue;
     }
 
@@ -598,22 +619,29 @@ public class CardManager : GameManager
     /// </summary>
     /// <param name="pState"></param>
     [PunRPC]
-    private void setPlayerState(int pState)
+    private void setPlayerState(int pState, PhotonMessageInfo info)
     {
-        Debug.Log((PlayerStates)pState);
+        Debug.Log($"Setting player state. Function called by {info.Sender}");
+        Debug.Log($"Current player state: {(PlayerStates)pState}");
         if ((PlayerStates)pState == PlayerStates.CurrentTurn)
         {
             GamePlayer player = playerObj.GetComponent<GamePlayer>();
             if (player != null)
             {
                 bool canPlay = false;
-                
-                if (player.CardsInHand.Count != 0)
-                    canPlay = checkIfAbleToPlayCard(player.CardsInHand);
-                else if (player.CardsInHand.Count == 0 && player.CardsFaceUp.Count != 0)
-                    canPlay = checkIfAbleToPlayCard(player.CardsFaceUp);
 
-                if(!canPlay)
+                if (player.CardsInHand.Count != 0)
+                {
+                    Debug.Log($"Player: {PhotonNetwork.NickName} has more then 0 cards in hand");
+                    canPlay = checkIfAbleToPlayCard(player.CardsInHand);
+                }
+                else if (player.CardsInHand.Count == 0 && player.CardsFaceUp.Count != 0)
+                {
+                    Debug.Log($"Player: {PhotonNetwork.NickName} has less then 0 cards in hand");
+                    canPlay = checkIfAbleToPlayCard(player.CardsFaceUp);
+                }
+
+                if (!canPlay)
                 {
                     Debug.Log("No cards are playable. Grabbing all cards");
 
@@ -629,11 +657,15 @@ public class CardManager : GameManager
                     this.photonView.RPC("destroyLastPlayedCardObj", RpcTarget.All);
 
                     this.photonView.RPC("setLastPlayedCardValue", RpcTarget.All, 0);
-                    
+
+                    Debug.Log("Starting next round");
                     handleNextRound(true);
                 }
                 else
+                {
+                    Debug.Log($"Player {PhotonNetwork.NickName}: chaning state from {player.currentState} to {(PlayerStates)pState}");
                     player.currentState = (PlayerStates)pState;
+                }
             }
         }
         else
@@ -677,9 +709,22 @@ public class CardManager : GameManager
     /// </summary>
     /// <param name="pText"></param>
     [PunRPC]
-    private void setTurnIndicatorText(string pText)
+    private void setTurnIndicatorText(string pText, PhotonMessageInfo info)
     {
-        turnIndicator.text = pText;
+        Debug.Log($"Setting player turn indicatior text. Function called by {info.Sender}");
+        Debug.Log($"Setting player {PhotonNetwork.NickName} turn text to {pText}, while current state is {playerObj.GetComponent<GamePlayer>().currentState}");
+        //turnIndicator.text = pText;
+        GamePlayer player = playerObj.GetComponent<GamePlayer>();
+
+        if (player != null)
+        {
+            if (player.currentState == PlayerStates.CurrentTurn)
+            {
+                turnIndicator.text = "Your Turn";
+            }
+            else
+                turnIndicator.text = "NOT your turn";
+        }
     }
 
     /// <summary>
