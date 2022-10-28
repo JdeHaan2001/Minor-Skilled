@@ -681,7 +681,7 @@ public class CardManager : GameManager
         {
             if (checkCardValue(card.cardType, card.cardValue))
             {
-                Debug.Log("Setting canPlay to TRUE");
+                Debug.Log($"{PhotonNetwork.NickName} is able to play a card");
                 return true;
             }
         }
@@ -695,7 +695,8 @@ public class CardManager : GameManager
     {
         GamePlayer player = playerObj.GetComponent<GamePlayer>();
 
-        if (player != null) {
+        if (player != null) 
+        {
             if (player.CardsInHand.Count == 0 && player.CardsFaceDown.Count == 0 && player.CardsFaceUp.Count == 0)
                 return true;
             else
@@ -719,9 +720,7 @@ public class CardManager : GameManager
         if (player != null)
         {
             if (player.currentState == PlayerStates.CurrentTurn)
-            {
                 turnIndicator.text = "Your Turn";
-            }
             else
                 turnIndicator.text = "NOT your turn";
         }

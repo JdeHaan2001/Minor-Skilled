@@ -59,9 +59,8 @@ public class LobbyManager : GameManager, IPunObservable
 
         Debug.Log("Players in Room: " + PhotonNetwork.CurrentRoom.PlayerCount);
 
-        if (playersReady == PhotonNetwork.CurrentRoom.PlayerCount)
+        if (playersReady == PhotonNetwork.CurrentRoom.PlayerCount && PhotonNetwork.CurrentRoom.PlayerCount > 1)
             this.photonView.RPC("loadGameLevel", RpcTarget.All, "GameScene");
-
     }
 
     private void UnReady()
