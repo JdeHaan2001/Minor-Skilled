@@ -18,8 +18,7 @@ public class LobbyManager : GameManager, IPunObservable
     private void Start()
     {
         playersInRoom = PhotonNetwork.CurrentRoom.PlayerCount;
-        Debug.Log("Players in Room: " + playersInRoom);
-        
+        LogSystem.Log("Players in Room: " + playersInRoom);
         this.photonView.RPC("UpdateUI", RpcTarget.All);
     }
 
@@ -48,16 +47,16 @@ public class LobbyManager : GameManager, IPunObservable
 
     private void Ready()
     {
-        Debug.Log("Player Ready: " + PhotonNetwork.LocalPlayer.NickName);
+        LogSystem.Log("Player Ready: " + PhotonNetwork.LocalPlayer.NickName);
         playersReadyList.Add(PhotonNetwork.LocalPlayer);
         //playersReady++;
         PhotonNetwork.LocalPlayer.IsReady = true;
-        Debug.Log("Total players ready = " + playersReadyList.Count);
+        LogSystem.Log("Total players ready = " + playersReadyList.Count);
 
         readyBtn.GetComponentInChildren<Text>().text = "Un-Ready";
         this.photonView.RPC("UpdateUI", RpcTarget.All, true);
 
-        Debug.Log("Players in Room: " + PhotonNetwork.CurrentRoom.PlayerCount);
+        LogSystem.Log("Players in Room: " + PhotonNetwork.CurrentRoom.PlayerCount);
 
         if (playersReady == PhotonNetwork.CurrentRoom.PlayerCount && PhotonNetwork.CurrentRoom.PlayerCount > 1)
             this.photonView.RPC("loadGameLevel", RpcTarget.All, "GameScene");
@@ -65,11 +64,11 @@ public class LobbyManager : GameManager, IPunObservable
 
     private void UnReady()
     {
-        Debug.Log("Player un-ready: " + PhotonNetwork.LocalPlayer.NickName);
+        LogSystem.Log("Player un-ready: " + PhotonNetwork.LocalPlayer.NickName);
         playersReadyList.Remove(PhotonNetwork.LocalPlayer);
         //playersReady--;
         PhotonNetwork.LocalPlayer.IsReady = false;
-        Debug.Log("Total players ready = " + playersReadyList.Count);
+        LogSystem.Log("Total players ready = " + playersReadyList.Count);
 
         readyBtn.GetComponentInChildren<Text>().text = "Ready";
         this.photonView.RPC("UpdateUI", RpcTarget.All, false);

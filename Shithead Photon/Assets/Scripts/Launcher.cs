@@ -35,7 +35,7 @@ public class Launcher : MonoBehaviourPunCallbacks
         //Making sure that we can send PlayingCard classes over the photon network
         //PhotonPeer.RegisterType(typeof(PlayingCard), (byte)'M', PlayingCard.Serialize, PlayingCard.Deserialize);
         //Debug.Log("Registered custom PlayingCard Type");
-
+        
         progressLabel.SetActive(false);
         controlPanel.SetActive(true);
     }
@@ -65,7 +65,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         if (isConnecting)
         {
-            Debug.Log("PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN");
+            //Debug.Log("PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN");
+            LogSystem.Log("PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN");
             PhotonNetwork.JoinRandomRoom();
         }
     }
@@ -81,11 +82,11 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        Debug.Log("PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");
+        LogSystem.Log("PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");
 
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
         {
-            Debug.Log("Loading the Room for 1");
+            LogSystem.Log("Loading the Room for 1");
 
             PhotonNetwork.LoadLevel("Lobby");
         }
@@ -96,7 +97,7 @@ public class Launcher : MonoBehaviourPunCallbacks
         //Create a new room when the client can't join a room
         //Could be because no room exists or all rooms are full
         CreateRoom();
-        Debug.Log("Created a room");
+        LogSystem.Log("Created a room");
     }
 
     private void CreateRoom()

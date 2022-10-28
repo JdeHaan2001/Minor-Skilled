@@ -19,7 +19,7 @@ public class CardButton : MonoBehaviour
 
     private void raiseCardClick()
     {
-        Debug.Log("Clicked on Card");
+        LogSystem.Log($"Clicked on Card {cardHolder.type} {cardHolder.value}");
         CardClick?.Invoke(this.gameObject, cardHolder.type, cardHolder.value);
     }
 }

@@ -1,0 +1,5 @@
+Log for Shithead Photon28-10-2022 15:10:02 Created a room28-10-2022 15:10:03 PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.28-10-2022 15:10:03 Loading the Room for 128-10-2022 15:10:03 Players in Room: 128-10-2022 15:12:31 PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+28-10-2022 15:12:31 Created a room
+28-10-2022 15:12:31 PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.
+28-10-2022 15:12:31 Loading the Room for 1
+28-10-2022 15:12:31 Players in Room: 1

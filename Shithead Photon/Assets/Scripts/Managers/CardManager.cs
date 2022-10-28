@@ -87,10 +87,10 @@ public class CardManager : GameManager
         }
 
         if (PlayerPrefab == null)
-            Debug.Log("PlayerPrefab is null", this);
+            LogSystem.Log("PlayerPrefab is null");
         else
         {
-            Debug.Log("Instantiating local player object");
+            LogSystem.Log("Instantiating local player object");
             PhotonNetwork.Instantiate(this.PlayerPrefab.name, new Vector3(0,0,0), Quaternion.identity, 0);
             playerObj = GameObject.FindGameObjectWithTag("Player");//Would like to find a better way to get this
         }
@@ -117,33 +117,33 @@ public class CardManager : GameManager
     /// </summary>
     private void playCard(GameObject cardObj, CardType pType, int pValue)
     {
-        Debug.Log($"Player: {PhotonNetwork.NickName} is trying to play card {pType} {pValue}");
+        LogSystem.Log($"Player: {PhotonNetwork.NickName} is trying to play card {pType} {pValue}");
 
         if (playerObj.GetComponent<GamePlayer>().currentState == PlayerStates.CurrentTurn)
         {
             if (cardObj.tag == "InHand")
             {
-                Debug.Log($"InHand: {pType} : {pValue}");
+                LogSystem.Log($"InHand: {pType} : {pValue}");
                 if (checkCardValue(pType, pValue))
                     handleCardPlay(pType, pValue, cardObj);
             }
             else if (cardObj.tag == "FaceUp" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0)
             {
-                Debug.Log($"FaceUp: {pType} : {pValue}");
+                LogSystem.Log($"FaceUp: {pType} : {pValue}");
                 if (checkCardValue(pType, pValue))
                     handleCardPlay(pType, pValue, cardObj);
             }
             else if (cardObj.tag == "FaceDown" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0 &&
                      playerObj.GetComponent<GamePlayer>().CardsFaceUp.Count == 0)
             {
-                Debug.Log($"FaceDown: {pType} : {pValue}");
+                LogSystem.Log($"FaceDown: {pType} : {pValue}");
 
                 if (checkCardValue(pType, pValue))
                     handleCardPlay(pType, pValue, cardObj);
 
                 if (checkIfPlayerWon())
                 {
-                    Debug.Log("Player won");
+                    LogSystem.Log("Player won");
 
                     setWinText(true);
                     this.photonView.RPC("setWinText", RpcTarget.Others, false);
@@ -153,11 +153,11 @@ public class CardManager : GameManager
                 }
             }
             else
-                Debug.Log($"Can't play {cardObj.tag}");
+                LogSystem.Log($"Can't play {cardObj.tag}");
         }
         else
         {
-            Debug.Log("Can't play. Not your turn");
+            LogSystem.Log("Can't play. Not your turn");
         }
     }
 
@@ -170,12 +170,12 @@ public class CardManager : GameManager
         {
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             {
-                Debug.Log($"Checking player {PhotonNetwork.NickName}'s state");
+                LogSystem.Log($"Checking player {PhotonNetwork.NickName}'s state");
 
                 if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer &&
                     playerObj.GetComponent<GamePlayer>().currentState == PlayerStates.CurrentTurn)
                 {
-                    Debug.Log($"Previous state: {playerObj.GetComponent<GamePlayer>().currentState}. " +
+                    LogSystem.Log($"Previous state: {playerObj.GetComponent<GamePlayer>().currentState}. " +
                         $"New state: {PlayerStates.WaitingForTurn}");
 
                     var timeL = new System.DateTimeOffset(System.DateTime.Now).ToUnixTimeSeconds();
@@ -202,7 +202,7 @@ public class CardManager : GameManager
         {
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             {
-                Debug.Log("Checking state");
+                LogSystem.Log("Checking state");
                 if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer)
                 {
                     var timeL = new System.DateTimeOffset(System.DateTime.Now).ToUnixTimeSeconds();
@@ -239,7 +239,12 @@ public class CardManager : GameManager
                 lastPlayedCardValue = pValue;
                 this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
             }
-            else if (pValue >= lastPlayedCardValue && lastPlayedCardValue != 1) //The ace is the highest card but has a value of 1 due to automisation issues
+            else if (pValue >= lastPlayedCardValue && lastPlayedCardValue != 1 && lastPlayedCardValue != 7) //The ace is the highest card but has a value of 1 due to automisation issues
+            {
+                lastPlayedCardValue = pValue;
+                this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
+            }
+            else if (lastPlayedCardValue == 7)
             {
                 lastPlayedCardValue = pValue;
                 this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
@@ -274,7 +279,7 @@ public class CardManager : GameManager
         }
         else
         {
-            Debug.Log("Can't play card, card has unknown value: " + pValue);
+            LogSystem.Log("Can't play card, card has unknown value: " + pValue);
             return;
         }
 
@@ -295,7 +300,7 @@ public class CardManager : GameManager
         player.GetCardInHand().TrimExcess();
         Destroy(cardObj);
 
-        if (cardsToBePlayed.Count != 0)
+        if (cardsToBePlayed.Count != 0 && player.GetCardInHand().Count < 3)
         {
             PlayingCard card = cardsToBePlayed[0];
 
@@ -317,16 +322,18 @@ public class CardManager : GameManager
     /// </summary>
     private bool checkCardValue(CardType pType, int pValue)
     {
-        if (pValue != 2 && pValue != 3 && pValue != 7 && pValue != 10)
+        if (pValue != 2 && pValue != 3 && pValue != 10)
         {
             if (lastPlayedCardValue != 7 && pValue == 1)
                 return true;
-            else if (pValue >= lastPlayedCardValue && lastPlayedCardValue != 1) //The ace is the highest card but has a value of 1 due to automisation issues
+            else if (pValue >= lastPlayedCardValue && lastPlayedCardValue != 1 && lastPlayedCardValue != 7) //The ace is the highest card but has a value of 1 due to automisation issues
+                return true;
+            else if (lastPlayedCardValue == 7 && pValue <= 7)
                 return true;
             else
                 return false;
         }
-        else if (pValue == 2 || pValue == 3 || pValue == 7 || pValue == 10)
+        else if (pValue == 2 || pValue == 3 || pValue == 10)
         {
             switch (pValue)
             {
@@ -334,11 +341,11 @@ public class CardManager : GameManager
                     return true;
                 case 3:
                     return true;
-                case 7:
-                    if (lastPlayedCardValue <= 7)
-                        return true;
-                    else
-                        return false;
+                //case 7:
+                //    if (lastPlayedCardValue <= 7)
+                //        return true;
+                //    else
+                //        return false;
                 case 10:
                     return true;
             }
@@ -382,7 +389,7 @@ public class CardManager : GameManager
     [PunRPC]
     private void setLastPlayedCardValue(int pValue)
     {
-        Debug.Log($"Chaning last played card value from {lastPlayedCardValue} to {pValue}");
+        LogSystem.Log($"Chaning last played card value from {lastPlayedCardValue} to {pValue}");
         lastPlayedCardValue = pValue;
     }
 
@@ -422,7 +429,7 @@ public class CardManager : GameManager
         }
 
         foreach (PlayingCard card in shuffledList)
-            Debug.Log(card.ToString());
+            LogSystem.Log(card.ToString());
         return shuffledList;
     }
 
@@ -468,7 +475,7 @@ public class CardManager : GameManager
     {
         GamePlayer gamePlayer = playerObj.GetComponent<GamePlayer>();
 
-        Debug.Log("CardsInHand" + gamePlayer.GetCardInHand());
+        LogSystem.Log("CardsInHand" + gamePlayer.GetCardInHand());
 
         foreach (PlayingCard card in gamePlayer.GetCardInHand())
             InstantiatePlayingCardInHand(card);
@@ -621,8 +628,8 @@ public class CardManager : GameManager
     [PunRPC]
     private void setPlayerState(int pState, PhotonMessageInfo info)
     {
-        Debug.Log($"Setting player state. Function called by {info.Sender}");
-        Debug.Log($"Current player state: {(PlayerStates)pState}");
+        LogSystem.Log($"Setting player state. Function called by {info.Sender}");
+        LogSystem.Log($"Current player state: {(PlayerStates)pState}");
         if ((PlayerStates)pState == PlayerStates.CurrentTurn)
         {
             GamePlayer player = playerObj.GetComponent<GamePlayer>();
@@ -632,18 +639,18 @@ public class CardManager : GameManager
 
                 if (player.CardsInHand.Count != 0)
                 {
-                    Debug.Log($"Player: {PhotonNetwork.NickName} has more then 0 cards in hand");
+                    LogSystem.Log($"Player: {PhotonNetwork.NickName} has more then 0 cards in hand");
                     canPlay = checkIfAbleToPlayCard(player.CardsInHand);
                 }
                 else if (player.CardsInHand.Count == 0 && player.CardsFaceUp.Count != 0)
                 {
-                    Debug.Log($"Player: {PhotonNetwork.NickName} has less then 0 cards in hand");
+                    LogSystem.Log($"Player: {PhotonNetwork.NickName} has less then 0 cards in hand");
                     canPlay = checkIfAbleToPlayCard(player.CardsFaceUp);
                 }
 
                 if (!canPlay)
                 {
-                    Debug.Log("No cards are playable. Grabbing all cards");
+                    LogSystem.Log("No cards are playable. Grabbing all cards");
 
                     foreach (PlayingCard card in playedCards)
                     {
@@ -658,12 +665,12 @@ public class CardManager : GameManager
 
                     this.photonView.RPC("setLastPlayedCardValue", RpcTarget.All, 0);
 
-                    Debug.Log("Starting next round");
+                    LogSystem.Log("Starting next round");
                     handleNextRound(true);
                 }
                 else
                 {
-                    Debug.Log($"Player {PhotonNetwork.NickName}: chaning state from {player.currentState} to {(PlayerStates)pState}");
+                    LogSystem.Log($"Player {PhotonNetwork.NickName}: chaning state from {player.currentState} to {(PlayerStates)pState}");
                     player.currentState = (PlayerStates)pState;
                 }
             }
@@ -681,7 +688,7 @@ public class CardManager : GameManager
         {
             if (checkCardValue(card.cardType, card.cardValue))
             {
-                Debug.Log($"{PhotonNetwork.NickName} is able to play a card");
+                LogSystem.Log($"{PhotonNetwork.NickName} is able to play a card");
                 return true;
             }
         }
@@ -712,8 +719,8 @@ public class CardManager : GameManager
     [PunRPC]
     private void setTurnIndicatorText(string pText, PhotonMessageInfo info)
     {
-        Debug.Log($"Setting player turn indicatior text. Function called by {info.Sender}");
-        Debug.Log($"Setting player {PhotonNetwork.NickName} turn text to {pText}, while current state is {playerObj.GetComponent<GamePlayer>().currentState}");
+        LogSystem.Log($"Setting player turn indicatior text. Function called by {info.Sender}");
+        LogSystem.Log($"Setting player {PhotonNetwork.NickName} turn text to {pText}, while current state is {playerObj.GetComponent<GamePlayer>().currentState}");
         //turnIndicator.text = pText;
         GamePlayer player = playerObj.GetComponent<GamePlayer>();
 
