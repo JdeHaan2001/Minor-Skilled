@@ -20,3 +20,2936 @@ Log for Shithead Photon28-10-2022 15:10:02 Created a room28-10-2022 15:10:03 PUN
 1-11-2022 12:52:33 Players in Room: 1
 1-11-2022 12:52:51 PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
 1-11-2022 12:52:52 Players in Room: 2
+11/3/2022 12:27:01 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/3/2022 12:27:01 PM PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.
+11/3/2022 12:27:01 PM Loading the Room for 1
+11/3/2022 12:27:01 PM Players in Room: 1
+11/3/2022 12:27:04 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/3/2022 12:27:05 PM Players in Room: 2
+11/3/2022 12:27:13 PM Player Ready: Klaas
+11/3/2022 12:27:13 PM Total players ready = 1
+11/3/2022 12:27:13 PM Players in Room: 2
+11/3/2022 12:27:17 PM Player Ready: Clone
+11/3/2022 12:27:17 PM Total players ready = 2
+11/3/2022 12:27:17 PM Players in Room: 2
+11/3/2022 12:27:17 PM Instantiating local player object
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 6
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 12
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 2
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 6
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 10
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 4
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 9
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 8
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 7
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 1
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 1
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 9
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 11
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 11
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 12
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 10
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 12
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 9
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 10
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 12
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 7
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 3
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 3
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 11
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 2
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 1
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 13
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 5
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 13
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 8
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 6
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 4
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 10
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 11
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 2
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 7
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 5
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 6
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 13
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 7
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 3
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 4
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 9
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 3
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 2
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 1
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 8
+11/3/2022 12:27:22 PM Card Type: Clubs
+ Card Value: 5
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 13
+11/3/2022 12:27:22 PM Card Type: Hearts
+ Card Value: 5
+11/3/2022 12:27:22 PM Card Type: Spades
+ Card Value: 8
+11/3/2022 12:27:22 PM Card Type: Diamonds
+ Card Value: 4
+11/3/2022 12:27:22 PM Instantiating local player object
+11/3/2022 12:27:22 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/3/2022 12:27:23 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:27:23 PM Current player state: CurrentTurn
+11/3/2022 12:27:23 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:27:23 PM Klaas is able to play a card
+11/3/2022 12:27:23 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:27:23 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:27:23 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:27:26 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/3/2022 12:27:27 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:27:27 PM Current player state: WaitingForTurn
+11/3/2022 12:27:27 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:27:27 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:27:34 PM Clicked on Card Hearts 7
+11/3/2022 12:27:34 PM Player: Klaas is trying to play card Hearts 7
+11/3/2022 12:27:34 PM InHand: Hearts : 7
+11/3/2022 12:27:34 PM Chaning last played card value from 7 to 7
+11/3/2022 12:27:34 PM Checking player Klaas's state
+11/3/2022 12:27:34 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:27:34 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:27:34 PM Current player state: WaitingForTurn
+11/3/2022 12:27:34 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:27:34 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:27:34 PM Chaning last played card value from -1 to 7
+11/3/2022 12:27:34 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:27:34 PM Current player state: CurrentTurn
+11/3/2022 12:27:34 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:27:34 PM Clone is able to play a card
+11/3/2022 12:27:34 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:27:34 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:27:34 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:27:37 PM Clicked on Card Hearts 9
+11/3/2022 12:27:37 PM Player: Clone is trying to play card Hearts 9
+11/3/2022 12:27:37 PM InHand: Hearts : 9
+11/3/2022 12:27:38 PM Clicked on Card Clubs 11
+11/3/2022 12:27:38 PM Player: Clone is trying to play card Clubs 11
+11/3/2022 12:27:38 PM InHand: Clubs : 11
+11/3/2022 12:27:40 PM Clicked on Card Clubs 10
+11/3/2022 12:27:40 PM Player: Clone is trying to play card Clubs 10
+11/3/2022 12:27:40 PM InHand: Clubs : 10
+11/3/2022 12:27:40 PM Chaning last played card value from 0 to 0
+11/3/2022 12:27:40 PM Chaning last played card value from 7 to 0
+11/3/2022 12:27:42 PM Clicked on Card Hearts 8
+11/3/2022 12:27:42 PM Player: Clone is trying to play card Hearts 8
+11/3/2022 12:27:42 PM InHand: Hearts : 8
+11/3/2022 12:27:42 PM Chaning last played card value from 8 to 8
+11/3/2022 12:27:42 PM Checking player Clone's state
+11/3/2022 12:27:42 PM Checking player Clone's state
+11/3/2022 12:27:42 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:27:42 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:27:42 PM Current player state: WaitingForTurn
+11/3/2022 12:27:42 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:27:42 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:27:42 PM Chaning last played card value from 0 to 8
+11/3/2022 12:27:42 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:27:42 PM Current player state: CurrentTurn
+11/3/2022 12:27:42 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:27:42 PM Klaas is able to play a card
+11/3/2022 12:27:42 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:27:42 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:27:42 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:27:45 PM Clicked on Card Spades 9
+11/3/2022 12:27:45 PM Player: Klaas is trying to play card Spades 9
+11/3/2022 12:27:45 PM InHand: Spades : 9
+11/3/2022 12:27:45 PM Chaning last played card value from 9 to 9
+11/3/2022 12:27:45 PM Checking player Klaas's state
+11/3/2022 12:27:45 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:27:45 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:27:45 PM Current player state: WaitingForTurn
+11/3/2022 12:27:45 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:27:45 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:27:45 PM Chaning last played card value from 8 to 9
+11/3/2022 12:27:45 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:27:45 PM Current player state: CurrentTurn
+11/3/2022 12:27:45 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:27:45 PM Clone is able to play a card
+11/3/2022 12:27:45 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:27:45 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:27:45 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:27:51 PM Clicked on Card Clubs 11
+11/3/2022 12:27:51 PM Player: Clone is trying to play card Clubs 11
+11/3/2022 12:27:51 PM InHand: Clubs : 11
+11/3/2022 12:27:51 PM Chaning last played card value from 11 to 11
+11/3/2022 12:27:51 PM Checking player Clone's state
+11/3/2022 12:27:51 PM Checking player Clone's state
+11/3/2022 12:27:51 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:27:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:27:51 PM Current player state: WaitingForTurn
+11/3/2022 12:27:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:27:51 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:27:51 PM Chaning last played card value from 9 to 11
+11/3/2022 12:27:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:27:51 PM Current player state: CurrentTurn
+11/3/2022 12:27:51 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:27:51 PM Klaas is able to play a card
+11/3/2022 12:27:51 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:27:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:27:51 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:27:53 PM Clicked on Card Clubs 10
+11/3/2022 12:27:53 PM Player: Klaas is trying to play card Clubs 10
+11/3/2022 12:27:53 PM InHand: Clubs : 10
+11/3/2022 12:27:53 PM Chaning last played card value from 0 to 0
+11/3/2022 12:27:53 PM Chaning last played card value from 11 to 0
+11/3/2022 12:27:56 PM Clicked on Card Clubs 7
+11/3/2022 12:27:56 PM Player: Klaas is trying to play card Clubs 7
+11/3/2022 12:27:56 PM InHand: Clubs : 7
+11/3/2022 12:27:56 PM Chaning last played card value from 7 to 7
+11/3/2022 12:27:56 PM Checking player Klaas's state
+11/3/2022 12:27:56 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:27:56 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:27:56 PM Current player state: WaitingForTurn
+11/3/2022 12:27:56 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:27:56 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:27:56 PM Chaning last played card value from 0 to 7
+11/3/2022 12:27:56 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:27:56 PM Current player state: CurrentTurn
+11/3/2022 12:27:56 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:27:56 PM Clone is able to play a card
+11/3/2022 12:27:56 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:27:56 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:27:56 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:27:58 PM Clicked on Card Diamonds 10
+11/3/2022 12:27:58 PM Player: Clone is trying to play card Diamonds 10
+11/3/2022 12:27:58 PM InHand: Diamonds : 10
+11/3/2022 12:27:58 PM Chaning last played card value from 0 to 0
+11/3/2022 12:27:58 PM Chaning last played card value from 7 to 0
+11/3/2022 12:28:00 PM Clicked on Card Clubs 9
+11/3/2022 12:28:00 PM Player: Clone is trying to play card Clubs 9
+11/3/2022 12:28:00 PM InHand: Clubs : 9
+11/3/2022 12:28:00 PM Chaning last played card value from 9 to 9
+11/3/2022 12:28:00 PM Checking player Clone's state
+11/3/2022 12:28:00 PM Checking player Clone's state
+11/3/2022 12:28:00 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:00 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:00 PM Current player state: WaitingForTurn
+11/3/2022 12:28:00 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:00 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:00 PM Chaning last played card value from 0 to 9
+11/3/2022 12:28:00 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:00 PM Current player state: CurrentTurn
+11/3/2022 12:28:00 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:28:00 PM Klaas is able to play a card
+11/3/2022 12:28:00 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:00 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:00 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:04 PM Clicked on Card Diamonds 3
+11/3/2022 12:28:04 PM Player: Klaas is trying to play card Diamonds 3
+11/3/2022 12:28:04 PM InHand: Diamonds : 3
+11/3/2022 12:28:04 PM Chaning last played card value from 9 to 9
+11/3/2022 12:28:04 PM Checking player Klaas's state
+11/3/2022 12:28:04 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:04 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:04 PM Current player state: WaitingForTurn
+11/3/2022 12:28:04 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:04 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:04 PM Chaning last played card value from 9 to 9
+11/3/2022 12:28:04 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:04 PM Current player state: CurrentTurn
+11/3/2022 12:28:04 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:28:04 PM Clone is able to play a card
+11/3/2022 12:28:04 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:04 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:04 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:08 PM Clicked on Card Diamonds 2
+11/3/2022 12:28:08 PM Player: Clone is trying to play card Diamonds 2
+11/3/2022 12:28:08 PM InHand: Diamonds : 2
+11/3/2022 12:28:08 PM Chaning last played card value from 0 to 0
+11/3/2022 12:28:08 PM Checking player Clone's state
+11/3/2022 12:28:08 PM Checking player Clone's state
+11/3/2022 12:28:08 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:08 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:08 PM Current player state: WaitingForTurn
+11/3/2022 12:28:08 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:08 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:08 PM Chaning last played card value from 9 to 0
+11/3/2022 12:28:08 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:08 PM Current player state: CurrentTurn
+11/3/2022 12:28:08 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:28:08 PM Klaas is able to play a card
+11/3/2022 12:28:08 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:08 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:08 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:11 PM Clicked on Card Diamonds 5
+11/3/2022 12:28:11 PM Player: Klaas is trying to play card Diamonds 5
+11/3/2022 12:28:11 PM InHand: Diamonds : 5
+11/3/2022 12:28:11 PM Chaning last played card value from 5 to 5
+11/3/2022 12:28:11 PM Checking player Klaas's state
+11/3/2022 12:28:11 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:11 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:11 PM Current player state: WaitingForTurn
+11/3/2022 12:28:11 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:11 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:11 PM Chaning last played card value from 0 to 5
+11/3/2022 12:28:11 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:11 PM Current player state: CurrentTurn
+11/3/2022 12:28:11 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:28:11 PM Clone is able to play a card
+11/3/2022 12:28:11 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:11 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:11 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:16 PM Clicked on Card Hearts 9
+11/3/2022 12:28:16 PM Player: Clone is trying to play card Hearts 9
+11/3/2022 12:28:16 PM InHand: Hearts : 9
+11/3/2022 12:28:16 PM Chaning last played card value from 9 to 9
+11/3/2022 12:28:16 PM Checking player Clone's state
+11/3/2022 12:28:16 PM Checking player Clone's state
+11/3/2022 12:28:16 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:16 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:16 PM Current player state: WaitingForTurn
+11/3/2022 12:28:16 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:16 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:16 PM Chaning last played card value from 5 to 9
+11/3/2022 12:28:16 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:16 PM Current player state: CurrentTurn
+11/3/2022 12:28:16 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:28:16 PM No cards are playable. Grabbing all cards
+11/3/2022 12:28:16 PM Chaning last played card value from 9 to 0
+11/3/2022 12:28:16 PM Starting next round
+11/3/2022 12:28:16 PM Checking state
+11/3/2022 12:28:16 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:16 PM Current player state: WaitingForTurn
+11/3/2022 12:28:16 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:16 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:16 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:16 PM Setting player Klaas turn text to Your turn, while current state is WaitingForTurn
+11/3/2022 12:28:16 PM Chaning last played card value from 9 to 0
+11/3/2022 12:28:16 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:16 PM Current player state: CurrentTurn
+11/3/2022 12:28:16 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:28:16 PM Clone is able to play a card
+11/3/2022 12:28:16 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:16 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:16 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:25 PM Clicked on Card Diamonds 6
+11/3/2022 12:28:25 PM Player: Clone is trying to play card Diamonds 6
+11/3/2022 12:28:25 PM InHand: Diamonds : 6
+11/3/2022 12:28:25 PM Chaning last played card value from 6 to 6
+11/3/2022 12:28:25 PM Checking player Clone's state
+11/3/2022 12:28:25 PM Checking player Clone's state
+11/3/2022 12:28:25 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:25 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:25 PM Current player state: WaitingForTurn
+11/3/2022 12:28:25 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:25 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:25 PM Chaning last played card value from 0 to 6
+11/3/2022 12:28:25 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:25 PM Current player state: CurrentTurn
+11/3/2022 12:28:25 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:28:25 PM Klaas is able to play a card
+11/3/2022 12:28:25 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:25 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:25 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:28 PM Clicked on Card Hearts 9
+11/3/2022 12:28:28 PM Player: Klaas is trying to play card Hearts 9
+11/3/2022 12:28:28 PM InHand: Hearts : 9
+11/3/2022 12:28:28 PM Chaning last played card value from 9 to 9
+11/3/2022 12:28:28 PM Checking player Klaas's state
+11/3/2022 12:28:28 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:28 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:28 PM Current player state: WaitingForTurn
+11/3/2022 12:28:28 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:28 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:28 PM Chaning last played card value from 6 to 9
+11/3/2022 12:28:28 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:28 PM Current player state: CurrentTurn
+11/3/2022 12:28:28 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:28:28 PM Clone is able to play a card
+11/3/2022 12:28:28 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:28 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:28 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:34 PM Clicked on Card Spades 13
+11/3/2022 12:28:34 PM Player: Clone is trying to play card Spades 13
+11/3/2022 12:28:34 PM InHand: Spades : 13
+11/3/2022 12:28:34 PM Chaning last played card value from 13 to 13
+11/3/2022 12:28:34 PM Checking player Clone's state
+11/3/2022 12:28:34 PM Checking player Clone's state
+11/3/2022 12:28:34 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:34 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:34 PM Current player state: WaitingForTurn
+11/3/2022 12:28:34 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:34 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:34 PM Chaning last played card value from 9 to 13
+11/3/2022 12:28:34 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:34 PM Current player state: CurrentTurn
+11/3/2022 12:28:34 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:28:34 PM Klaas is able to play a card
+11/3/2022 12:28:34 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:34 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:34 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:54 PM Clicked on Card Diamonds 3
+11/3/2022 12:28:55 PM Player: Klaas is trying to play card Diamonds 3
+11/3/2022 12:28:55 PM InHand: Diamonds : 3
+11/3/2022 12:28:55 PM Chaning last played card value from 13 to 13
+11/3/2022 12:28:55 PM Checking player Klaas's state
+11/3/2022 12:28:55 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:55 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:55 PM Current player state: WaitingForTurn
+11/3/2022 12:28:55 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:55 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:55 PM Chaning last played card value from 13 to 13
+11/3/2022 12:28:55 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:28:55 PM Current player state: CurrentTurn
+11/3/2022 12:28:55 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:28:55 PM Clone is able to play a card
+11/3/2022 12:28:55 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:55 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:28:55 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:28:57 PM Clicked on Card Clubs 13
+11/3/2022 12:28:57 PM Player: Clone is trying to play card Clubs 13
+11/3/2022 12:28:57 PM InHand: Clubs : 13
+11/3/2022 12:28:57 PM Chaning last played card value from 13 to 13
+11/3/2022 12:28:57 PM Checking player Clone's state
+11/3/2022 12:28:57 PM Checking player Clone's state
+11/3/2022 12:28:57 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:28:57 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:57 PM Current player state: WaitingForTurn
+11/3/2022 12:28:57 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:57 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:28:57 PM Chaning last played card value from 13 to 13
+11/3/2022 12:28:57 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:28:57 PM Current player state: CurrentTurn
+11/3/2022 12:28:57 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:28:57 PM Klaas is able to play a card
+11/3/2022 12:28:57 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:28:57 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:28:57 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:02 PM Clicked on Card Diamonds 2
+11/3/2022 12:29:02 PM Player: Klaas is trying to play card Diamonds 2
+11/3/2022 12:29:02 PM InHand: Diamonds : 2
+11/3/2022 12:29:02 PM Chaning last played card value from 0 to 0
+11/3/2022 12:29:02 PM Checking player Klaas's state
+11/3/2022 12:29:02 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:02 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:02 PM Current player state: WaitingForTurn
+11/3/2022 12:29:02 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:02 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:02 PM Chaning last played card value from 13 to 0
+11/3/2022 12:29:02 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:02 PM Current player state: CurrentTurn
+11/3/2022 12:29:02 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:29:02 PM Clone is able to play a card
+11/3/2022 12:29:02 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:02 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:02 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:06 PM Clicked on Card Clubs 4
+11/3/2022 12:29:06 PM Player: Clone is trying to play card Clubs 4
+11/3/2022 12:29:06 PM InHand: Clubs : 4
+11/3/2022 12:29:06 PM Chaning last played card value from 4 to 4
+11/3/2022 12:29:06 PM Checking player Clone's state
+11/3/2022 12:29:06 PM Checking player Clone's state
+11/3/2022 12:29:06 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:06 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:06 PM Current player state: WaitingForTurn
+11/3/2022 12:29:06 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:06 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:06 PM Chaning last played card value from 0 to 4
+11/3/2022 12:29:06 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:06 PM Current player state: CurrentTurn
+11/3/2022 12:29:06 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:29:06 PM Klaas is able to play a card
+11/3/2022 12:29:06 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:06 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:06 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:08 PM Clicked on Card Diamonds 5
+11/3/2022 12:29:08 PM Player: Klaas is trying to play card Diamonds 5
+11/3/2022 12:29:08 PM InHand: Diamonds : 5
+11/3/2022 12:29:08 PM Chaning last played card value from 5 to 5
+11/3/2022 12:29:08 PM Checking player Klaas's state
+11/3/2022 12:29:08 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:08 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:08 PM Current player state: WaitingForTurn
+11/3/2022 12:29:08 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:08 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:08 PM Chaning last played card value from 4 to 5
+11/3/2022 12:29:08 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:08 PM Current player state: CurrentTurn
+11/3/2022 12:29:08 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:29:08 PM Clone is able to play a card
+11/3/2022 12:29:08 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:08 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:08 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:13 PM Clicked on Card Spades 11
+11/3/2022 12:29:13 PM Player: Clone is trying to play card Spades 11
+11/3/2022 12:29:13 PM InHand: Spades : 11
+11/3/2022 12:29:13 PM Chaning last played card value from 11 to 11
+11/3/2022 12:29:13 PM Checking player Clone's state
+11/3/2022 12:29:13 PM Checking player Clone's state
+11/3/2022 12:29:13 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:13 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:13 PM Current player state: WaitingForTurn
+11/3/2022 12:29:13 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:13 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:13 PM Chaning last played card value from 5 to 11
+11/3/2022 12:29:13 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:13 PM Current player state: CurrentTurn
+11/3/2022 12:29:13 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:29:13 PM No cards are playable. Grabbing all cards
+11/3/2022 12:29:13 PM Chaning last played card value from 11 to 0
+11/3/2022 12:29:13 PM Starting next round
+11/3/2022 12:29:13 PM Checking state
+11/3/2022 12:29:13 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:13 PM Current player state: WaitingForTurn
+11/3/2022 12:29:13 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:13 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:13 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:13 PM Setting player Klaas turn text to Your turn, while current state is WaitingForTurn
+11/3/2022 12:29:14 PM Chaning last played card value from 11 to 0
+11/3/2022 12:29:14 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:14 PM Current player state: CurrentTurn
+11/3/2022 12:29:14 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:29:14 PM Clone is able to play a card
+11/3/2022 12:29:14 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:14 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:14 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:21 PM Clicked on Card Spades 7
+11/3/2022 12:29:21 PM Player: Clone is trying to play card Spades 7
+11/3/2022 12:29:21 PM InHand: Spades : 7
+11/3/2022 12:29:21 PM Chaning last played card value from 7 to 7
+11/3/2022 12:29:21 PM Checking player Clone's state
+11/3/2022 12:29:21 PM Checking player Clone's state
+11/3/2022 12:29:21 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:21 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:21 PM Current player state: WaitingForTurn
+11/3/2022 12:29:21 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:21 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:21 PM Chaning last played card value from 0 to 7
+11/3/2022 12:29:21 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:21 PM Current player state: CurrentTurn
+11/3/2022 12:29:21 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:29:21 PM Klaas is able to play a card
+11/3/2022 12:29:21 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:21 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:21 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:22 PM Clicked on Card Clubs 4
+11/3/2022 12:29:22 PM Player: Klaas is trying to play card Clubs 4
+11/3/2022 12:29:22 PM InHand: Clubs : 4
+11/3/2022 12:29:22 PM Chaning last played card value from 4 to 4
+11/3/2022 12:29:22 PM Checking player Klaas's state
+11/3/2022 12:29:22 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:22 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:22 PM Current player state: WaitingForTurn
+11/3/2022 12:29:22 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:22 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:22 PM Chaning last played card value from 7 to 4
+11/3/2022 12:29:22 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:22 PM Current player state: CurrentTurn
+11/3/2022 12:29:22 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:29:22 PM Clone is able to play a card
+11/3/2022 12:29:22 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:22 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:22 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:28 PM Clicked on Card Spades 5
+11/3/2022 12:29:28 PM Player: Clone is trying to play card Spades 5
+11/3/2022 12:29:28 PM InHand: Spades : 5
+11/3/2022 12:29:28 PM Chaning last played card value from 5 to 5
+11/3/2022 12:29:28 PM Checking player Clone's state
+11/3/2022 12:29:28 PM Checking player Clone's state
+11/3/2022 12:29:28 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:28 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:28 PM Current player state: WaitingForTurn
+11/3/2022 12:29:28 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:28 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:28 PM Chaning last played card value from 4 to 5
+11/3/2022 12:29:28 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:28 PM Current player state: CurrentTurn
+11/3/2022 12:29:28 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:29:28 PM Klaas is able to play a card
+11/3/2022 12:29:28 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:28 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:28 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:30 PM Clicked on Card Diamonds 5
+11/3/2022 12:29:30 PM Player: Klaas is trying to play card Diamonds 5
+11/3/2022 12:29:30 PM InHand: Diamonds : 5
+11/3/2022 12:29:30 PM Chaning last played card value from 5 to 5
+11/3/2022 12:29:30 PM Checking player Klaas's state
+11/3/2022 12:29:30 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:30 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:30 PM Current player state: WaitingForTurn
+11/3/2022 12:29:30 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:30 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:30 PM Chaning last played card value from 5 to 5
+11/3/2022 12:29:30 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:30 PM Current player state: CurrentTurn
+11/3/2022 12:29:30 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:29:30 PM Clone is able to play a card
+11/3/2022 12:29:30 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:30 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:30 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:43 PM Clicked on Card Hearts 6
+11/3/2022 12:29:43 PM Player: Clone is trying to play card Hearts 6
+11/3/2022 12:29:43 PM InHand: Hearts : 6
+11/3/2022 12:29:43 PM Chaning last played card value from 6 to 6
+11/3/2022 12:29:43 PM Checking player Clone's state
+11/3/2022 12:29:43 PM Checking player Clone's state
+11/3/2022 12:29:43 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:43 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:43 PM Current player state: WaitingForTurn
+11/3/2022 12:29:43 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:43 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:43 PM Chaning last played card value from 5 to 6
+11/3/2022 12:29:43 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:43 PM Current player state: CurrentTurn
+11/3/2022 12:29:43 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:29:43 PM Klaas is able to play a card
+11/3/2022 12:29:43 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:43 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:43 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:46 PM Clicked on Card Diamonds 6
+11/3/2022 12:29:46 PM Player: Klaas is trying to play card Diamonds 6
+11/3/2022 12:29:46 PM InHand: Diamonds : 6
+11/3/2022 12:29:46 PM Chaning last played card value from 6 to 6
+11/3/2022 12:29:46 PM Checking player Klaas's state
+11/3/2022 12:29:46 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:46 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:46 PM Current player state: WaitingForTurn
+11/3/2022 12:29:46 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:46 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:46 PM Chaning last played card value from 6 to 6
+11/3/2022 12:29:46 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:46 PM Current player state: CurrentTurn
+11/3/2022 12:29:46 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:29:46 PM Clone is able to play a card
+11/3/2022 12:29:46 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:46 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:46 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:49 PM Clicked on Card Clubs 2
+11/3/2022 12:29:49 PM Player: Clone is trying to play card Clubs 2
+11/3/2022 12:29:49 PM InHand: Clubs : 2
+11/3/2022 12:29:49 PM Chaning last played card value from 0 to 0
+11/3/2022 12:29:49 PM Checking player Clone's state
+11/3/2022 12:29:49 PM Checking player Clone's state
+11/3/2022 12:29:49 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:49 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:49 PM Current player state: WaitingForTurn
+11/3/2022 12:29:49 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:49 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:49 PM Chaning last played card value from 6 to 0
+11/3/2022 12:29:49 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:49 PM Current player state: CurrentTurn
+11/3/2022 12:29:49 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:29:49 PM Klaas is able to play a card
+11/3/2022 12:29:49 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:49 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:49 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:53 PM Clicked on Card Clubs 6
+11/3/2022 12:29:53 PM Player: Klaas is trying to play card Clubs 6
+11/3/2022 12:29:53 PM InHand: Clubs : 6
+11/3/2022 12:29:53 PM Chaning last played card value from 6 to 6
+11/3/2022 12:29:53 PM Checking player Klaas's state
+11/3/2022 12:29:53 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:53 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:53 PM Current player state: WaitingForTurn
+11/3/2022 12:29:53 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:53 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:53 PM Chaning last played card value from 0 to 6
+11/3/2022 12:29:53 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:29:53 PM Current player state: CurrentTurn
+11/3/2022 12:29:53 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:29:53 PM Clone is able to play a card
+11/3/2022 12:29:53 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:53 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:29:53 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:29:57 PM Clicked on Card Diamonds 7
+11/3/2022 12:29:57 PM Player: Clone is trying to play card Diamonds 7
+11/3/2022 12:29:57 PM InHand: Diamonds : 7
+11/3/2022 12:29:57 PM Chaning last played card value from 7 to 7
+11/3/2022 12:29:57 PM Checking player Clone's state
+11/3/2022 12:29:57 PM Checking player Clone's state
+11/3/2022 12:29:57 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:29:57 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:57 PM Current player state: WaitingForTurn
+11/3/2022 12:29:57 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:57 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:29:57 PM Chaning last played card value from 6 to 7
+11/3/2022 12:29:57 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:29:57 PM Current player state: CurrentTurn
+11/3/2022 12:29:57 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:29:57 PM Klaas is able to play a card
+11/3/2022 12:29:57 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:29:57 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:29:57 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:00 PM Clicked on Card Diamonds 3
+11/3/2022 12:31:00 PM Player: Klaas is trying to play card Diamonds 3
+11/3/2022 12:31:00 PM InHand: Diamonds : 3
+11/3/2022 12:31:00 PM Chaning last played card value from 7 to 7
+11/3/2022 12:31:00 PM Checking player Klaas's state
+11/3/2022 12:31:00 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:00 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:00 PM Current player state: WaitingForTurn
+11/3/2022 12:31:00 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:00 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:00 PM Chaning last played card value from 7 to 7
+11/3/2022 12:31:00 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:00 PM Current player state: CurrentTurn
+11/3/2022 12:31:00 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:31:00 PM Clone is able to play a card
+11/3/2022 12:31:00 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:00 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:00 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:02 PM Clicked on Card Spades 3
+11/3/2022 12:31:02 PM Player: Clone is trying to play card Spades 3
+11/3/2022 12:31:02 PM InHand: Spades : 3
+11/3/2022 12:31:02 PM Chaning last played card value from 7 to 7
+11/3/2022 12:31:02 PM Checking player Clone's state
+11/3/2022 12:31:02 PM Checking player Clone's state
+11/3/2022 12:31:02 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:02 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:02 PM Current player state: WaitingForTurn
+11/3/2022 12:31:02 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:02 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:02 PM Chaning last played card value from 7 to 7
+11/3/2022 12:31:02 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:02 PM Current player state: CurrentTurn
+11/3/2022 12:31:02 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:31:02 PM Klaas is able to play a card
+11/3/2022 12:31:02 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:02 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:02 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:04 PM Clicked on Card Diamonds 2
+11/3/2022 12:31:04 PM Player: Klaas is trying to play card Diamonds 2
+11/3/2022 12:31:04 PM InHand: Diamonds : 2
+11/3/2022 12:31:04 PM Chaning last played card value from 0 to 0
+11/3/2022 12:31:04 PM Checking player Klaas's state
+11/3/2022 12:31:04 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:04 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:04 PM Current player state: WaitingForTurn
+11/3/2022 12:31:04 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:04 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:04 PM Chaning last played card value from 7 to 0
+11/3/2022 12:31:04 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:04 PM Current player state: CurrentTurn
+11/3/2022 12:31:04 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:31:04 PM Clone is able to play a card
+11/3/2022 12:31:04 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:04 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:04 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:11 PM Clicked on Card Diamonds 13
+11/3/2022 12:31:11 PM Player: Clone is trying to play card Diamonds 13
+11/3/2022 12:31:11 PM InHand: Diamonds : 13
+11/3/2022 12:31:11 PM Chaning last played card value from 13 to 13
+11/3/2022 12:31:11 PM Checking player Clone's state
+11/3/2022 12:31:11 PM Checking player Clone's state
+11/3/2022 12:31:11 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:11 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:11 PM Current player state: WaitingForTurn
+11/3/2022 12:31:11 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:11 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:11 PM Chaning last played card value from 0 to 13
+11/3/2022 12:31:11 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:11 PM Current player state: CurrentTurn
+11/3/2022 12:31:11 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:31:11 PM Klaas is able to play a card
+11/3/2022 12:31:11 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:11 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:11 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:16 PM Clicked on Card Spades 13
+11/3/2022 12:31:16 PM Player: Klaas is trying to play card Spades 13
+11/3/2022 12:31:16 PM InHand: Spades : 13
+11/3/2022 12:31:16 PM Chaning last played card value from 13 to 13
+11/3/2022 12:31:16 PM Checking player Klaas's state
+11/3/2022 12:31:16 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:16 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:16 PM Current player state: WaitingForTurn
+11/3/2022 12:31:16 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:16 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:16 PM Chaning last played card value from 13 to 13
+11/3/2022 12:31:16 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:16 PM Current player state: CurrentTurn
+11/3/2022 12:31:16 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:31:16 PM Clone is able to play a card
+11/3/2022 12:31:16 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:16 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:16 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:18 PM Clicked on Card Hearts 10
+11/3/2022 12:31:18 PM Player: Clone is trying to play card Hearts 10
+11/3/2022 12:31:18 PM InHand: Hearts : 10
+11/3/2022 12:31:18 PM Chaning last played card value from 0 to 0
+11/3/2022 12:31:18 PM Chaning last played card value from 13 to 0
+11/3/2022 12:31:21 PM Clicked on Card Hearts 4
+11/3/2022 12:31:21 PM Player: Clone is trying to play card Hearts 4
+11/3/2022 12:31:21 PM InHand: Hearts : 4
+11/3/2022 12:31:21 PM Chaning last played card value from 4 to 4
+11/3/2022 12:31:21 PM Checking player Clone's state
+11/3/2022 12:31:21 PM Checking player Clone's state
+11/3/2022 12:31:21 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:21 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:21 PM Current player state: WaitingForTurn
+11/3/2022 12:31:21 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:21 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:21 PM Chaning last played card value from 0 to 4
+11/3/2022 12:31:21 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:21 PM Current player state: CurrentTurn
+11/3/2022 12:31:21 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:31:21 PM Klaas is able to play a card
+11/3/2022 12:31:21 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:21 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:21 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:23 PM Clicked on Card Diamonds 8
+11/3/2022 12:31:23 PM Player: Klaas is trying to play card Diamonds 8
+11/3/2022 12:31:23 PM InHand: Diamonds : 8
+11/3/2022 12:31:23 PM Chaning last played card value from 8 to 8
+11/3/2022 12:31:23 PM Checking player Klaas's state
+11/3/2022 12:31:23 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:23 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:23 PM Current player state: WaitingForTurn
+11/3/2022 12:31:23 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:23 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:23 PM Chaning last played card value from 4 to 8
+11/3/2022 12:31:23 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:23 PM Current player state: CurrentTurn
+11/3/2022 12:31:23 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:31:23 PM Clone is able to play a card
+11/3/2022 12:31:23 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:23 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:23 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:29 PM Clicked on Card Diamonds 9
+11/3/2022 12:31:29 PM Player: Clone is trying to play card Diamonds 9
+11/3/2022 12:31:29 PM InHand: Diamonds : 9
+11/3/2022 12:31:29 PM Chaning last played card value from 9 to 9
+11/3/2022 12:31:29 PM Checking player Clone's state
+11/3/2022 12:31:29 PM Checking player Clone's state
+11/3/2022 12:31:29 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:29 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:29 PM Current player state: WaitingForTurn
+11/3/2022 12:31:29 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:29 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:29 PM Chaning last played card value from 8 to 9
+11/3/2022 12:31:29 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:29 PM Current player state: CurrentTurn
+11/3/2022 12:31:29 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:31:29 PM Klaas is able to play a card
+11/3/2022 12:31:29 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:29 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:29 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:30 PM Clicked on Card Hearts 9
+11/3/2022 12:31:30 PM Player: Klaas is trying to play card Hearts 9
+11/3/2022 12:31:30 PM InHand: Hearts : 9
+11/3/2022 12:31:30 PM Chaning last played card value from 9 to 9
+11/3/2022 12:31:30 PM Checking player Klaas's state
+11/3/2022 12:31:30 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:30 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:30 PM Current player state: WaitingForTurn
+11/3/2022 12:31:30 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:30 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:30 PM Chaning last played card value from 9 to 9
+11/3/2022 12:31:30 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:30 PM Current player state: CurrentTurn
+11/3/2022 12:31:30 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:31:30 PM Clone is able to play a card
+11/3/2022 12:31:30 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:30 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:30 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:37 PM Clicked on Card Hearts 2
+11/3/2022 12:31:37 PM Player: Clone is trying to play card Hearts 2
+11/3/2022 12:31:37 PM InHand: Hearts : 2
+11/3/2022 12:31:37 PM Chaning last played card value from 0 to 0
+11/3/2022 12:31:37 PM Checking player Clone's state
+11/3/2022 12:31:37 PM Checking player Clone's state
+11/3/2022 12:31:37 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:37 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:37 PM Current player state: WaitingForTurn
+11/3/2022 12:31:37 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:37 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:37 PM Chaning last played card value from 9 to 0
+11/3/2022 12:31:37 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:37 PM Current player state: CurrentTurn
+11/3/2022 12:31:37 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:31:37 PM Klaas is able to play a card
+11/3/2022 12:31:37 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:37 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:37 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:39 PM Clicked on Card Hearts 8
+11/3/2022 12:31:39 PM Player: Klaas is trying to play card Hearts 8
+11/3/2022 12:31:39 PM InHand: Hearts : 8
+11/3/2022 12:31:39 PM Chaning last played card value from 8 to 8
+11/3/2022 12:31:39 PM Checking player Klaas's state
+11/3/2022 12:31:39 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:39 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:39 PM Current player state: WaitingForTurn
+11/3/2022 12:31:39 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:39 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:39 PM Chaning last played card value from 0 to 8
+11/3/2022 12:31:39 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:39 PM Current player state: CurrentTurn
+11/3/2022 12:31:39 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:31:39 PM Clone is able to play a card
+11/3/2022 12:31:39 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:39 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:39 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:43 PM Clicked on Card Clubs 8
+11/3/2022 12:31:43 PM Player: Clone is trying to play card Clubs 8
+11/3/2022 12:31:43 PM InHand: Clubs : 8
+11/3/2022 12:31:43 PM Chaning last played card value from 8 to 8
+11/3/2022 12:31:43 PM Checking player Clone's state
+11/3/2022 12:31:43 PM Checking player Clone's state
+11/3/2022 12:31:43 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:43 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:43 PM Current player state: WaitingForTurn
+11/3/2022 12:31:43 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:43 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:43 PM Chaning last played card value from 8 to 8
+11/3/2022 12:31:43 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:43 PM Current player state: CurrentTurn
+11/3/2022 12:31:43 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:31:43 PM Klaas is able to play a card
+11/3/2022 12:31:43 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:43 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:43 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:47 PM Clicked on Card Clubs 9
+11/3/2022 12:31:47 PM Player: Klaas is trying to play card Clubs 9
+11/3/2022 12:31:47 PM InHand: Clubs : 9
+11/3/2022 12:31:47 PM Chaning last played card value from 9 to 9
+11/3/2022 12:31:47 PM Checking player Klaas's state
+11/3/2022 12:31:47 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:47 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:47 PM Current player state: WaitingForTurn
+11/3/2022 12:31:47 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:47 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:47 PM Chaning last played card value from 8 to 9
+11/3/2022 12:31:47 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:47 PM Current player state: CurrentTurn
+11/3/2022 12:31:47 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:31:47 PM Clone is able to play a card
+11/3/2022 12:31:47 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:47 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:47 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:51 PM Clicked on Card Hearts 3
+11/3/2022 12:31:51 PM Player: Clone is trying to play card Hearts 3
+11/3/2022 12:31:51 PM InHand: Hearts : 3
+11/3/2022 12:31:51 PM Chaning last played card value from 9 to 9
+11/3/2022 12:31:51 PM Checking player Clone's state
+11/3/2022 12:31:51 PM Checking player Clone's state
+11/3/2022 12:31:51 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:51 PM Current player state: WaitingForTurn
+11/3/2022 12:31:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:51 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:51 PM Chaning last played card value from 9 to 9
+11/3/2022 12:31:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:51 PM Current player state: CurrentTurn
+11/3/2022 12:31:51 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:31:51 PM Klaas is able to play a card
+11/3/2022 12:31:51 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:51 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:52 PM Clicked on Card Spades 11
+11/3/2022 12:31:52 PM Player: Klaas is trying to play card Spades 11
+11/3/2022 12:31:52 PM InHand: Spades : 11
+11/3/2022 12:31:52 PM Chaning last played card value from 11 to 11
+11/3/2022 12:31:52 PM Checking player Klaas's state
+11/3/2022 12:31:52 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:52 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:52 PM Current player state: WaitingForTurn
+11/3/2022 12:31:52 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:52 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:52 PM Chaning last played card value from 9 to 11
+11/3/2022 12:31:52 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:31:52 PM Current player state: CurrentTurn
+11/3/2022 12:31:52 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:31:52 PM Clone is able to play a card
+11/3/2022 12:31:52 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:52 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:31:52 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:31:55 PM Clicked on Card Diamonds 1
+11/3/2022 12:31:55 PM Player: Clone is trying to play card Diamonds 1
+11/3/2022 12:31:55 PM InHand: Diamonds : 1
+11/3/2022 12:31:55 PM Chaning last played card value from 11 to 11
+11/3/2022 12:31:55 PM Checking player Clone's state
+11/3/2022 12:31:55 PM Checking player Clone's state
+11/3/2022 12:31:55 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:31:55 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:55 PM Current player state: WaitingForTurn
+11/3/2022 12:31:55 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:55 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:31:55 PM Chaning last played card value from 11 to 11
+11/3/2022 12:31:55 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:31:55 PM Current player state: CurrentTurn
+11/3/2022 12:31:55 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:31:55 PM Klaas is able to play a card
+11/3/2022 12:31:55 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:31:55 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:31:55 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:35:41 PM Clicked on Card Hearts 13
+11/3/2022 12:35:41 PM Player: Klaas is trying to play card Hearts 13
+11/3/2022 12:35:41 PM InHand: Hearts : 13
+11/3/2022 12:35:41 PM Chaning last played card value from 13 to 13
+11/3/2022 12:35:41 PM Checking player Klaas's state
+11/3/2022 12:35:41 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:35:41 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:35:41 PM Current player state: WaitingForTurn
+11/3/2022 12:35:41 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:35:41 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:35:41 PM Chaning last played card value from 11 to 13
+11/3/2022 12:35:41 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:35:41 PM Current player state: CurrentTurn
+11/3/2022 12:35:41 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:35:41 PM No cards are playable. Grabbing all cards
+11/3/2022 12:35:41 PM Chaning last played card value from 13 to 0
+11/3/2022 12:35:41 PM Starting next round
+11/3/2022 12:35:41 PM Checking state
+11/3/2022 12:35:41 PM Checking state
+11/3/2022 12:35:41 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:35:41 PM Current player state: WaitingForTurn
+11/3/2022 12:35:41 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:35:41 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:35:41 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:35:41 PM Setting player Clone turn text to Your turn, while current state is WaitingForTurn
+11/3/2022 12:35:41 PM Chaning last played card value from 13 to 0
+11/3/2022 12:35:41 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:35:41 PM Current player state: CurrentTurn
+11/3/2022 12:35:41 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:35:41 PM Klaas is able to play a card
+11/3/2022 12:35:41 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:35:41 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:35:41 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:35:45 PM Clicked on Card Spades 8
+11/3/2022 12:35:45 PM Player: Klaas is trying to play card Spades 8
+11/3/2022 12:35:45 PM InHand: Spades : 8
+11/3/2022 12:35:45 PM Chaning last played card value from 8 to 8
+11/3/2022 12:35:45 PM Checking player Klaas's state
+11/3/2022 12:35:45 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:35:45 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:35:45 PM Current player state: WaitingForTurn
+11/3/2022 12:35:45 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:35:45 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:35:45 PM Chaning last played card value from 0 to 8
+11/3/2022 12:35:45 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:35:45 PM Current player state: CurrentTurn
+11/3/2022 12:35:45 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:35:45 PM Clone is able to play a card
+11/3/2022 12:35:45 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:35:45 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:35:45 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:35:58 PM Clicked on Card Diamonds 9
+11/3/2022 12:35:58 PM Player: Clone is trying to play card Diamonds 9
+11/3/2022 12:35:58 PM InHand: Diamonds : 9
+11/3/2022 12:35:58 PM Chaning last played card value from 9 to 9
+11/3/2022 12:35:58 PM Checking player Clone's state
+11/3/2022 12:35:58 PM Checking player Clone's state
+11/3/2022 12:35:58 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:35:58 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:35:58 PM Current player state: WaitingForTurn
+11/3/2022 12:35:58 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:35:58 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:35:58 PM Chaning last played card value from 8 to 9
+11/3/2022 12:35:58 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:35:58 PM Current player state: CurrentTurn
+11/3/2022 12:35:58 PM Player: Klaas has more then 0 cards in hand
+11/3/2022 12:35:58 PM Klaas is able to play a card
+11/3/2022 12:35:58 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:35:58 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:35:58 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:36:03 PM Clicked on Card Clubs 13
+11/3/2022 12:36:03 PM Player: Klaas is trying to play card Clubs 13
+11/3/2022 12:36:03 PM InHand: Clubs : 13
+11/3/2022 12:36:03 PM Chaning last played card value from 13 to 13
+11/3/2022 12:36:03 PM Checking player Klaas's state
+11/3/2022 12:36:03 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:36:03 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:36:03 PM Current player state: WaitingForTurn
+11/3/2022 12:36:03 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:36:03 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:36:03 PM Chaning last played card value from 9 to 13
+11/3/2022 12:36:03 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:36:03 PM Current player state: CurrentTurn
+11/3/2022 12:36:03 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:36:03 PM Clone is able to play a card
+11/3/2022 12:36:03 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:36:03 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:36:03 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:36:14 PM Clicked on Card Hearts 13
+11/3/2022 12:36:14 PM Player: Clone is trying to play card Hearts 13
+11/3/2022 12:36:14 PM InHand: Hearts : 13
+11/3/2022 12:36:14 PM Chaning last played card value from 13 to 13
+11/3/2022 12:36:14 PM Checking player Clone's state
+11/3/2022 12:36:14 PM Checking player Clone's state
+11/3/2022 12:36:14 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:36:14 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:36:14 PM Current player state: WaitingForTurn
+11/3/2022 12:36:14 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:36:14 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:36:14 PM Chaning last played card value from 13 to 13
+11/3/2022 12:36:14 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:36:14 PM Current player state: CurrentTurn
+11/3/2022 12:36:14 PM Player: Klaas has less then 0 cards in hand
+11/3/2022 12:36:14 PM Klaas is able to play a card
+11/3/2022 12:36:14 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:36:14 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:36:14 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:36:17 PM Clicked on Card Spades 10
+11/3/2022 12:36:17 PM Player: Klaas is trying to play card Spades 10
+11/3/2022 12:36:17 PM FaceUp: Spades : 10
+11/3/2022 12:36:17 PM Chaning last played card value from 0 to 0
+11/3/2022 12:36:17 PM Chaning last played card value from 13 to 0
+11/3/2022 12:36:23 PM Clicked on Card Spades 4
+11/3/2022 12:36:23 PM Player: Klaas is trying to play card Spades 4
+11/3/2022 12:36:23 PM FaceUp: Spades : 4
+11/3/2022 12:36:23 PM Chaning last played card value from 4 to 4
+11/3/2022 12:36:23 PM Checking player Klaas's state
+11/3/2022 12:36:23 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:36:23 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:36:23 PM Current player state: WaitingForTurn
+11/3/2022 12:36:23 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:36:23 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:36:23 PM Chaning last played card value from 0 to 4
+11/3/2022 12:36:23 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:36:23 PM Current player state: CurrentTurn
+11/3/2022 12:36:23 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:36:23 PM Clone is able to play a card
+11/3/2022 12:36:23 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:36:23 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:36:23 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:36:25 PM Clicked on Card Diamonds 4
+11/3/2022 12:36:25 PM Player: Clone is trying to play card Diamonds 4
+11/3/2022 12:36:25 PM InHand: Diamonds : 4
+11/3/2022 12:36:25 PM Chaning last played card value from 4 to 4
+11/3/2022 12:36:25 PM Checking player Clone's state
+11/3/2022 12:36:25 PM Checking player Clone's state
+11/3/2022 12:36:25 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:36:25 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:36:25 PM Current player state: WaitingForTurn
+11/3/2022 12:36:25 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:36:25 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:36:25 PM Chaning last played card value from 4 to 4
+11/3/2022 12:36:25 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:36:25 PM Current player state: CurrentTurn
+11/3/2022 12:36:25 PM Player: Klaas has less then 0 cards in hand
+11/3/2022 12:36:25 PM Klaas is able to play a card
+11/3/2022 12:36:25 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:36:25 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:36:25 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:36:27 PM Clicked on Card Clubs 6
+11/3/2022 12:36:27 PM Player: Klaas is trying to play card Clubs 6
+11/3/2022 12:36:27 PM FaceUp: Clubs : 6
+11/3/2022 12:36:27 PM Chaning last played card value from 6 to 6
+11/3/2022 12:36:27 PM Checking player Klaas's state
+11/3/2022 12:36:27 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:36:27 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:36:27 PM Current player state: WaitingForTurn
+11/3/2022 12:36:27 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:36:27 PM Setting player Klaas turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:36:27 PM Chaning last played card value from 4 to 6
+11/3/2022 12:36:27 PM Setting player state. Function called by #01 'Klaas'
+11/3/2022 12:36:27 PM Current player state: CurrentTurn
+11/3/2022 12:36:27 PM Player: Clone has more then 0 cards in hand
+11/3/2022 12:36:27 PM Clone is able to play a card
+11/3/2022 12:36:27 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:36:27 PM Setting player turn indicatior text. Function called by #01 'Klaas'
+11/3/2022 12:36:27 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 12:36:39 PM Clicked on Card Clubs 8
+11/3/2022 12:36:39 PM Player: Clone is trying to play card Clubs 8
+11/3/2022 12:36:39 PM InHand: Clubs : 8
+11/3/2022 12:36:39 PM Chaning last played card value from 8 to 8
+11/3/2022 12:36:39 PM Checking player Clone's state
+11/3/2022 12:36:39 PM Checking player Clone's state
+11/3/2022 12:36:39 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 12:36:39 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:36:39 PM Current player state: WaitingForTurn
+11/3/2022 12:36:39 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:36:39 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 12:36:39 PM Chaning last played card value from 6 to 8
+11/3/2022 12:36:39 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 12:36:39 PM Current player state: CurrentTurn
+11/3/2022 12:36:39 PM Player: Klaas has less then 0 cards in hand
+11/3/2022 12:36:39 PM Klaas is able to play a card
+11/3/2022 12:36:39 PM Player Klaas: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 12:36:39 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 12:36:39 PM Setting player Klaas turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:40:12 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/3/2022 2:40:13 PM PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.
+11/3/2022 2:40:13 PM Loading the Room for 1
+11/3/2022 2:40:14 PM Players in Room: 1
+11/3/2022 2:40:20 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/3/2022 2:40:20 PM Players in Room: 2
+11/3/2022 2:40:23 PM Player Ready: Jan
+11/3/2022 2:40:23 PM Total players ready = 1
+11/3/2022 2:40:23 PM Players in Room: 2
+11/3/2022 2:40:28 PM Player Ready: Clone
+11/3/2022 2:40:28 PM Total players ready = 2
+11/3/2022 2:40:28 PM Players in Room: 2
+11/3/2022 2:40:29 PM Instantiating local player object
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 3
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 1
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 11
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 12
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 3
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 11
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 4
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 6
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 9
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 8
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 12
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 3
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 6
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 12
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 7
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 7
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 9
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 10
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 8
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 9
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 9
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 7
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 11
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 5
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 2
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 1
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 3
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 4
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 2
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 1
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 5
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 8
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 10
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 11
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 10
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 13
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 13
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 5
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 2
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 13
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 4
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 2
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 7
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 5
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 1
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 6
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 8
+11/3/2022 2:40:33 PM Card Type: Hearts
+ Card Value: 4
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 6
+11/3/2022 2:40:33 PM Card Type: Clubs
+ Card Value: 13
+11/3/2022 2:40:33 PM Card Type: Diamonds
+ Card Value: 10
+11/3/2022 2:40:33 PM Card Type: Spades
+ Card Value: 12
+11/3/2022 2:40:33 PM Instantiating local player object
+11/3/2022 2:40:33 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/3/2022 2:40:33 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:40:33 PM Current player state: CurrentTurn
+11/3/2022 2:40:33 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:40:33 PM Jan is able to play a card
+11/3/2022 2:40:33 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:40:33 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:40:33 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:40:38 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/3/2022 2:40:38 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:40:38 PM Current player state: WaitingForTurn
+11/3/2022 2:40:38 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:40:38 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:40:44 PM Clicked on Card Spades 4
+11/3/2022 2:40:44 PM Player: Jan is trying to play card Spades 4
+11/3/2022 2:40:44 PM InHand: Spades : 4
+11/3/2022 2:40:44 PM Chaning last played card value from 4 to 4
+11/3/2022 2:40:44 PM Checking player Jan's state
+11/3/2022 2:40:44 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:40:44 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:40:44 PM Current player state: WaitingForTurn
+11/3/2022 2:40:44 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:40:44 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:40:44 PM Chaning last played card value from -1 to 4
+11/3/2022 2:40:44 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:40:44 PM Current player state: CurrentTurn
+11/3/2022 2:40:44 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:40:44 PM Clone is able to play a card
+11/3/2022 2:40:44 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:40:44 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:40:44 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:40:49 PM Clicked on Card Clubs 7
+11/3/2022 2:40:49 PM Player: Clone is trying to play card Clubs 7
+11/3/2022 2:40:49 PM InHand: Clubs : 7
+11/3/2022 2:40:49 PM Chaning last played card value from 7 to 7
+11/3/2022 2:40:49 PM Checking player Clone's state
+11/3/2022 2:40:49 PM Checking player Clone's state
+11/3/2022 2:40:49 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:40:49 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:40:49 PM Current player state: WaitingForTurn
+11/3/2022 2:40:49 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:40:49 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:40:49 PM Chaning last played card value from 4 to 7
+11/3/2022 2:40:49 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:40:49 PM Current player state: CurrentTurn
+11/3/2022 2:40:49 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:40:49 PM Jan is able to play a card
+11/3/2022 2:40:49 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:40:49 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:40:49 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:40:51 PM Clicked on Card Hearts 6
+11/3/2022 2:40:51 PM Player: Jan is trying to play card Hearts 6
+11/3/2022 2:40:51 PM InHand: Hearts : 6
+11/3/2022 2:40:51 PM Chaning last played card value from 6 to 6
+11/3/2022 2:40:51 PM Checking player Jan's state
+11/3/2022 2:40:51 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:40:51 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:40:51 PM Current player state: WaitingForTurn
+11/3/2022 2:40:51 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:40:51 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:40:51 PM Chaning last played card value from 7 to 6
+11/3/2022 2:40:51 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:40:51 PM Current player state: CurrentTurn
+11/3/2022 2:40:51 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:40:51 PM Clone is able to play a card
+11/3/2022 2:40:51 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:40:51 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:40:51 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:40:54 PM Clicked on Card Hearts 6
+11/3/2022 2:40:54 PM Player: Clone is trying to play card Hearts 6
+11/3/2022 2:40:54 PM InHand: Hearts : 6
+11/3/2022 2:40:54 PM Chaning last played card value from 6 to 6
+11/3/2022 2:40:54 PM Checking player Clone's state
+11/3/2022 2:40:54 PM Checking player Clone's state
+11/3/2022 2:40:54 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:40:54 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:40:54 PM Current player state: WaitingForTurn
+11/3/2022 2:40:54 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:40:54 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:40:54 PM Chaning last played card value from 6 to 6
+11/3/2022 2:40:54 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:40:54 PM Current player state: CurrentTurn
+11/3/2022 2:40:54 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:40:54 PM Jan is able to play a card
+11/3/2022 2:40:54 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:40:54 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:40:54 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:40:58 PM Clicked on Card Diamonds 9
+11/3/2022 2:40:58 PM Player: Jan is trying to play card Diamonds 9
+11/3/2022 2:40:58 PM InHand: Diamonds : 9
+11/3/2022 2:40:58 PM Chaning last played card value from 9 to 9
+11/3/2022 2:40:58 PM Checking player Jan's state
+11/3/2022 2:40:58 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:40:58 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:40:58 PM Current player state: WaitingForTurn
+11/3/2022 2:40:58 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:40:58 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:40:58 PM Chaning last played card value from 6 to 9
+11/3/2022 2:40:58 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:40:58 PM Current player state: CurrentTurn
+11/3/2022 2:40:58 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:40:58 PM Clone is able to play a card
+11/3/2022 2:40:58 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:40:58 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:40:58 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:03 PM Clicked on Card Diamonds 12
+11/3/2022 2:41:03 PM Player: Clone is trying to play card Diamonds 12
+11/3/2022 2:41:03 PM InHand: Diamonds : 12
+11/3/2022 2:41:03 PM Chaning last played card value from 12 to 12
+11/3/2022 2:41:03 PM Checking player Clone's state
+11/3/2022 2:41:03 PM Checking player Clone's state
+11/3/2022 2:41:03 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:03 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:03 PM Current player state: WaitingForTurn
+11/3/2022 2:41:03 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:03 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:03 PM Chaning last played card value from 9 to 12
+11/3/2022 2:41:03 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:03 PM Current player state: CurrentTurn
+11/3/2022 2:41:03 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:41:03 PM Jan is able to play a card
+11/3/2022 2:41:03 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:03 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:03 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:04 PM Clicked on Card Clubs 12
+11/3/2022 2:41:04 PM Player: Jan is trying to play card Clubs 12
+11/3/2022 2:41:04 PM InHand: Clubs : 12
+11/3/2022 2:41:04 PM Chaning last played card value from 12 to 12
+11/3/2022 2:41:04 PM Checking player Jan's state
+11/3/2022 2:41:04 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:04 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:04 PM Current player state: WaitingForTurn
+11/3/2022 2:41:04 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:04 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:04 PM Chaning last played card value from 12 to 12
+11/3/2022 2:41:04 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:04 PM Current player state: CurrentTurn
+11/3/2022 2:41:04 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:41:04 PM Clone is able to play a card
+11/3/2022 2:41:04 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:04 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:04 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:06 PM Clicked on Card Hearts 10
+11/3/2022 2:41:06 PM Player: Clone is trying to play card Hearts 10
+11/3/2022 2:41:06 PM InHand: Hearts : 10
+11/3/2022 2:41:06 PM Chaning last played card value from 0 to 0
+11/3/2022 2:41:06 PM Chaning last played card value from 12 to 0
+11/3/2022 2:41:10 PM Clicked on Card Clubs 7
+11/3/2022 2:41:10 PM Player: Clone is trying to play card Clubs 7
+11/3/2022 2:41:10 PM InHand: Clubs : 7
+11/3/2022 2:41:10 PM Chaning last played card value from 7 to 7
+11/3/2022 2:41:10 PM Checking player Clone's state
+11/3/2022 2:41:10 PM Checking player Clone's state
+11/3/2022 2:41:10 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:10 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:10 PM Current player state: WaitingForTurn
+11/3/2022 2:41:10 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:10 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:10 PM Chaning last played card value from 0 to 7
+11/3/2022 2:41:10 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:10 PM Current player state: CurrentTurn
+11/3/2022 2:41:10 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:41:10 PM Jan is able to play a card
+11/3/2022 2:41:10 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:10 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:10 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:11 PM Clicked on Card Spades 8
+11/3/2022 2:41:11 PM Player: Jan is trying to play card Spades 8
+11/3/2022 2:41:11 PM InHand: Spades : 8
+11/3/2022 2:41:12 PM Clicked on Card Hearts 3
+11/3/2022 2:41:12 PM Player: Jan is trying to play card Hearts 3
+11/3/2022 2:41:12 PM InHand: Hearts : 3
+11/3/2022 2:41:12 PM Chaning last played card value from 7 to 7
+11/3/2022 2:41:12 PM Checking player Jan's state
+11/3/2022 2:41:12 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:12 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:12 PM Current player state: WaitingForTurn
+11/3/2022 2:41:12 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:12 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:12 PM Chaning last played card value from 7 to 7
+11/3/2022 2:41:12 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:12 PM Current player state: CurrentTurn
+11/3/2022 2:41:12 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:41:12 PM Clone is able to play a card
+11/3/2022 2:41:12 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:12 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:12 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:19 PM Clicked on Card Spades 3
+11/3/2022 2:41:19 PM Player: Clone is trying to play card Spades 3
+11/3/2022 2:41:19 PM InHand: Spades : 3
+11/3/2022 2:41:19 PM Chaning last played card value from 7 to 7
+11/3/2022 2:41:19 PM Checking player Clone's state
+11/3/2022 2:41:19 PM Checking player Clone's state
+11/3/2022 2:41:19 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:19 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:19 PM Current player state: WaitingForTurn
+11/3/2022 2:41:19 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:19 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:19 PM Chaning last played card value from 7 to 7
+11/3/2022 2:41:19 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:19 PM Current player state: CurrentTurn
+11/3/2022 2:41:19 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:41:19 PM Jan is able to play a card
+11/3/2022 2:41:19 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:19 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:19 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:20 PM Clicked on Card Diamonds 4
+11/3/2022 2:41:20 PM Player: Jan is trying to play card Diamonds 4
+11/3/2022 2:41:20 PM InHand: Diamonds : 4
+11/3/2022 2:41:20 PM Chaning last played card value from 4 to 4
+11/3/2022 2:41:20 PM Checking player Jan's state
+11/3/2022 2:41:20 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:20 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:20 PM Current player state: WaitingForTurn
+11/3/2022 2:41:20 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:20 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:20 PM Chaning last played card value from 7 to 4
+11/3/2022 2:41:20 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:20 PM Current player state: CurrentTurn
+11/3/2022 2:41:20 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:41:20 PM Clone is able to play a card
+11/3/2022 2:41:20 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:20 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:20 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:26 PM Clicked on Card Hearts 2
+11/3/2022 2:41:26 PM Player: Clone is trying to play card Hearts 2
+11/3/2022 2:41:26 PM InHand: Hearts : 2
+11/3/2022 2:41:26 PM Chaning last played card value from 0 to 0
+11/3/2022 2:41:26 PM Checking player Clone's state
+11/3/2022 2:41:26 PM Checking player Clone's state
+11/3/2022 2:41:26 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:26 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:26 PM Current player state: WaitingForTurn
+11/3/2022 2:41:26 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:26 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:26 PM Chaning last played card value from 4 to 0
+11/3/2022 2:41:26 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:26 PM Current player state: CurrentTurn
+11/3/2022 2:41:26 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:41:26 PM Jan is able to play a card
+11/3/2022 2:41:26 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:26 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:26 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:27 PM Clicked on Card Spades 8
+11/3/2022 2:41:27 PM Player: Jan is trying to play card Spades 8
+11/3/2022 2:41:27 PM InHand: Spades : 8
+11/3/2022 2:41:27 PM Chaning last played card value from 8 to 8
+11/3/2022 2:41:27 PM Checking player Jan's state
+11/3/2022 2:41:27 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:27 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:27 PM Current player state: WaitingForTurn
+11/3/2022 2:41:27 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:27 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:28 PM Chaning last played card value from 0 to 8
+11/3/2022 2:41:28 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:28 PM Current player state: CurrentTurn
+11/3/2022 2:41:28 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:41:28 PM Clone is able to play a card
+11/3/2022 2:41:28 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:28 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:28 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:34 PM Clicked on Card Clubs 9
+11/3/2022 2:41:34 PM Player: Clone is trying to play card Clubs 9
+11/3/2022 2:41:34 PM InHand: Clubs : 9
+11/3/2022 2:41:34 PM Chaning last played card value from 9 to 9
+11/3/2022 2:41:34 PM Checking player Clone's state
+11/3/2022 2:41:34 PM Checking player Clone's state
+11/3/2022 2:41:34 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:34 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:34 PM Current player state: WaitingForTurn
+11/3/2022 2:41:34 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:34 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:34 PM Chaning last played card value from 8 to 9
+11/3/2022 2:41:34 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:34 PM Current player state: CurrentTurn
+11/3/2022 2:41:34 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:41:34 PM Jan is able to play a card
+11/3/2022 2:41:34 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:34 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:34 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:36 PM Clicked on Card Spades 11
+11/3/2022 2:41:36 PM Player: Jan is trying to play card Spades 11
+11/3/2022 2:41:36 PM InHand: Spades : 11
+11/3/2022 2:41:36 PM Chaning last played card value from 11 to 11
+11/3/2022 2:41:36 PM Checking player Jan's state
+11/3/2022 2:41:36 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:36 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:36 PM Current player state: WaitingForTurn
+11/3/2022 2:41:36 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:36 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:36 PM Chaning last played card value from 9 to 11
+11/3/2022 2:41:36 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:36 PM Current player state: CurrentTurn
+11/3/2022 2:41:36 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:41:36 PM Clone is able to play a card
+11/3/2022 2:41:37 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:37 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:37 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:41 PM Clicked on Card Clubs 10
+11/3/2022 2:41:41 PM Player: Clone is trying to play card Clubs 10
+11/3/2022 2:41:41 PM InHand: Clubs : 10
+11/3/2022 2:41:41 PM Chaning last played card value from 0 to 0
+11/3/2022 2:41:41 PM Chaning last played card value from 11 to 0
+11/3/2022 2:41:43 PM Clicked on Card Clubs 5
+11/3/2022 2:41:43 PM Player: Clone is trying to play card Clubs 5
+11/3/2022 2:41:43 PM InHand: Clubs : 5
+11/3/2022 2:41:43 PM Chaning last played card value from 5 to 5
+11/3/2022 2:41:43 PM Checking player Clone's state
+11/3/2022 2:41:43 PM Checking player Clone's state
+11/3/2022 2:41:43 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:43 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:43 PM Current player state: WaitingForTurn
+11/3/2022 2:41:43 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:43 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:43 PM Chaning last played card value from 0 to 5
+11/3/2022 2:41:43 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:43 PM Current player state: CurrentTurn
+11/3/2022 2:41:43 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:41:43 PM Jan is able to play a card
+11/3/2022 2:41:43 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:43 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:43 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:46 PM Clicked on Card Hearts 8
+11/3/2022 2:41:46 PM Player: Jan is trying to play card Hearts 8
+11/3/2022 2:41:46 PM InHand: Hearts : 8
+11/3/2022 2:41:46 PM Chaning last played card value from 8 to 8
+11/3/2022 2:41:46 PM Checking player Jan's state
+11/3/2022 2:41:46 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:46 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:46 PM Current player state: WaitingForTurn
+11/3/2022 2:41:46 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:46 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:46 PM Chaning last played card value from 5 to 8
+11/3/2022 2:41:46 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:46 PM Current player state: CurrentTurn
+11/3/2022 2:41:46 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:41:46 PM Clone is able to play a card
+11/3/2022 2:41:46 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:46 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:46 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:51 PM Clicked on Card Spades 13
+11/3/2022 2:41:51 PM Player: Clone is trying to play card Spades 13
+11/3/2022 2:41:51 PM InHand: Spades : 13
+11/3/2022 2:41:51 PM Chaning last played card value from 13 to 13
+11/3/2022 2:41:51 PM Checking player Clone's state
+11/3/2022 2:41:51 PM Checking player Clone's state
+11/3/2022 2:41:51 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:51 PM Current player state: WaitingForTurn
+11/3/2022 2:41:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:51 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:51 PM Chaning last played card value from 8 to 13
+11/3/2022 2:41:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:51 PM Current player state: CurrentTurn
+11/3/2022 2:41:51 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:41:51 PM Jan is able to play a card
+11/3/2022 2:41:51 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:51 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:52 PM Clicked on Card Hearts 13
+11/3/2022 2:41:52 PM Player: Jan is trying to play card Hearts 13
+11/3/2022 2:41:52 PM InHand: Hearts : 13
+11/3/2022 2:41:52 PM Chaning last played card value from 13 to 13
+11/3/2022 2:41:52 PM Checking player Jan's state
+11/3/2022 2:41:52 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:52 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:52 PM Current player state: WaitingForTurn
+11/3/2022 2:41:52 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:52 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:52 PM Chaning last played card value from 13 to 13
+11/3/2022 2:41:52 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:41:52 PM Current player state: CurrentTurn
+11/3/2022 2:41:52 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:41:52 PM Clone is able to play a card
+11/3/2022 2:41:52 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:52 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:41:52 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:41:59 PM Clicked on Card Diamonds 2
+11/3/2022 2:41:59 PM Player: Clone is trying to play card Diamonds 2
+11/3/2022 2:41:59 PM InHand: Diamonds : 2
+11/3/2022 2:41:59 PM Chaning last played card value from 0 to 0
+11/3/2022 2:41:59 PM Checking player Clone's state
+11/3/2022 2:41:59 PM Checking player Clone's state
+11/3/2022 2:41:59 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:41:59 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:59 PM Current player state: WaitingForTurn
+11/3/2022 2:41:59 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:59 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:41:59 PM Chaning last played card value from 13 to 0
+11/3/2022 2:41:59 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:41:59 PM Current player state: CurrentTurn
+11/3/2022 2:41:59 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:41:59 PM Jan is able to play a card
+11/3/2022 2:41:59 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:41:59 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:41:59 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:03 PM Clicked on Card Clubs 11
+11/3/2022 2:42:03 PM Player: Jan is trying to play card Clubs 11
+11/3/2022 2:42:03 PM InHand: Clubs : 11
+11/3/2022 2:42:03 PM Chaning last played card value from 11 to 11
+11/3/2022 2:42:03 PM Checking player Jan's state
+11/3/2022 2:42:03 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:03 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:03 PM Current player state: WaitingForTurn
+11/3/2022 2:42:03 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:03 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:03 PM Chaning last played card value from 0 to 11
+11/3/2022 2:42:03 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:03 PM Current player state: CurrentTurn
+11/3/2022 2:42:03 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:42:03 PM Clone is able to play a card
+11/3/2022 2:42:03 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:03 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:03 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:05 PM Clicked on Card Diamonds 13
+11/3/2022 2:42:05 PM Player: Clone is trying to play card Diamonds 13
+11/3/2022 2:42:05 PM InHand: Diamonds : 13
+11/3/2022 2:42:05 PM Chaning last played card value from 13 to 13
+11/3/2022 2:42:05 PM Checking player Clone's state
+11/3/2022 2:42:05 PM Checking player Clone's state
+11/3/2022 2:42:05 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:05 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:05 PM Current player state: WaitingForTurn
+11/3/2022 2:42:05 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:05 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:05 PM Chaning last played card value from 11 to 13
+11/3/2022 2:42:05 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:05 PM Current player state: CurrentTurn
+11/3/2022 2:42:05 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:42:05 PM Jan is able to play a card
+11/3/2022 2:42:05 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:05 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:05 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:13 PM Clicked on Card Spades 1
+11/3/2022 2:42:13 PM Player: Jan is trying to play card Spades 1
+11/3/2022 2:42:13 PM InHand: Spades : 1
+11/3/2022 2:42:13 PM Chaning last played card value from 1 to 1
+11/3/2022 2:42:13 PM Checking player Jan's state
+11/3/2022 2:42:13 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:13 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:13 PM Current player state: WaitingForTurn
+11/3/2022 2:42:13 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:13 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:13 PM Chaning last played card value from 13 to 1
+11/3/2022 2:42:13 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:13 PM Current player state: CurrentTurn
+11/3/2022 2:42:13 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:42:13 PM Clone is able to play a card
+11/3/2022 2:42:13 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:13 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:13 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:15 PM Clicked on Card Spades 10
+11/3/2022 2:42:15 PM Player: Clone is trying to play card Spades 10
+11/3/2022 2:42:15 PM InHand: Spades : 10
+11/3/2022 2:42:15 PM Chaning last played card value from 0 to 0
+11/3/2022 2:42:15 PM Chaning last played card value from 1 to 0
+11/3/2022 2:42:18 PM Clicked on Card Diamonds 5
+11/3/2022 2:42:18 PM Player: Clone is trying to play card Diamonds 5
+11/3/2022 2:42:18 PM InHand: Diamonds : 5
+11/3/2022 2:42:18 PM Chaning last played card value from 5 to 5
+11/3/2022 2:42:18 PM Checking player Clone's state
+11/3/2022 2:42:18 PM Checking player Clone's state
+11/3/2022 2:42:18 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:18 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:18 PM Current player state: WaitingForTurn
+11/3/2022 2:42:18 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:18 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:18 PM Chaning last played card value from 0 to 5
+11/3/2022 2:42:18 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:18 PM Current player state: CurrentTurn
+11/3/2022 2:42:18 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:42:18 PM Jan is able to play a card
+11/3/2022 2:42:18 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:18 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:18 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:20 PM Clicked on Card Spades 7
+11/3/2022 2:42:20 PM Player: Jan is trying to play card Spades 7
+11/3/2022 2:42:20 PM InHand: Spades : 7
+11/3/2022 2:42:20 PM Chaning last played card value from 7 to 7
+11/3/2022 2:42:20 PM Checking player Jan's state
+11/3/2022 2:42:20 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:20 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:20 PM Current player state: WaitingForTurn
+11/3/2022 2:42:20 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:20 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:20 PM Chaning last played card value from 5 to 7
+11/3/2022 2:42:20 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:20 PM Current player state: CurrentTurn
+11/3/2022 2:42:20 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:42:20 PM Clone is able to play a card
+11/3/2022 2:42:20 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:20 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:20 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:21 PM Clicked on Card Spades 5
+11/3/2022 2:42:21 PM Player: Clone is trying to play card Spades 5
+11/3/2022 2:42:21 PM InHand: Spades : 5
+11/3/2022 2:42:21 PM Chaning last played card value from 5 to 5
+11/3/2022 2:42:21 PM Checking player Clone's state
+11/3/2022 2:42:21 PM Checking player Clone's state
+11/3/2022 2:42:21 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:21 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:21 PM Current player state: WaitingForTurn
+11/3/2022 2:42:21 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:21 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:21 PM Chaning last played card value from 7 to 5
+11/3/2022 2:42:21 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:21 PM Current player state: CurrentTurn
+11/3/2022 2:42:21 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:42:21 PM Jan is able to play a card
+11/3/2022 2:42:21 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:21 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:21 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:24 PM Clicked on Card Spades 6
+11/3/2022 2:42:24 PM Player: Jan is trying to play card Spades 6
+11/3/2022 2:42:24 PM InHand: Spades : 6
+11/3/2022 2:42:24 PM Chaning last played card value from 6 to 6
+11/3/2022 2:42:24 PM Checking player Jan's state
+11/3/2022 2:42:24 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:24 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:24 PM Current player state: WaitingForTurn
+11/3/2022 2:42:24 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:24 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:24 PM Chaning last played card value from 5 to 6
+11/3/2022 2:42:24 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:24 PM Current player state: CurrentTurn
+11/3/2022 2:42:24 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:42:24 PM Clone is able to play a card
+11/3/2022 2:42:24 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:24 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:24 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:27 PM Clicked on Card Clubs 8
+11/3/2022 2:42:27 PM Player: Clone is trying to play card Clubs 8
+11/3/2022 2:42:27 PM InHand: Clubs : 8
+11/3/2022 2:42:27 PM Chaning last played card value from 8 to 8
+11/3/2022 2:42:27 PM Checking player Clone's state
+11/3/2022 2:42:27 PM Checking player Clone's state
+11/3/2022 2:42:27 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:27 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:27 PM Current player state: WaitingForTurn
+11/3/2022 2:42:27 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:27 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:27 PM Chaning last played card value from 6 to 8
+11/3/2022 2:42:27 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:27 PM Current player state: CurrentTurn
+11/3/2022 2:42:27 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:42:27 PM Jan is able to play a card
+11/3/2022 2:42:27 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:27 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:27 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:29 PM Clicked on Card Spades 2
+11/3/2022 2:42:29 PM Player: Jan is trying to play card Spades 2
+11/3/2022 2:42:29 PM InHand: Spades : 2
+11/3/2022 2:42:29 PM Chaning last played card value from 0 to 0
+11/3/2022 2:42:29 PM Checking player Jan's state
+11/3/2022 2:42:29 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:29 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:29 PM Current player state: WaitingForTurn
+11/3/2022 2:42:29 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:29 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:29 PM Chaning last played card value from 8 to 0
+11/3/2022 2:42:29 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:29 PM Current player state: CurrentTurn
+11/3/2022 2:42:29 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:42:29 PM Clone is able to play a card
+11/3/2022 2:42:29 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:29 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:29 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:32 PM Clicked on Card Clubs 2
+11/3/2022 2:42:32 PM Player: Clone is trying to play card Clubs 2
+11/3/2022 2:42:32 PM InHand: Clubs : 2
+11/3/2022 2:42:32 PM Chaning last played card value from 0 to 0
+11/3/2022 2:42:32 PM Checking player Clone's state
+11/3/2022 2:42:32 PM Checking player Clone's state
+11/3/2022 2:42:32 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:32 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:32 PM Current player state: WaitingForTurn
+11/3/2022 2:42:32 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:32 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:32 PM Chaning last played card value from 0 to 0
+11/3/2022 2:42:32 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:32 PM Current player state: CurrentTurn
+11/3/2022 2:42:32 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:42:32 PM Jan is able to play a card
+11/3/2022 2:42:32 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:32 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:32 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:33 PM Clicked on Card Clubs 4
+11/3/2022 2:42:33 PM Player: Jan is trying to play card Clubs 4
+11/3/2022 2:42:33 PM InHand: Clubs : 4
+11/3/2022 2:42:33 PM Chaning last played card value from 4 to 4
+11/3/2022 2:42:33 PM Checking player Jan's state
+11/3/2022 2:42:33 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:33 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:33 PM Current player state: WaitingForTurn
+11/3/2022 2:42:33 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:33 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:33 PM Chaning last played card value from 0 to 4
+11/3/2022 2:42:33 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:33 PM Current player state: CurrentTurn
+11/3/2022 2:42:33 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:42:33 PM Clone is able to play a card
+11/3/2022 2:42:33 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:33 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:33 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:40 PM Clicked on Card Diamonds 6
+11/3/2022 2:42:40 PM Player: Clone is trying to play card Diamonds 6
+11/3/2022 2:42:40 PM InHand: Diamonds : 6
+11/3/2022 2:42:40 PM Chaning last played card value from 6 to 6
+11/3/2022 2:42:40 PM Checking player Clone's state
+11/3/2022 2:42:40 PM Checking player Clone's state
+11/3/2022 2:42:40 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:40 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:40 PM Current player state: WaitingForTurn
+11/3/2022 2:42:40 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:40 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:40 PM Chaning last played card value from 4 to 6
+11/3/2022 2:42:40 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:40 PM Current player state: CurrentTurn
+11/3/2022 2:42:40 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:42:40 PM Jan is able to play a card
+11/3/2022 2:42:40 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:40 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:40 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:42 PM Clicked on Card Spades 12
+11/3/2022 2:42:42 PM Player: Jan is trying to play card Spades 12
+11/3/2022 2:42:42 PM InHand: Spades : 12
+11/3/2022 2:42:42 PM Chaning last played card value from 12 to 12
+11/3/2022 2:42:42 PM Checking player Jan's state
+11/3/2022 2:42:42 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:42 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:42 PM Current player state: WaitingForTurn
+11/3/2022 2:42:42 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:42 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:42 PM Chaning last played card value from 6 to 12
+11/3/2022 2:42:42 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:42 PM Current player state: CurrentTurn
+11/3/2022 2:42:42 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:42:42 PM Clone is able to play a card
+11/3/2022 2:42:42 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:42 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:42 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:48 PM Clicked on Card Diamonds 10
+11/3/2022 2:42:48 PM Player: Clone is trying to play card Diamonds 10
+11/3/2022 2:42:48 PM InHand: Diamonds : 10
+11/3/2022 2:42:48 PM Chaning last played card value from 0 to 0
+11/3/2022 2:42:48 PM Chaning last played card value from 12 to 0
+11/3/2022 2:42:50 PM Clicked on Card Hearts 1
+11/3/2022 2:42:50 PM Player: Clone is trying to play card Hearts 1
+11/3/2022 2:42:50 PM InHand: Hearts : 1
+11/3/2022 2:42:50 PM Chaning last played card value from 1 to 1
+11/3/2022 2:42:50 PM Checking player Clone's state
+11/3/2022 2:42:50 PM Checking player Clone's state
+11/3/2022 2:42:50 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:50 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:50 PM Current player state: WaitingForTurn
+11/3/2022 2:42:50 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:50 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:50 PM Chaning last played card value from 0 to 1
+11/3/2022 2:42:50 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:50 PM Current player state: CurrentTurn
+11/3/2022 2:42:50 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:42:50 PM No cards are playable. Grabbing all cards
+11/3/2022 2:42:50 PM Chaning last played card value from 1 to 0
+11/3/2022 2:42:50 PM Starting next round
+11/3/2022 2:42:50 PM Checking state
+11/3/2022 2:42:50 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:50 PM Current player state: WaitingForTurn
+11/3/2022 2:42:50 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:50 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:50 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:50 PM Setting player Jan turn text to Your turn, while current state is WaitingForTurn
+11/3/2022 2:42:50 PM Chaning last played card value from 1 to 0
+11/3/2022 2:42:50 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:42:50 PM Current player state: CurrentTurn
+11/3/2022 2:42:50 PM Player: Clone has less then 0 cards in hand
+11/3/2022 2:42:50 PM Clone is able to play a card
+11/3/2022 2:42:50 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:50 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:42:50 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:42:54 PM Clicked on Card Hearts 6
+11/3/2022 2:42:54 PM Player: Clone is trying to play card Hearts 6
+11/3/2022 2:42:54 PM FaceUp: Hearts : 6
+11/3/2022 2:42:54 PM Chaning last played card value from 6 to 6
+11/3/2022 2:42:54 PM Checking player Clone's state
+11/3/2022 2:42:54 PM Checking player Clone's state
+11/3/2022 2:42:54 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:42:54 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:54 PM Current player state: WaitingForTurn
+11/3/2022 2:42:54 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:54 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:42:54 PM Chaning last played card value from 0 to 6
+11/3/2022 2:42:54 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:42:54 PM Current player state: CurrentTurn
+11/3/2022 2:42:54 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:42:54 PM Jan is able to play a card
+11/3/2022 2:42:54 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:42:54 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:42:54 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:43:04 PM Clicked on Card Clubs 13
+11/3/2022 2:43:04 PM Player: Jan is trying to play card Clubs 13
+11/3/2022 2:43:04 PM InHand: Clubs : 13
+11/3/2022 2:43:04 PM Chaning last played card value from 13 to 13
+11/3/2022 2:43:04 PM Checking player Jan's state
+11/3/2022 2:43:04 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:43:04 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:43:04 PM Current player state: WaitingForTurn
+11/3/2022 2:43:04 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:43:04 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:43:04 PM Chaning last played card value from 6 to 13
+11/3/2022 2:43:04 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:43:04 PM Current player state: CurrentTurn
+11/3/2022 2:43:04 PM Player: Clone has less then 0 cards in hand
+11/3/2022 2:43:04 PM Clone is able to play a card
+11/3/2022 2:43:04 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:43:04 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:43:04 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:43:08 PM Clicked on Card Hearts 3
+11/3/2022 2:43:08 PM Player: Clone is trying to play card Hearts 3
+11/3/2022 2:43:08 PM FaceUp: Hearts : 3
+11/3/2022 2:43:08 PM Chaning last played card value from 13 to 13
+11/3/2022 2:43:08 PM Checking player Clone's state
+11/3/2022 2:43:08 PM Checking player Clone's state
+11/3/2022 2:43:08 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:43:08 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:43:08 PM Current player state: WaitingForTurn
+11/3/2022 2:43:08 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:43:08 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:43:08 PM Chaning last played card value from 13 to 13
+11/3/2022 2:43:08 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:43:08 PM Current player state: CurrentTurn
+11/3/2022 2:43:08 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:43:08 PM Jan is able to play a card
+11/3/2022 2:43:08 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:43:08 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:43:08 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:43:10 PM Clicked on Card Hearts 1
+11/3/2022 2:43:10 PM Player: Jan is trying to play card Hearts 1
+11/3/2022 2:43:10 PM InHand: Hearts : 1
+11/3/2022 2:43:10 PM Chaning last played card value from 1 to 1
+11/3/2022 2:43:10 PM Checking player Jan's state
+11/3/2022 2:43:10 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:43:10 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:43:10 PM Current player state: WaitingForTurn
+11/3/2022 2:43:10 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:43:10 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:43:10 PM Chaning last played card value from 13 to 1
+11/3/2022 2:43:10 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:43:10 PM Current player state: CurrentTurn
+11/3/2022 2:43:10 PM Player: Clone has less then 0 cards in hand
+11/3/2022 2:43:10 PM Clone is able to play a card
+11/3/2022 2:43:10 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:43:10 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:43:10 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:43:13 PM Clicked on Card Diamonds 8
+11/3/2022 2:43:13 PM Player: Clone is trying to play card Diamonds 8
+11/3/2022 2:43:13 PM FaceUp: Diamonds : 8
+11/3/2022 2:43:14 PM Clicked on Card Diamonds 8
+11/3/2022 2:43:14 PM Player: Clone is trying to play card Diamonds 8
+11/3/2022 2:43:14 PM FaceUp: Diamonds : 8
+11/3/2022 2:48:26 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/3/2022 2:48:27 PM PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.
+11/3/2022 2:48:27 PM Loading the Room for 1
+11/3/2022 2:48:27 PM Players in Room: 1
+11/3/2022 2:48:30 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/3/2022 2:48:31 PM Players in Room: 2
+11/3/2022 2:48:34 PM Player Ready: Clone
+11/3/2022 2:48:34 PM Total players ready = 1
+11/3/2022 2:48:34 PM Players in Room: 2
+11/3/2022 2:48:37 PM Player Ready: Jan
+11/3/2022 2:48:37 PM Total players ready = 1
+11/3/2022 2:48:37 PM Players in Room: 2
+11/3/2022 2:48:37 PM Instantiating local player object
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 11
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 8
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 5
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 13
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 11
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 8
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 8
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 12
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 13
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 6
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 2
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 9
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 1
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 3
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 11
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 13
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 2
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 10
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 10
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 4
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 8
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 9
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 9
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 7
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 5
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 3
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 10
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 4
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 13
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 7
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 2
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 7
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 6
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 5
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 11
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 12
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 2
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 4
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 5
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 6
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 10
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 3
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 4
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 1
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 1
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 6
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 1
+11/3/2022 2:48:41 PM Card Type: Diamonds
+ Card Value: 12
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 9
+11/3/2022 2:48:41 PM Card Type: Spades
+ Card Value: 12
+11/3/2022 2:48:41 PM Card Type: Clubs
+ Card Value: 7
+11/3/2022 2:48:41 PM Card Type: Hearts
+ Card Value: 3
+11/3/2022 2:48:41 PM Instantiating local player object
+11/3/2022 2:48:41 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/3/2022 2:48:41 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:41 PM Current player state: CurrentTurn
+11/3/2022 2:48:41 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:48:41 PM Jan is able to play a card
+11/3/2022 2:48:41 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:41 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:41 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:48:43 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/3/2022 2:48:43 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:43 PM Current player state: WaitingForTurn
+11/3/2022 2:48:43 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:43 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:48 PM Clicked on Card Spades 8
+11/3/2022 2:48:48 PM Player: Jan is trying to play card Spades 8
+11/3/2022 2:48:48 PM InHand: Spades : 8
+11/3/2022 2:48:48 PM Chaning last played card value from 8 to 8
+11/3/2022 2:48:48 PM Checking player Jan's state
+11/3/2022 2:48:48 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:48:48 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:48 PM Current player state: WaitingForTurn
+11/3/2022 2:48:48 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:48 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:48 PM Chaning last played card value from -1 to 8
+11/3/2022 2:48:48 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:49 PM Current player state: CurrentTurn
+11/3/2022 2:48:49 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:48:49 PM Clone is able to play a card
+11/3/2022 2:48:49 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:49 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:49 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:48:51 PM Clicked on Card Diamonds 3
+11/3/2022 2:48:51 PM Player: Clone is trying to play card Diamonds 3
+11/3/2022 2:48:51 PM InHand: Diamonds : 3
+11/3/2022 2:48:51 PM Chaning last played card value from 8 to 8
+11/3/2022 2:48:51 PM Checking player Clone's state
+11/3/2022 2:48:51 PM Checking player Clone's state
+11/3/2022 2:48:51 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:48:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:48:51 PM Current player state: WaitingForTurn
+11/3/2022 2:48:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:48:51 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:51 PM Chaning last played card value from 8 to 8
+11/3/2022 2:48:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:48:51 PM Current player state: CurrentTurn
+11/3/2022 2:48:51 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:48:51 PM Jan is able to play a card
+11/3/2022 2:48:51 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:48:51 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:48:52 PM Clicked on Card Hearts 12
+11/3/2022 2:48:52 PM Player: Jan is trying to play card Hearts 12
+11/3/2022 2:48:52 PM InHand: Hearts : 12
+11/3/2022 2:48:52 PM Chaning last played card value from 12 to 12
+11/3/2022 2:48:52 PM Checking player Jan's state
+11/3/2022 2:48:52 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:48:52 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:52 PM Current player state: WaitingForTurn
+11/3/2022 2:48:52 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:52 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:52 PM Chaning last played card value from 8 to 12
+11/3/2022 2:48:52 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:52 PM Current player state: CurrentTurn
+11/3/2022 2:48:52 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:48:52 PM Clone is able to play a card
+11/3/2022 2:48:52 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:52 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:52 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:48:54 PM Clicked on Card Hearts 12
+11/3/2022 2:48:54 PM Player: Clone is trying to play card Hearts 12
+11/3/2022 2:48:54 PM InHand: Hearts : 12
+11/3/2022 2:48:54 PM Chaning last played card value from 12 to 12
+11/3/2022 2:48:54 PM Checking player Clone's state
+11/3/2022 2:48:54 PM Checking player Clone's state
+11/3/2022 2:48:54 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:48:54 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:48:54 PM Current player state: WaitingForTurn
+11/3/2022 2:48:54 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:48:54 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:54 PM Chaning last played card value from 12 to 12
+11/3/2022 2:48:54 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:48:54 PM Current player state: CurrentTurn
+11/3/2022 2:48:54 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:48:54 PM Jan is able to play a card
+11/3/2022 2:48:54 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:54 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:48:54 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:48:55 PM Clicked on Card Clubs 13
+11/3/2022 2:48:55 PM Player: Jan is trying to play card Clubs 13
+11/3/2022 2:48:55 PM InHand: Clubs : 13
+11/3/2022 2:48:55 PM Chaning last played card value from 13 to 13
+11/3/2022 2:48:55 PM Checking player Jan's state
+11/3/2022 2:48:55 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:48:55 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:55 PM Current player state: WaitingForTurn
+11/3/2022 2:48:55 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:55 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:55 PM Chaning last played card value from 12 to 13
+11/3/2022 2:48:55 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:55 PM Current player state: CurrentTurn
+11/3/2022 2:48:55 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:48:55 PM Clone is able to play a card
+11/3/2022 2:48:55 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:55 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:55 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:48:56 PM Clicked on Card Hearts 13
+11/3/2022 2:48:56 PM Player: Clone is trying to play card Hearts 13
+11/3/2022 2:48:56 PM InHand: Hearts : 13
+11/3/2022 2:48:56 PM Chaning last played card value from 13 to 13
+11/3/2022 2:48:56 PM Checking player Clone's state
+11/3/2022 2:48:56 PM Checking player Clone's state
+11/3/2022 2:48:56 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:48:56 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:48:56 PM Current player state: WaitingForTurn
+11/3/2022 2:48:56 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:48:56 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:56 PM Chaning last played card value from 13 to 13
+11/3/2022 2:48:56 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:48:56 PM Current player state: CurrentTurn
+11/3/2022 2:48:56 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:48:56 PM Jan is able to play a card
+11/3/2022 2:48:56 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:56 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:48:56 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:48:58 PM Clicked on Card Diamonds 13
+11/3/2022 2:48:58 PM Player: Jan is trying to play card Diamonds 13
+11/3/2022 2:48:58 PM InHand: Diamonds : 13
+11/3/2022 2:48:58 PM Chaning last played card value from 13 to 13
+11/3/2022 2:48:58 PM Checking player Jan's state
+11/3/2022 2:48:58 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:48:58 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:58 PM Current player state: WaitingForTurn
+11/3/2022 2:48:58 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:58 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:58 PM Chaning last played card value from 13 to 13
+11/3/2022 2:48:58 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:48:58 PM Current player state: CurrentTurn
+11/3/2022 2:48:58 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:48:58 PM Clone is able to play a card
+11/3/2022 2:48:58 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:58 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:48:58 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:48:59 PM Clicked on Card Hearts 13
+11/3/2022 2:48:59 PM Player: Clone is trying to play card Hearts 13
+11/3/2022 2:48:59 PM InHand: Hearts : 13
+11/3/2022 2:48:59 PM Chaning last played card value from 13 to 13
+11/3/2022 2:48:59 PM Checking player Clone's state
+11/3/2022 2:48:59 PM Checking player Clone's state
+11/3/2022 2:48:59 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:48:59 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:48:59 PM Current player state: WaitingForTurn
+11/3/2022 2:48:59 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:48:59 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:48:59 PM Chaning last played card value from 13 to 13
+11/3/2022 2:48:59 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:48:59 PM Current player state: CurrentTurn
+11/3/2022 2:48:59 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:48:59 PM Jan is able to play a card
+11/3/2022 2:48:59 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:48:59 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:48:59 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:03 PM Clicked on Card Hearts 10
+11/3/2022 2:49:03 PM Player: Jan is trying to play card Hearts 10
+11/3/2022 2:49:03 PM InHand: Hearts : 10
+11/3/2022 2:49:03 PM Chaning last played card value from 0 to 0
+11/3/2022 2:49:03 PM Chaning last played card value from 13 to 0
+11/3/2022 2:49:06 PM Clicked on Card Diamonds 9
+11/3/2022 2:49:06 PM Player: Jan is trying to play card Diamonds 9
+11/3/2022 2:49:06 PM InHand: Diamonds : 9
+11/3/2022 2:49:06 PM Chaning last played card value from 9 to 9
+11/3/2022 2:49:06 PM Checking player Jan's state
+11/3/2022 2:49:06 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:06 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:06 PM Current player state: WaitingForTurn
+11/3/2022 2:49:06 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:06 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:06 PM Chaning last played card value from 0 to 9
+11/3/2022 2:49:06 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:06 PM Current player state: CurrentTurn
+11/3/2022 2:49:06 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:06 PM Clone is able to play a card
+11/3/2022 2:49:06 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:06 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:06 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:08 PM Clicked on Card Clubs 10
+11/3/2022 2:49:08 PM Player: Clone is trying to play card Clubs 10
+11/3/2022 2:49:08 PM InHand: Clubs : 10
+11/3/2022 2:49:08 PM Chaning last played card value from 0 to 0
+11/3/2022 2:49:08 PM Chaning last played card value from 9 to 0
+11/3/2022 2:49:09 PM Clicked on Card Clubs 5
+11/3/2022 2:49:09 PM Player: Clone is trying to play card Clubs 5
+11/3/2022 2:49:09 PM InHand: Clubs : 5
+11/3/2022 2:49:09 PM Chaning last played card value from 5 to 5
+11/3/2022 2:49:09 PM Checking player Clone's state
+11/3/2022 2:49:09 PM Checking player Clone's state
+11/3/2022 2:49:09 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:09 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:09 PM Current player state: WaitingForTurn
+11/3/2022 2:49:09 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:09 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:09 PM Chaning last played card value from 0 to 5
+11/3/2022 2:49:09 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:09 PM Current player state: CurrentTurn
+11/3/2022 2:49:09 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:09 PM Jan is able to play a card
+11/3/2022 2:49:09 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:09 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:09 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:13 PM Clicked on Card Clubs 9
+11/3/2022 2:49:13 PM Player: Jan is trying to play card Clubs 9
+11/3/2022 2:49:13 PM InHand: Clubs : 9
+11/3/2022 2:49:13 PM Chaning last played card value from 9 to 9
+11/3/2022 2:49:13 PM Checking player Jan's state
+11/3/2022 2:49:13 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:13 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:13 PM Current player state: WaitingForTurn
+11/3/2022 2:49:13 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:13 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:13 PM Chaning last played card value from 5 to 9
+11/3/2022 2:49:13 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:13 PM Current player state: CurrentTurn
+11/3/2022 2:49:13 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:13 PM Clone is able to play a card
+11/3/2022 2:49:13 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:13 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:13 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:16 PM Clicked on Card Spades 13
+11/3/2022 2:49:16 PM Player: Clone is trying to play card Spades 13
+11/3/2022 2:49:16 PM InHand: Spades : 13
+11/3/2022 2:49:16 PM Chaning last played card value from 13 to 13
+11/3/2022 2:49:16 PM Checking player Clone's state
+11/3/2022 2:49:16 PM Checking player Clone's state
+11/3/2022 2:49:17 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:17 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:17 PM Current player state: WaitingForTurn
+11/3/2022 2:49:17 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:17 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:17 PM Chaning last played card value from 9 to 13
+11/3/2022 2:49:17 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:17 PM Current player state: CurrentTurn
+11/3/2022 2:49:17 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:17 PM Jan is able to play a card
+11/3/2022 2:49:17 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:17 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:17 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:20 PM Clicked on Card Spades 2
+11/3/2022 2:49:20 PM Player: Jan is trying to play card Spades 2
+11/3/2022 2:49:20 PM InHand: Spades : 2
+11/3/2022 2:49:20 PM Chaning last played card value from 0 to 0
+11/3/2022 2:49:20 PM Checking player Jan's state
+11/3/2022 2:49:20 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:20 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:20 PM Current player state: WaitingForTurn
+11/3/2022 2:49:20 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:20 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:20 PM Chaning last played card value from 13 to 0
+11/3/2022 2:49:20 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:20 PM Current player state: CurrentTurn
+11/3/2022 2:49:20 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:20 PM Clone is able to play a card
+11/3/2022 2:49:20 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:20 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:20 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:21 PM Clicked on Card Spades 7
+11/3/2022 2:49:21 PM Player: Clone is trying to play card Spades 7
+11/3/2022 2:49:21 PM InHand: Spades : 7
+11/3/2022 2:49:21 PM Chaning last played card value from 7 to 7
+11/3/2022 2:49:21 PM Checking player Clone's state
+11/3/2022 2:49:21 PM Checking player Clone's state
+11/3/2022 2:49:21 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:21 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:21 PM Current player state: WaitingForTurn
+11/3/2022 2:49:21 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:21 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:21 PM Chaning last played card value from 0 to 7
+11/3/2022 2:49:21 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:21 PM Current player state: CurrentTurn
+11/3/2022 2:49:21 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:21 PM Jan is able to play a card
+11/3/2022 2:49:21 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:21 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:21 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:22 PM Clicked on Card Hearts 4
+11/3/2022 2:49:22 PM Player: Jan is trying to play card Hearts 4
+11/3/2022 2:49:22 PM InHand: Hearts : 4
+11/3/2022 2:49:22 PM Chaning last played card value from 4 to 4
+11/3/2022 2:49:22 PM Checking player Jan's state
+11/3/2022 2:49:22 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:22 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:22 PM Current player state: WaitingForTurn
+11/3/2022 2:49:22 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:22 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:22 PM Chaning last played card value from 7 to 4
+11/3/2022 2:49:22 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:22 PM Current player state: CurrentTurn
+11/3/2022 2:49:22 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:22 PM Clone is able to play a card
+11/3/2022 2:49:22 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:22 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:22 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:27 PM Clicked on Card Diamonds 5
+11/3/2022 2:49:27 PM Player: Clone is trying to play card Diamonds 5
+11/3/2022 2:49:27 PM InHand: Diamonds : 5
+11/3/2022 2:49:27 PM Chaning last played card value from 5 to 5
+11/3/2022 2:49:27 PM Checking player Clone's state
+11/3/2022 2:49:27 PM Checking player Clone's state
+11/3/2022 2:49:27 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:27 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:27 PM Current player state: WaitingForTurn
+11/3/2022 2:49:27 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:27 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:27 PM Chaning last played card value from 4 to 5
+11/3/2022 2:49:27 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:27 PM Current player state: CurrentTurn
+11/3/2022 2:49:27 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:27 PM Jan is able to play a card
+11/3/2022 2:49:27 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:27 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:27 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:28 PM Clicked on Card Clubs 6
+11/3/2022 2:49:28 PM Player: Jan is trying to play card Clubs 6
+11/3/2022 2:49:28 PM InHand: Clubs : 6
+11/3/2022 2:49:28 PM Chaning last played card value from 6 to 6
+11/3/2022 2:49:28 PM Checking player Jan's state
+11/3/2022 2:49:28 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:28 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:28 PM Current player state: WaitingForTurn
+11/3/2022 2:49:28 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:28 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:28 PM Chaning last played card value from 5 to 6
+11/3/2022 2:49:28 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:28 PM Current player state: CurrentTurn
+11/3/2022 2:49:28 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:28 PM Clone is able to play a card
+11/3/2022 2:49:28 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:28 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:28 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:30 PM Clicked on Card Diamonds 7
+11/3/2022 2:49:30 PM Player: Clone is trying to play card Diamonds 7
+11/3/2022 2:49:30 PM InHand: Diamonds : 7
+11/3/2022 2:49:30 PM Chaning last played card value from 7 to 7
+11/3/2022 2:49:30 PM Checking player Clone's state
+11/3/2022 2:49:30 PM Checking player Clone's state
+11/3/2022 2:49:30 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:30 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:30 PM Current player state: WaitingForTurn
+11/3/2022 2:49:30 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:30 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:30 PM Chaning last played card value from 6 to 7
+11/3/2022 2:49:30 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:30 PM Current player state: CurrentTurn
+11/3/2022 2:49:30 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:30 PM Jan is able to play a card
+11/3/2022 2:49:30 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:30 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:30 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:31 PM Clicked on Card Hearts 2
+11/3/2022 2:49:31 PM Player: Jan is trying to play card Hearts 2
+11/3/2022 2:49:31 PM InHand: Hearts : 2
+11/3/2022 2:49:31 PM Chaning last played card value from 0 to 0
+11/3/2022 2:49:31 PM Checking player Jan's state
+11/3/2022 2:49:31 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:31 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:31 PM Current player state: WaitingForTurn
+11/3/2022 2:49:31 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:31 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:31 PM Chaning last played card value from 7 to 0
+11/3/2022 2:49:31 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:31 PM Current player state: CurrentTurn
+11/3/2022 2:49:31 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:31 PM Clone is able to play a card
+11/3/2022 2:49:32 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:32 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:32 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:39 PM Clicked on Card Clubs 4
+11/3/2022 2:49:39 PM Player: Clone is trying to play card Clubs 4
+11/3/2022 2:49:39 PM InHand: Clubs : 4
+11/3/2022 2:49:39 PM Chaning last played card value from 4 to 4
+11/3/2022 2:49:39 PM Checking player Clone's state
+11/3/2022 2:49:39 PM Checking player Clone's state
+11/3/2022 2:49:39 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:39 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:39 PM Current player state: WaitingForTurn
+11/3/2022 2:49:39 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:39 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:39 PM Chaning last played card value from 0 to 4
+11/3/2022 2:49:39 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:39 PM Current player state: CurrentTurn
+11/3/2022 2:49:39 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:39 PM Jan is able to play a card
+11/3/2022 2:49:39 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:39 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:39 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:39 PM Clicked on Card Spades 5
+11/3/2022 2:49:39 PM Player: Jan is trying to play card Spades 5
+11/3/2022 2:49:39 PM InHand: Spades : 5
+11/3/2022 2:49:39 PM Chaning last played card value from 5 to 5
+11/3/2022 2:49:39 PM Checking player Jan's state
+11/3/2022 2:49:39 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:39 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:39 PM Current player state: WaitingForTurn
+11/3/2022 2:49:39 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:39 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:39 PM Chaning last played card value from 4 to 5
+11/3/2022 2:49:39 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:39 PM Current player state: CurrentTurn
+11/3/2022 2:49:39 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:39 PM Clone is able to play a card
+11/3/2022 2:49:39 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:39 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:39 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:43 PM Clicked on Card Diamonds 6
+11/3/2022 2:49:43 PM Player: Clone is trying to play card Diamonds 6
+11/3/2022 2:49:43 PM InHand: Diamonds : 6
+11/3/2022 2:49:43 PM Chaning last played card value from 6 to 6
+11/3/2022 2:49:43 PM Checking player Clone's state
+11/3/2022 2:49:43 PM Checking player Clone's state
+11/3/2022 2:49:43 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:43 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:43 PM Current player state: WaitingForTurn
+11/3/2022 2:49:43 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:43 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:43 PM Chaning last played card value from 5 to 6
+11/3/2022 2:49:43 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:43 PM Current player state: CurrentTurn
+11/3/2022 2:49:43 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:43 PM Jan is able to play a card
+11/3/2022 2:49:43 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:43 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:43 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:44 PM Clicked on Card Hearts 11
+11/3/2022 2:49:44 PM Player: Jan is trying to play card Hearts 11
+11/3/2022 2:49:44 PM InHand: Hearts : 11
+11/3/2022 2:49:44 PM Chaning last played card value from 11 to 11
+11/3/2022 2:49:44 PM Checking player Jan's state
+11/3/2022 2:49:44 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:44 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:44 PM Current player state: WaitingForTurn
+11/3/2022 2:49:44 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:44 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:44 PM Chaning last played card value from 6 to 11
+11/3/2022 2:49:44 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:44 PM Current player state: CurrentTurn
+11/3/2022 2:49:44 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:44 PM Clone is able to play a card
+11/3/2022 2:49:44 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:44 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:44 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:45 PM Clicked on Card Clubs 12
+11/3/2022 2:49:45 PM Player: Clone is trying to play card Clubs 12
+11/3/2022 2:49:45 PM InHand: Clubs : 12
+11/3/2022 2:49:45 PM Chaning last played card value from 12 to 12
+11/3/2022 2:49:45 PM Checking player Clone's state
+11/3/2022 2:49:45 PM Checking player Clone's state
+11/3/2022 2:49:45 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:45 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:45 PM Current player state: WaitingForTurn
+11/3/2022 2:49:45 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:45 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:45 PM Chaning last played card value from 11 to 12
+11/3/2022 2:49:45 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:45 PM Current player state: CurrentTurn
+11/3/2022 2:49:45 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:45 PM Jan is able to play a card
+11/3/2022 2:49:45 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:45 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:45 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:48 PM Clicked on Card Diamonds 10
+11/3/2022 2:49:48 PM Player: Jan is trying to play card Diamonds 10
+11/3/2022 2:49:48 PM InHand: Diamonds : 10
+11/3/2022 2:49:48 PM Chaning last played card value from 0 to 0
+11/3/2022 2:49:48 PM Chaning last played card value from 12 to 0
+11/3/2022 2:49:49 PM Clicked on Card Diamonds 4
+11/3/2022 2:49:49 PM Player: Jan is trying to play card Diamonds 4
+11/3/2022 2:49:49 PM InHand: Diamonds : 4
+11/3/2022 2:49:49 PM Chaning last played card value from 4 to 4
+11/3/2022 2:49:49 PM Checking player Jan's state
+11/3/2022 2:49:49 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:49 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:49 PM Current player state: WaitingForTurn
+11/3/2022 2:49:49 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:49 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:49 PM Chaning last played card value from 0 to 4
+11/3/2022 2:49:49 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:49 PM Current player state: CurrentTurn
+11/3/2022 2:49:49 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:49 PM Clone is able to play a card
+11/3/2022 2:49:49 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:49 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:49 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:51 PM Clicked on Card Clubs 8
+11/3/2022 2:49:51 PM Player: Clone is trying to play card Clubs 8
+11/3/2022 2:49:51 PM InHand: Clubs : 8
+11/3/2022 2:49:51 PM Chaning last played card value from 8 to 8
+11/3/2022 2:49:51 PM Checking player Clone's state
+11/3/2022 2:49:51 PM Checking player Clone's state
+11/3/2022 2:49:51 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:51 PM Current player state: WaitingForTurn
+11/3/2022 2:49:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:51 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:51 PM Chaning last played card value from 4 to 8
+11/3/2022 2:49:51 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:51 PM Current player state: CurrentTurn
+11/3/2022 2:49:51 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:51 PM Jan is able to play a card
+11/3/2022 2:49:51 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:51 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:51 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:53 PM Clicked on Card Diamonds 1
+11/3/2022 2:49:53 PM Player: Jan is trying to play card Diamonds 1
+11/3/2022 2:49:53 PM InHand: Diamonds : 1
+11/3/2022 2:49:53 PM Chaning last played card value from 1 to 1
+11/3/2022 2:49:53 PM Checking player Jan's state
+11/3/2022 2:49:53 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:53 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:53 PM Current player state: WaitingForTurn
+11/3/2022 2:49:53 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:53 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:54 PM Chaning last played card value from 8 to 1
+11/3/2022 2:49:54 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:54 PM Current player state: CurrentTurn
+11/3/2022 2:49:54 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:54 PM Clone is able to play a card
+11/3/2022 2:49:54 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:54 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:54 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:55 PM Clicked on Card Spades 1
+11/3/2022 2:49:55 PM Player: Clone is trying to play card Spades 1
+11/3/2022 2:49:55 PM InHand: Spades : 1
+11/3/2022 2:49:55 PM Chaning last played card value from 1 to 1
+11/3/2022 2:49:55 PM Checking player Clone's state
+11/3/2022 2:49:55 PM Checking player Clone's state
+11/3/2022 2:49:55 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:55 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:55 PM Current player state: WaitingForTurn
+11/3/2022 2:49:55 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:55 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:55 PM Chaning last played card value from 1 to 1
+11/3/2022 2:49:55 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:49:55 PM Current player state: CurrentTurn
+11/3/2022 2:49:55 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:49:55 PM Jan is able to play a card
+11/3/2022 2:49:55 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:55 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:49:55 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:49:58 PM Clicked on Card Spades 10
+11/3/2022 2:49:58 PM Player: Jan is trying to play card Spades 10
+11/3/2022 2:49:58 PM InHand: Spades : 10
+11/3/2022 2:49:58 PM Chaning last played card value from 0 to 0
+11/3/2022 2:49:58 PM Chaning last played card value from 1 to 0
+11/3/2022 2:49:59 PM Clicked on Card Hearts 6
+11/3/2022 2:49:59 PM Player: Jan is trying to play card Hearts 6
+11/3/2022 2:49:59 PM InHand: Hearts : 6
+11/3/2022 2:49:59 PM Chaning last played card value from 6 to 6
+11/3/2022 2:49:59 PM Checking player Jan's state
+11/3/2022 2:49:59 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:49:59 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:59 PM Current player state: WaitingForTurn
+11/3/2022 2:49:59 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:59 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:49:59 PM Chaning last played card value from 0 to 6
+11/3/2022 2:49:59 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:49:59 PM Current player state: CurrentTurn
+11/3/2022 2:49:59 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:49:59 PM Clone is able to play a card
+11/3/2022 2:49:59 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:49:59 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:49:59 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:03 PM Clicked on Card Hearts 9
+11/3/2022 2:50:03 PM Player: Clone is trying to play card Hearts 9
+11/3/2022 2:50:03 PM InHand: Hearts : 9
+11/3/2022 2:50:03 PM Chaning last played card value from 9 to 9
+11/3/2022 2:50:03 PM Checking player Clone's state
+11/3/2022 2:50:03 PM Checking player Clone's state
+11/3/2022 2:50:03 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:03 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:03 PM Current player state: WaitingForTurn
+11/3/2022 2:50:03 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:03 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:03 PM Chaning last played card value from 6 to 9
+11/3/2022 2:50:03 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:03 PM Current player state: CurrentTurn
+11/3/2022 2:50:03 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:50:03 PM Jan is able to play a card
+11/3/2022 2:50:03 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:50:03 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:03 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:03 PM Clicked on Card Spades 12
+11/3/2022 2:50:03 PM Player: Jan is trying to play card Spades 12
+11/3/2022 2:50:03 PM InHand: Spades : 12
+11/3/2022 2:50:04 PM Chaning last played card value from 12 to 12
+11/3/2022 2:50:04 PM Checking player Jan's state
+11/3/2022 2:50:04 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:04 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:04 PM Current player state: WaitingForTurn
+11/3/2022 2:50:04 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:04 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:04 PM Chaning last played card value from 9 to 12
+11/3/2022 2:50:04 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:04 PM Current player state: CurrentTurn
+11/3/2022 2:50:04 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:50:04 PM Clone is able to play a card
+11/3/2022 2:50:04 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:50:04 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:04 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:08 PM Clicked on Card Clubs 1
+11/3/2022 2:50:08 PM Player: Clone is trying to play card Clubs 1
+11/3/2022 2:50:08 PM InHand: Clubs : 1
+11/3/2022 2:50:08 PM Chaning last played card value from 1 to 1
+11/3/2022 2:50:08 PM Checking player Clone's state
+11/3/2022 2:50:08 PM Checking player Clone's state
+11/3/2022 2:50:08 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:08 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:08 PM Current player state: WaitingForTurn
+11/3/2022 2:50:08 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:08 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:08 PM Chaning last played card value from 12 to 1
+11/3/2022 2:50:08 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:08 PM Current player state: CurrentTurn
+11/3/2022 2:50:08 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:50:08 PM No cards are playable. Grabbing all cards
+11/3/2022 2:50:08 PM Chaning last played card value from 1 to 0
+11/3/2022 2:50:08 PM Starting next round
+11/3/2022 2:50:08 PM Checking state
+11/3/2022 2:50:08 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:08 PM Current player state: WaitingForTurn
+11/3/2022 2:50:08 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:08 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:08 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:08 PM Setting player Jan turn text to Your turn, while current state is WaitingForTurn
+11/3/2022 2:50:09 PM Chaning last played card value from 1 to 0
+11/3/2022 2:50:09 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:09 PM Current player state: CurrentTurn
+11/3/2022 2:50:09 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:50:09 PM Clone is able to play a card
+11/3/2022 2:50:09 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:50:09 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:09 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:11 PM Clicked on Card Spades 3
+11/3/2022 2:50:11 PM Player: Clone is trying to play card Spades 3
+11/3/2022 2:50:11 PM InHand: Spades : 3
+11/3/2022 2:50:11 PM Chaning last played card value from 0 to 0
+11/3/2022 2:50:11 PM Checking player Clone's state
+11/3/2022 2:50:11 PM Checking player Clone's state
+11/3/2022 2:50:11 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:12 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:12 PM Current player state: WaitingForTurn
+11/3/2022 2:50:12 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:12 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:12 PM Chaning last played card value from 0 to 0
+11/3/2022 2:50:12 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:12 PM Current player state: CurrentTurn
+11/3/2022 2:50:12 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:50:12 PM Jan is able to play a card
+11/3/2022 2:50:12 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:50:12 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:12 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:16 PM Clicked on Card Clubs 7
+11/3/2022 2:50:16 PM Player: Jan is trying to play card Clubs 7
+11/3/2022 2:50:16 PM InHand: Clubs : 7
+11/3/2022 2:50:16 PM Chaning last played card value from 7 to 7
+11/3/2022 2:50:16 PM Checking player Jan's state
+11/3/2022 2:50:16 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:16 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:16 PM Current player state: WaitingForTurn
+11/3/2022 2:50:16 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:16 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:16 PM Chaning last played card value from 0 to 7
+11/3/2022 2:50:16 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:16 PM Current player state: CurrentTurn
+11/3/2022 2:50:16 PM Player: Clone has more then 0 cards in hand
+11/3/2022 2:50:16 PM Clone is able to play a card
+11/3/2022 2:50:16 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:50:16 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:16 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:18 PM Clicked on Card Hearts 6
+11/3/2022 2:50:18 PM Player: Jan is trying to play card Hearts 6
+11/3/2022 2:50:18 PM Can't play. Not your turn
+11/3/2022 2:50:20 PM Clicked on Card Hearts 3
+11/3/2022 2:50:20 PM Player: Clone is trying to play card Hearts 3
+11/3/2022 2:50:20 PM InHand: Hearts : 3
+11/3/2022 2:50:20 PM Chaning last played card value from 7 to 7
+11/3/2022 2:50:20 PM Checking player Clone's state
+11/3/2022 2:50:20 PM Checking player Clone's state
+11/3/2022 2:50:20 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:20 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:20 PM Current player state: WaitingForTurn
+11/3/2022 2:50:20 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:20 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:20 PM Chaning last played card value from 7 to 7
+11/3/2022 2:50:20 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:20 PM Current player state: CurrentTurn
+11/3/2022 2:50:20 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:50:20 PM Jan is able to play a card
+11/3/2022 2:50:20 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:50:20 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:20 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:21 PM Clicked on Card Hearts 6
+11/3/2022 2:50:21 PM Player: Jan is trying to play card Hearts 6
+11/3/2022 2:50:21 PM InHand: Hearts : 6
+11/3/2022 2:50:21 PM Chaning last played card value from 6 to 6
+11/3/2022 2:50:21 PM Checking player Jan's state
+11/3/2022 2:50:21 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:21 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:21 PM Current player state: WaitingForTurn
+11/3/2022 2:50:21 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:21 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:21 PM Chaning last played card value from 7 to 6
+11/3/2022 2:50:21 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:21 PM Current player state: CurrentTurn
+11/3/2022 2:50:21 PM Player: Clone has less then 0 cards in hand
+11/3/2022 2:50:21 PM Clone is able to play a card
+11/3/2022 2:50:21 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:50:21 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:21 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:25 PM Clicked on Card Spades 6
+11/3/2022 2:50:25 PM Player: Clone is trying to play card Spades 6
+11/3/2022 2:50:25 PM FaceUp: Spades : 6
+11/3/2022 2:50:25 PM Chaning last played card value from 6 to 6
+11/3/2022 2:50:25 PM Checking player Clone's state
+11/3/2022 2:50:25 PM Checking player Clone's state
+11/3/2022 2:50:25 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:25 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:25 PM Current player state: WaitingForTurn
+11/3/2022 2:50:25 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:25 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:25 PM Chaning last played card value from 6 to 6
+11/3/2022 2:50:25 PM Setting player state. Function called by #02 'Clone'
+11/3/2022 2:50:25 PM Current player state: CurrentTurn
+11/3/2022 2:50:25 PM Player: Jan has more then 0 cards in hand
+11/3/2022 2:50:25 PM Jan is able to play a card
+11/3/2022 2:50:25 PM Player Jan: chaning state from WaitingForTurn to CurrentTurn
+11/3/2022 2:50:25 PM Setting player turn indicatior text. Function called by #02 'Clone'
+11/3/2022 2:50:25 PM Setting player Jan turn text to Your turn, while current state is CurrentTurn
+11/3/2022 2:50:30 PM Clicked on Card Clubs 1
+11/3/2022 2:50:30 PM Player: Jan is trying to play card Clubs 1
+11/3/2022 2:50:30 PM InHand: Clubs : 1
+11/3/2022 2:50:30 PM Chaning last played card value from 1 to 1
+11/3/2022 2:50:30 PM Checking player Jan's state
+11/3/2022 2:50:30 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/3/2022 2:50:30 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:30 PM Current player state: WaitingForTurn
+11/3/2022 2:50:30 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:30 PM Setting player Jan turn text to NOT your turn, while current state is WaitingForTurn
+11/3/2022 2:50:30 PM Chaning last played card value from 6 to 1
+11/3/2022 2:50:30 PM Setting player state. Function called by #01 'Jan'
+11/3/2022 2:50:30 PM Current player state: CurrentTurn
+11/3/2022 2:50:30 PM Player: Clone has less then 0 cards in hand
+11/3/2022 2:50:30 PM No cards are playable. Grabbing all cards
+11/3/2022 2:50:30 PM Setting player turn indicatior text. Function called by #01 'Jan'
+11/3/2022 2:50:30 PM Setting player Clone turn text to Your turn, while current state is WaitingForTurn

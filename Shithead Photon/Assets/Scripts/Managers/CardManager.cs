@@ -34,6 +34,7 @@ public class CardManager : GameManager
     private PlayingCard _card = null;
     private GameObject playerObj = null;
     private GameObject lastPlayedCardObj = null;
+    private CardHolder faceDownCard = null;
 
     //[Range(0, 4)]
     private int JokerAmount = 0;
@@ -132,6 +133,17 @@ public class CardManager : GameManager
                 LogSystem.Log($"FaceUp: {pType} : {pValue}");
                 if (checkCardValue(pType, pValue))
                     handleCardPlay(pType, pValue, cardObj);
+                else
+                {
+                    GamePlayer player = playerObj.GetComponent<GamePlayer>();
+
+                    handleNextRound();
+
+                    Destroy(cardObj);
+
+                    player.AddCardInHand(cardObj.GetComponent<CardHolder>().card);
+                    InstantiatePlayingCardInHand(cardObj.GetComponent<CardHolder>().card);
+                }
             }
             else if (cardObj.tag == "FaceDown" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0 &&
                      playerObj.GetComponent<GamePlayer>().CardsFaceUp.Count == 0)
@@ -139,17 +151,31 @@ public class CardManager : GameManager
                 LogSystem.Log($"FaceDown: {pType} : {pValue}");
 
                 if (checkCardValue(pType, pValue))
+                {
                     handleCardPlay(pType, pValue, cardObj);
 
-                if (checkIfPlayerWon())
+                    if (checkIfPlayerWon())
+                    {
+                        LogSystem.Log("Player won");
+
+                        setWinText(true);
+                        this.photonView.RPC("setWinText", RpcTarget.Others, false);
+
+                        setPanelActive(true, false);
+                        this.photonView.RPC("setPanelActive", RpcTarget.Others, true, false);
+                    }
+                }
+                else
                 {
-                    LogSystem.Log("Player won");
+                    GamePlayer player = playerObj.GetComponent<GamePlayer>();
 
-                    setWinText(true);
-                    this.photonView.RPC("setWinText", RpcTarget.Others, false);
+                    faceDownCard = cardObj.GetComponent<CardHolder>();
+                    handleNextRound();
 
-                    setPanelActive(true, false);
-                    this.photonView.RPC("setPanelActive", RpcTarget.Others, true, false);
+                    Destroy(cardObj);
+
+                    player.AddCardInHand(faceDownCard.card);
+                    InstantiatePlayingCardInHand(faceDownCard.card);
                 }
             }
             else
@@ -234,7 +260,7 @@ public class CardManager : GameManager
     {
         if (pValue != 2 && pValue != 3 && pValue != 7 && pValue != 10)
         {
-            if (lastPlayedCardValue == 1 && pValue == 1)
+            if (lastPlayedCardValue == 1 && pValue == 1 || pValue == 1 && lastPlayedCardValue != 7)
             {
                 lastPlayedCardValue = pValue;
                 this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
@@ -244,7 +270,7 @@ public class CardManager : GameManager
                 lastPlayedCardValue = pValue;
                 this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
             }
-            else if (lastPlayedCardValue == 7)
+            else if (lastPlayedCardValue == 7 && pValue <= 7 && pValue != 1)
             {
                 lastPlayedCardValue = pValue;
                 this.photonView.RPC("updateLastPlayedCardUI", RpcTarget.All, pType, pValue);
@@ -341,11 +367,6 @@ public class CardManager : GameManager
                     return true;
                 case 3:
                     return true;
-                //case 7:
-                //    if (lastPlayedCardValue <= 7)
-                //        return true;
-                //    else
-                //        return false;
                 case 10:
                     return true;
             }
@@ -520,7 +541,7 @@ public class CardManager : GameManager
         GameObject obj = Instantiate(cardHolderObj, new Vector3(cardSpawnPos.position.x, cardSpawnPos.position.y, 0f),
                                         Quaternion.identity, cardSpawnPos);
         obj.GetComponent<Image>().sprite = pCard.cardSprite;
-        obj.transform.name = pCard.cardSprite.name;
+        obj.transform.name = $"Card: {pCard.cardType} {pCard.cardValue}";
         obj.tag = "InHand";
 
         CardHolder holder = obj.GetComponent<CardHolder>();
@@ -647,6 +668,11 @@ public class CardManager : GameManager
                     LogSystem.Log($"Player: {PhotonNetwork.NickName} has less then 0 cards in hand");
                     canPlay = checkIfAbleToPlayCard(player.CardsFaceUp);
                 }
+                //else if (player.CardsInHand.Count == 0 && player.CardsFaceUp.Count == 0 && player.CardsFaceDown.Count != 0)
+                //{
+                //    LogSystem.Log($"Player: {PhotonNetwork.NickName} has 0 cards in hand and 0 cards face up");
+                //    canPlay = false;
+                //}
 
                 if (!canPlay)
                 {
@@ -657,6 +683,7 @@ public class CardManager : GameManager
                         player.AddCardInHand(card);
                         InstantiatePlayingCardInHand(card);
                     }
+
 
                     playedCards.Clear();
                     playedCards.TrimExcess();
