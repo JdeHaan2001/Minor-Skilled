@@ -13,6 +13,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField] private GameObject progressLabel;
     [SerializeField] private byte maxPlayersPerRoom = 4;
 
+    private string customRoomID;
+
     /// <summary>
     /// Keep track of the current process. Since connection is asynchronous and is based on several callbacks from Photon,
     /// we need to keep track of this to properly adjust the behavior when we receive call back by Photon.
@@ -50,9 +52,33 @@ public class Launcher : MonoBehaviourPunCallbacks
         progressLabel.SetActive(true);
         controlPanel.SetActive(false);
 
+        if (string.IsNullOrEmpty(customRoomID))
+        {
+            if (PhotonNetwork.IsConnected)
+            {
+                PhotonNetwork.JoinRandomRoom();
+            }
+            else
+            {
+                isConnecting = PhotonNetwork.ConnectUsingSettings();
+                PhotonNetwork.GameVersion = gameVersion;
+            }
+        }
+        else
+            JoinOrCreatePrivateRoom(customRoomID);
+
+        
+    }
+
+    public void SetRoomID(string pRoomID) => customRoomID = pRoomID;
+
+    public void JoinOrCreatePrivateRoom(string pRoomName)
+    {
         if (PhotonNetwork.IsConnected)
         {
-            PhotonNetwork.JoinRandomRoom();
+            RoomOptions roomOptions = new RoomOptions();
+            roomOptions.IsVisible = false;
+            PhotonNetwork.JoinOrCreateRoom(pRoomName, roomOptions, null);
         }
         else
         {
@@ -61,13 +87,21 @@ public class Launcher : MonoBehaviourPunCallbacks
         }
     }
 
+    public override void OnJoinedLobby()
+    {
+        base.OnJoinedLobby();
+    }
+
     public override void OnConnectedToMaster()
     {
         if (isConnecting)
         {
             //Debug.Log("PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN");
             LogSystem.Log("PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN");
-            PhotonNetwork.JoinRandomRoom();
+            if (string.IsNullOrEmpty(customRoomID))
+                PhotonNetwork.JoinRandomRoom();
+            else
+                JoinOrCreatePrivateRoom(customRoomID);
         }
     }
 
@@ -92,13 +126,18 @@ public class Launcher : MonoBehaviourPunCallbacks
         }
     }
 
-    public override void OnJoinRandomFailed(short returnCode, string message)
+    public override void OnJoinRoomFailed(short returnCode, string message)
     {
-        //Create a new room when the client can't join a room
-        //Could be because no room exists or all rooms are full
-        CreateRoom();
-        LogSystem.Log("Created a room");
+        Debug.LogErrorFormat("Room creation failed with error code {0} and error message {1}", returnCode, message);
     }
+
+    //public override void OnJoinRandomFailed(short returnCode, string message)
+    //{
+    //    //Create a new room when the client can't join a room
+    //    //Could be because no room exists or all rooms are full
+    //    //CreateRoom();
+    //    LogSystem.Log("Created a room");
+    //}
 
     private void CreateRoom()
     {

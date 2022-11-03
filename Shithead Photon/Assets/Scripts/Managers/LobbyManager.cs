@@ -83,8 +83,9 @@ public class LobbyManager : GameManager, IPunObservable
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
         base.OnPlayerLeftRoom(otherPlayer);
-        //playersReady--;
-        //photonView.RPC("UpdateUI", RpcTarget.All);
+        if(playersReady > 0)
+            playersReady--;
+        photonView.RPC("UpdateUI", RpcTarget.All);
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
