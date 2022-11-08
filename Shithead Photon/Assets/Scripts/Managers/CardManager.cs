@@ -135,14 +135,14 @@ public class CardManager : GameManager
                     handleCardPlay(pType, pValue, cardObj);
                 else
                 {
-                    GamePlayer player = playerObj.GetComponent<GamePlayer>();
+                    //GamePlayer player = playerObj.GetComponent<GamePlayer>();
 
-                    handleNextRound();
+                    //handleNextRound();
 
-                    Destroy(cardObj);
+                    //Destroy(cardObj);
 
-                    player.AddCardInHand(cardObj.GetComponent<CardHolder>().card);
-                    InstantiatePlayingCardInHand(cardObj.GetComponent<CardHolder>().card);
+                    //player.AddCardInHand(cardObj.GetComponent<CardHolder>().card);
+                    //InstantiatePlayingCardInHand(cardObj.GetComponent<CardHolder>().card);
                 }
             }
             else if (cardObj.tag == "FaceDown" && playerObj.GetComponent<GamePlayer>().CardsInHand.Count == 0 &&
@@ -154,37 +154,31 @@ public class CardManager : GameManager
                 {
                     handleCardPlay(pType, pValue, cardObj);
 
-                    if (checkIfPlayerWon())
-                    {
-                        LogSystem.Log("Player won");
-
-                        setWinText(true);
-                        this.photonView.RPC("setWinText", RpcTarget.Others, false);
-
-                        setPanelActive(true, false);
-                        this.photonView.RPC("setPanelActive", RpcTarget.Others, true, false);
-                    }
+                    
                 }
                 else
                 {
+                    LogSystem.Log($"Can't play card {pType} {pValue}");
                     GamePlayer player = playerObj.GetComponent<GamePlayer>();
+                    CardHolder faceDownHolder = cardObj.GetComponent<CardHolder>();
 
-                    faceDownCard = cardObj.GetComponent<CardHolder>();
-                    handleNextRound();
-
+                    player.GetCardInHand().Add(faceDownHolder.card);
+                    player.GetCardFaceDown().Remove(faceDownHolder.card);
                     Destroy(cardObj);
 
-                    player.AddCardInHand(faceDownCard.card);
-                    InstantiatePlayingCardInHand(faceDownCard.card);
+                    handlePlayerGetPlayedCards(player);
+                    InstantiatePlayingCardInHand(faceDownHolder.card);
                 }
             }
             else
+            {
+                GamePlayer player = playerObj.GetComponent<GamePlayer>();
                 LogSystem.Log($"Can't play {cardObj.tag}");
+                LogSystem.Log($"cards in hand: {player.CardsInHand.Count} Face Up: {player.CardsFaceUp.Count} Face Down: {player.CardsFaceDown.Count}");
+            }
         }
         else
-        {
             LogSystem.Log("Can't play. Not your turn");
-        }
     }
 
     /// <summary>
@@ -321,10 +315,31 @@ public class CardManager : GameManager
 
         //Updates the player's cards in hand list
         GamePlayer player = playerObj.GetComponent<GamePlayer>();
+        CardHolder holder = cardObj.GetComponent<CardHolder>();
 
-        player.GetCardInHand().Remove(cardObj.GetComponent<CardHolder>().card);
-        player.GetCardInHand().TrimExcess();
-        Destroy(cardObj);
+        if (cardObj.tag == "InHand")
+        {
+            LogSystem.Log($"Removing card {holder.type} {holder.value} from cards in hand");
+            player.GetCardInHand().Remove(holder.card);
+            player.GetCardInHand().TrimExcess();
+            Destroy(cardObj);
+        }
+        else if (cardObj.tag == "FaceUp")
+        {
+            bool isNull = player.GetCardFaceUp().Contains(holder.card);
+            LogSystem.Log($"Removing card {holder.type} {holder.value} {isNull} from cards face up");
+            bool canRemove = player.GetCardFaceUp().Remove(holder.card);
+            LogSystem.Log($"can remove card {holder.type} {holder.value} {holder.card} is {canRemove}");
+            player.GetCardFaceUp().TrimExcess();
+            Destroy(cardObj);
+        }
+        else if (cardObj.tag == "FaceDown")
+        {
+            LogSystem.Log($"Removing card {holder.type} {holder.value} from cards face down");
+            player.GetCardFaceDown().Remove(holder.card);
+            player.GetCardFaceDown().TrimExcess();
+            Destroy(cardObj);
+        }
 
         if (cardsToBePlayed.Count != 0 && player.GetCardInHand().Count < 3)
         {
@@ -341,6 +356,17 @@ public class CardManager : GameManager
         //Sets playerstates to give an indication if it's their turn or not
         if (pValue != 10)
             handleNextRound();
+
+        if (checkIfPlayerWon() && player.GetCardFaceDown().Count == 0)
+        {
+            LogSystem.Log("Player won");
+
+            setWinText(true);
+            this.photonView.RPC("setWinText", RpcTarget.Others, false);
+
+            setPanelActive(true, false);
+            this.photonView.RPC("setPanelActive", RpcTarget.Others, true, false);
+        }
     }
 
     /// <summary>
@@ -512,6 +538,7 @@ public class CardManager : GameManager
             CardHolder holder = obj.GetComponent<CardHolder>();
             holder.type = card.cardType;
             holder.value = card.cardValue;
+            holder.card = card;
 
             obj.GetComponent<CardButton>().CardClick += playCard;
         }
@@ -519,7 +546,7 @@ public class CardManager : GameManager
         foreach (PlayingCard card in gamePlayer.GetCardFaceDown())
         {
             GameObject obj = Instantiate(cardHolderObj, faceDownCardPos);
-            obj.transform.eulerAngles += new Vector3(0, 180, 0); //Rotate card so that back of the card is showing
+            //obj.transform.eulerAngles += new Vector3(0, 180, 0); //Rotate card so that back of the card is showing
             obj.GetComponent<Image>().color = Color.black;
             obj.transform.name = card.cardSprite.name;
             obj.tag = "FaceDown";
@@ -527,8 +554,10 @@ public class CardManager : GameManager
             CardHolder holder = obj.GetComponent<CardHolder>();
             holder.type = card.cardType;
             holder.value = card.cardValue;
+            holder.card = card;
 
             obj.GetComponent<CardButton>().CardClick += playCard;
+            LogSystem.Log($"Instantiated facedown UI for player {PhotonNetwork.NickName}");
         }
     }
 
@@ -538,18 +567,26 @@ public class CardManager : GameManager
     /// <param name="pCard"></param>
     private void InstantiatePlayingCardInHand(PlayingCard pCard)
     {
-        GameObject obj = Instantiate(cardHolderObj, new Vector3(cardSpawnPos.position.x, cardSpawnPos.position.y, 0f),
-                                        Quaternion.identity, cardSpawnPos);
-        obj.GetComponent<Image>().sprite = pCard.cardSprite;
-        obj.transform.name = $"Card: {pCard.cardType} {pCard.cardValue}";
-        obj.tag = "InHand";
+        if (pCard.cardValue >= 1 && pCard.cardValue <= 13)
+        {
+            LogSystem.Log($"Instantiating card: {pCard.cardType} {pCard.cardValue}");
 
-        CardHolder holder = obj.GetComponent<CardHolder>();
-        holder.type = pCard.cardType;
-        holder.value = pCard.cardValue;
-        holder.card = pCard;
+            GameObject obj = Instantiate(cardHolderObj, new Vector3(cardSpawnPos.position.x, cardSpawnPos.position.y, 0f),
+                                            Quaternion.identity, cardSpawnPos);
+            obj.GetComponent<Image>().sprite = pCard.cardSprite;
+            obj.transform.name = $"Card: {pCard.cardType} {pCard.cardValue}";
+            obj.tag = "InHand";
 
-        obj.GetComponent<CardButton>().CardClick += playCard;
+            CardHolder holder = obj.GetComponent<CardHolder>();
+            holder.type = pCard.cardType;
+            holder.value = pCard.cardValue;
+            holder.card = pCard;
+
+            obj.GetComponent<CardButton>().CardClick += playCard;
+        }
+        else
+            LogSystem.Log($"Can't instantiate card {pCard.cardType} {pCard.cardValue}");
+
     }
 
     /// <summary>
@@ -654,16 +691,17 @@ public class CardManager : GameManager
         if ((PlayerStates)pState == PlayerStates.CurrentTurn)
         {
             GamePlayer player = playerObj.GetComponent<GamePlayer>();
+
             if (player != null)
             {
                 bool canPlay = false;
 
-                if (player.CardsInHand.Count != 0)
+                if (player.CardsInHand.Count > 0)
                 {
                     LogSystem.Log($"Player: {PhotonNetwork.NickName} has more then 0 cards in hand");
                     canPlay = checkIfAbleToPlayCard(player.CardsInHand);
                 }
-                else if (player.CardsInHand.Count == 0 && player.CardsFaceUp.Count != 0)
+                else if (player.CardsInHand.Count == 0 && player.CardsFaceUp.Count > 0)
                 {
                     LogSystem.Log($"Player: {PhotonNetwork.NickName} has less then 0 cards in hand");
                     canPlay = checkIfAbleToPlayCard(player.CardsFaceUp);
@@ -674,26 +712,9 @@ public class CardManager : GameManager
                 //    canPlay = false;
                 //}
 
-                if (!canPlay)
+                if (!canPlay && player.CardsFaceUp.Count > 0)
                 {
-                    LogSystem.Log("No cards are playable. Grabbing all cards");
-
-                    foreach (PlayingCard card in playedCards)
-                    {
-                        player.AddCardInHand(card);
-                        InstantiatePlayingCardInHand(card);
-                    }
-
-
-                    playedCards.Clear();
-                    playedCards.TrimExcess();
-                    this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
-                    this.photonView.RPC("destroyLastPlayedCardObj", RpcTarget.All);
-
-                    this.photonView.RPC("setLastPlayedCardValue", RpcTarget.All, 0);
-
-                    LogSystem.Log("Starting next round");
-                    handleNextRound(true);
+                    handlePlayerGetPlayedCards(player);
                 }
                 else
                 {
@@ -704,6 +725,27 @@ public class CardManager : GameManager
         }
         else
             playerObj.GetComponent<GamePlayer>().currentState = (PlayerStates)pState;
+    }
+
+    private void handlePlayerGetPlayedCards(GamePlayer pPlayer)
+    {
+            LogSystem.Log("No cards are playable. Grabbing all cards");
+
+            foreach (PlayingCard card in playedCards)
+            {
+                pPlayer.AddCardInHand(card);
+                InstantiatePlayingCardInHand(card);
+            }
+
+            playedCards.Clear();
+            playedCards.TrimExcess();
+            this.photonView.RPC("updatePlayedCardsList", RpcTarget.All, CardArrayToIntArray(playedCards.ToArray()));
+            this.photonView.RPC("destroyLastPlayedCardObj", RpcTarget.All);
+
+            this.photonView.RPC("setLastPlayedCardValue", RpcTarget.All, 0);
+
+            LogSystem.Log("Starting next round");
+            handleNextRound(true);
     }
 
     /// <summary>
