@@ -45,6 +45,17 @@ MonoBehaviour:
   - updateUI
   - RPCReceiveCards
   - SetCard
+  - dealCards
+  - setPlayerState
+  - updateLastPlayedCardUI
+  - initCardUI
+  - updateCardsToBePlayedList
+  - setTurnIndicatorText
+  - destroyLastPlayedCardObj
+  - setLastPlayedCardValue
+  - updatePlayedCardsList
+  - setPanelActive
+  - setWinText
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

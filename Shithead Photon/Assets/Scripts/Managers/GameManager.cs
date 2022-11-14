@@ -48,5 +48,9 @@ public class GameManager : MonoBehaviourPunCallbacks
         PhotonNetwork.LeaveRoom();
     }
 
-   
+    [PunRPC]
+    public void loadGameLevel(string pSceneName)
+    {
+        PhotonNetwork.LoadLevel(pSceneName);
+    }
 }
