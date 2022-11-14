@@ -74,6 +74,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d5eaf26c86035a64c94803dc3c464597, type: 3}
   - {fileID: 21300000, guid: 662b42ac87a650b4caafb50a43e62921, type: 3}
   - {fileID: 21300000, guid: a29ba0cc5ca91d14ab173ec0b30dcf03, type: 3}
+  - {fileID: 21300000, guid: 4867ecdcdfc53f74590abafe95b37807, type: 3}
   - {fileID: 21300000, guid: 5a5fb4ec0060f854abfa8065dce4a1be, type: 3}
   - {fileID: 21300000, guid: 5566789d00e425740bbbbb64c38c5f7a, type: 3}
   - {fileID: 21300000, guid: fc2810ad7da8ba14c839f8a694a2213f, type: 3}
@@ -127,6 +128,7 @@ SpriteAtlas:
   - 9_diamond
   - 8_club
   - 3_club
+  - card_back
   - 10_spade
   - 9_heart
   - 10_club

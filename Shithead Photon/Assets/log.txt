@@ -22356,3 +22356,148 @@ Log for Shithead Photon28-10-2022 15:10:02 Created a room28-10-2022 15:10:03 PUN
 11/14/2022 9:04:07 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
 11/14/2022 9:04:07 PM Setting player turn indicatior text. Function called by #01 'Jeroen'
 11/14/2022 9:04:07 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn
+11/14/2022 9:18:03 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/14/2022 9:18:04 PM PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.
+11/14/2022 9:18:04 PM Loading the Room for 1
+11/14/2022 9:18:04 PM Players in Room: 1
+11/14/2022 9:18:15 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/14/2022 9:18:15 PM Players in Room: 2
+11/14/2022 9:18:19 PM Player Ready: Jeroen
+11/14/2022 9:18:19 PM Total players ready = 1
+11/14/2022 9:18:19 PM Players in Room: 2
+11/14/2022 9:18:21 PM Player Ready: Clone
+11/14/2022 9:18:21 PM Total players ready = 2
+11/14/2022 9:18:21 PM Players in Room: 2
+11/14/2022 9:18:21 PM Player un-ready: Clone
+11/14/2022 9:18:21 PM Total players ready = 1
+11/14/2022 9:18:21 PM Instantiating local player object
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 8
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 5
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 8
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 9
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 3
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 11
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 5
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 6
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 9
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 5
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 9
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 8
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 7
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 12
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 5
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 9
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 12
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 13
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 13
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 6
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 10
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 11
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 3
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 1
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 4
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 10
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 11
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 12
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 7
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 7
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 4
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 1
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 11
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 13
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 3
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 2
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 3
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 1
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 10
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 4
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 8
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 13
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 1
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 2
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 6
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 10
+11/14/2022 9:18:24 PM Card Type: diamond
+ Card Value: 7
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 4
+11/14/2022 9:18:24 PM Card Type: club
+ Card Value: 2
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 2
+11/14/2022 9:18:24 PM Card Type: heart
+ Card Value: 6
+11/14/2022 9:18:24 PM Card Type: spade
+ Card Value: 12
+11/14/2022 9:18:24 PM Instantiating local player object
+11/14/2022 9:18:24 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/14/2022 9:18:24 PM Instantiating card: heart 5
+11/14/2022 9:18:24 PM Instantiating card: spade 6
+11/14/2022 9:18:24 PM Instantiating card: spade 9
+11/14/2022 9:18:24 PM Instantiated facedown UI for player Jeroen
+11/14/2022 9:18:24 PM Instantiated facedown UI for player Jeroen
+11/14/2022 9:18:24 PM Instantiated facedown UI for player Jeroen
+11/14/2022 9:18:24 PM Setting player state. Function called by #01 'Jeroen'
+11/14/2022 9:18:24 PM Current player state: CurrentTurn
+11/14/2022 9:18:24 PM Player: Jeroen has more then 0 cards in hand
+11/14/2022 9:18:24 PM Jeroen is able to play a card
+11/14/2022 9:18:24 PM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/14/2022 9:18:24 PM Setting player turn indicatior text. Function called by #01 'Jeroen'
+11/14/2022 9:18:24 PM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/14/2022 9:18:27 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/14/2022 9:18:27 PM Instantiating card: diamond 12
+11/14/2022 9:18:27 PM Instantiating card: club 9
+11/14/2022 9:18:27 PM Instantiating card: club 13
+11/14/2022 9:18:27 PM Instantiated facedown UI for player Clone
+11/14/2022 9:18:27 PM Instantiated facedown UI for player Clone
+11/14/2022 9:18:27 PM Instantiated facedown UI for player Clone
+11/14/2022 9:18:27 PM Setting player state. Function called by #01 'Jeroen'
+11/14/2022 9:18:27 PM Current player state: WaitingForTurn
+11/14/2022 9:18:27 PM Setting player turn indicatior text. Function called by #01 'Jeroen'
+11/14/2022 9:18:27 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
