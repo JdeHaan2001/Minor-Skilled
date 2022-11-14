@@ -14,6 +14,7 @@ public class CardManager : GameManager
 
     [SerializeField] private List<PlayingCard> playingCardList = new List<PlayingCard>();
     [SerializeField] private SpriteAtlas spriteAtlas;
+    [SerializeField] private Sprite cardBackSprite;
     [SerializeField] private Transform cardSpawnPos;
     [SerializeField] private GameObject cardHolderObj;
     [SerializeField] private Canvas canvas;
@@ -64,13 +65,13 @@ public class CardManager : GameManager
             for (int i = 1; i <= 52; i++)
             {
                 if (i <= 13)
-                    playingCardList.Add(MakePlayingCard(CardType.Clubs, i));
+                    playingCardList.Add(MakePlayingCard(CardType.club, i));
                 else if (i > 13 && i <= 26)
-                    playingCardList.Add(MakePlayingCard(CardType.Diamonds, i % 13 == 0 ? 13 : i % 13));
+                    playingCardList.Add(MakePlayingCard(CardType.diamond, i % 13 == 0 ? 13 : i % 13));
                 else if (i > 26 && i <= 39)
-                    playingCardList.Add(MakePlayingCard(CardType.Spades, i % 13 == 0 ? 13 : i % 13));
+                    playingCardList.Add(MakePlayingCard(CardType.spade, i % 13 == 0 ? 13 : i % 13));
                 else if (i > 39 && i <= 52)
-                    playingCardList.Add(MakePlayingCard(CardType.Hearts, i % 13 == 0 ? 13 : i % 13));
+                    playingCardList.Add(MakePlayingCard(CardType.heart, i % 13 == 0 ? 13 : i % 13));
             }
 
             #region make jokers
@@ -153,8 +154,6 @@ public class CardManager : GameManager
                 if (checkCardValue(pType, pValue))
                 {
                     handleCardPlay(pType, pValue, cardObj);
-
-                    
                 }
                 else
                 {
@@ -446,7 +445,7 @@ public class CardManager : GameManager
     /// <returns></returns>
     public Sprite GetCardSprite(CardType pCardType, int pValue)
     {
-        return spriteAtlas.GetSprite($"{pCardType}_{pValue}_white");
+        return spriteAtlas.GetSprite($"{pValue}_{pCardType}");
     }
 
     /// <summary>
@@ -547,7 +546,8 @@ public class CardManager : GameManager
         {
             GameObject obj = Instantiate(cardHolderObj, faceDownCardPos);
             //obj.transform.eulerAngles += new Vector3(0, 180, 0); //Rotate card so that back of the card is showing
-            obj.GetComponent<Image>().color = Color.black;
+            //obj.GetComponent<Image>().color = Color.black;
+            obj.GetComponent<Image>().sprite = cardBackSprite;
             obj.transform.name = card.cardSprite.name;
             obj.tag = "FaceDown";
 

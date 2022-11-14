@@ -21041,3 +21041,1318 @@ Log for Shithead Photon28-10-2022 15:10:02 Created a room28-10-2022 15:10:03 PUN
 8-11-2022 16:33:16 Current player state: WaitingForTurn
 8-11-2022 16:33:16 Setting player turn indicatior text. Function called by #01 'Jeroen'
 8-11-2022 16:33:16 Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:26:25 AM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/9/2022 11:26:25 AM Players in Room: 2
+11/9/2022 11:26:27 AM Player Ready: Jeroen
+11/9/2022 11:26:27 AM Total players ready = 1
+11/9/2022 11:26:27 AM Players in Room: 2
+11/9/2022 11:26:31 AM Instantiating local player object
+11/9/2022 11:26:32 AM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/9/2022 11:26:32 AM Instantiating card: Spades 1
+11/9/2022 11:26:32 AM Instantiating card: Clubs 10
+11/9/2022 11:26:32 AM Instantiating card: Clubs 12
+11/9/2022 11:26:32 AM Instantiated facedown UI for player Jeroen
+11/9/2022 11:26:32 AM Instantiated facedown UI for player Jeroen
+11/9/2022 11:26:32 AM Instantiated facedown UI for player Jeroen
+11/9/2022 11:26:32 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:26:32 AM Current player state: WaitingForTurn
+11/9/2022 11:26:32 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:26:32 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:26:39 AM Chaning last played card value from -1 to 7
+11/9/2022 11:26:39 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:26:39 AM Current player state: CurrentTurn
+11/9/2022 11:26:39 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:26:39 AM Jeroen is able to play a card
+11/9/2022 11:26:39 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:26:39 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:26:39 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:26:42 AM Clicked on Card Clubs 10
+11/9/2022 11:26:42 AM Player: Jeroen is trying to play card Clubs 10
+11/9/2022 11:26:42 AM InHand: Clubs : 10
+11/9/2022 11:26:42 AM Chaning last played card value from 0 to 0
+11/9/2022 11:26:42 AM Removing card Clubs 10 from cards in hand
+11/9/2022 11:26:42 AM Instantiating card: Clubs 3
+11/9/2022 11:26:44 AM Clicked on Card Clubs 12
+11/9/2022 11:26:44 AM Player: Jeroen is trying to play card Clubs 12
+11/9/2022 11:26:44 AM InHand: Clubs : 12
+11/9/2022 11:26:44 AM Chaning last played card value from 12 to 12
+11/9/2022 11:26:44 AM Removing card Clubs 12 from cards in hand
+11/9/2022 11:26:44 AM Instantiating card: Diamonds 13
+11/9/2022 11:26:44 AM Checking player Jeroen's state
+11/9/2022 11:26:44 AM Checking player Jeroen's state
+11/9/2022 11:26:44 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:26:44 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:26:44 AM Current player state: WaitingForTurn
+11/9/2022 11:26:44 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:26:44 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:26:47 AM Chaning last played card value from 12 to 12
+11/9/2022 11:26:47 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:26:47 AM Current player state: CurrentTurn
+11/9/2022 11:26:47 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:26:47 AM Jeroen is able to play a card
+11/9/2022 11:26:47 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:26:47 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:26:47 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:26:50 AM Clicked on Card Diamonds 13
+11/9/2022 11:26:50 AM Player: Jeroen is trying to play card Diamonds 13
+11/9/2022 11:26:50 AM InHand: Diamonds : 13
+11/9/2022 11:26:50 AM Chaning last played card value from 13 to 13
+11/9/2022 11:26:50 AM Removing card Diamonds 13 from cards in hand
+11/9/2022 11:26:50 AM Instantiating card: Hearts 10
+11/9/2022 11:26:50 AM Checking player Jeroen's state
+11/9/2022 11:26:50 AM Checking player Jeroen's state
+11/9/2022 11:26:50 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:26:50 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:26:50 AM Current player state: WaitingForTurn
+11/9/2022 11:26:50 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:26:50 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:26:53 AM Chaning last played card value from 13 to 13
+11/9/2022 11:26:53 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:26:53 AM Current player state: CurrentTurn
+11/9/2022 11:26:53 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:26:53 AM Jeroen is able to play a card
+11/9/2022 11:26:53 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:26:53 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:26:53 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:26:55 AM Clicked on Card Spades 1
+11/9/2022 11:26:55 AM Player: Jeroen is trying to play card Spades 1
+11/9/2022 11:26:55 AM InHand: Spades : 1
+11/9/2022 11:26:55 AM Chaning last played card value from 1 to 1
+11/9/2022 11:26:55 AM Removing card Spades 1 from cards in hand
+11/9/2022 11:26:55 AM Instantiating card: Hearts 1
+11/9/2022 11:26:55 AM Checking player Jeroen's state
+11/9/2022 11:26:55 AM Checking player Jeroen's state
+11/9/2022 11:26:55 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:26:55 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:26:55 AM Current player state: WaitingForTurn
+11/9/2022 11:26:55 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:26:55 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:27:06 AM Chaning last played card value from 1 to 0
+11/9/2022 11:27:12 AM Chaning last played card value from 0 to 9
+11/9/2022 11:27:12 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:12 AM Current player state: CurrentTurn
+11/9/2022 11:27:12 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:27:12 AM Jeroen is able to play a card
+11/9/2022 11:27:12 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:27:12 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:12 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:27:17 AM Clicked on Card Hearts 1
+11/9/2022 11:27:17 AM Player: Jeroen is trying to play card Hearts 1
+11/9/2022 11:27:17 AM InHand: Hearts : 1
+11/9/2022 11:27:17 AM Chaning last played card value from 1 to 1
+11/9/2022 11:27:17 AM Removing card Hearts 1 from cards in hand
+11/9/2022 11:27:17 AM Instantiating card: Diamonds 5
+11/9/2022 11:27:17 AM Checking player Jeroen's state
+11/9/2022 11:27:17 AM Checking player Jeroen's state
+11/9/2022 11:27:17 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:27:17 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:27:17 AM Current player state: WaitingForTurn
+11/9/2022 11:27:17 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:27:17 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:27:20 AM Chaning last played card value from 1 to 0
+11/9/2022 11:27:20 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:20 AM Current player state: CurrentTurn
+11/9/2022 11:27:20 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:27:20 AM Jeroen is able to play a card
+11/9/2022 11:27:20 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:27:20 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:20 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:27:31 AM Clicked on Card Diamonds 5
+11/9/2022 11:27:31 AM Player: Jeroen is trying to play card Diamonds 5
+11/9/2022 11:27:31 AM InHand: Diamonds : 5
+11/9/2022 11:27:31 AM Chaning last played card value from 5 to 5
+11/9/2022 11:27:31 AM Removing card Diamonds 5 from cards in hand
+11/9/2022 11:27:31 AM Instantiating card: Clubs 8
+11/9/2022 11:27:31 AM Checking player Jeroen's state
+11/9/2022 11:27:31 AM Checking player Jeroen's state
+11/9/2022 11:27:31 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:27:31 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:27:31 AM Current player state: WaitingForTurn
+11/9/2022 11:27:31 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:27:31 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:27:35 AM Chaning last played card value from 5 to 7
+11/9/2022 11:27:35 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:35 AM Current player state: CurrentTurn
+11/9/2022 11:27:35 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:27:35 AM Jeroen is able to play a card
+11/9/2022 11:27:35 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:27:35 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:35 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:27:41 AM Clicked on Card Clubs 3
+11/9/2022 11:27:41 AM Player: Jeroen is trying to play card Clubs 3
+11/9/2022 11:27:41 AM InHand: Clubs : 3
+11/9/2022 11:27:41 AM Chaning last played card value from 7 to 7
+11/9/2022 11:27:41 AM Removing card Clubs 3 from cards in hand
+11/9/2022 11:27:41 AM Instantiating card: Diamonds 2
+11/9/2022 11:27:41 AM Checking player Jeroen's state
+11/9/2022 11:27:41 AM Checking player Jeroen's state
+11/9/2022 11:27:41 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:27:41 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:27:41 AM Current player state: WaitingForTurn
+11/9/2022 11:27:41 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:27:41 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:27:43 AM Chaning last played card value from 7 to 4
+11/9/2022 11:27:43 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:43 AM Current player state: CurrentTurn
+11/9/2022 11:27:43 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:27:43 AM Jeroen is able to play a card
+11/9/2022 11:27:43 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:27:43 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:43 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:27:49 AM Clicked on Card Clubs 8
+11/9/2022 11:27:50 AM Player: Jeroen is trying to play card Clubs 8
+11/9/2022 11:27:50 AM InHand: Clubs : 8
+11/9/2022 11:27:50 AM Chaning last played card value from 8 to 8
+11/9/2022 11:27:50 AM Removing card Clubs 8 from cards in hand
+11/9/2022 11:27:50 AM Instantiating card: Hearts 6
+11/9/2022 11:27:50 AM Checking player Jeroen's state
+11/9/2022 11:27:50 AM Checking player Jeroen's state
+11/9/2022 11:27:50 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:27:50 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:27:50 AM Current player state: WaitingForTurn
+11/9/2022 11:27:50 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:27:50 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:27:53 AM Chaning last played card value from 8 to 8
+11/9/2022 11:27:53 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:53 AM Current player state: CurrentTurn
+11/9/2022 11:27:53 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:27:53 AM Jeroen is able to play a card
+11/9/2022 11:27:53 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:27:53 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:53 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:27:55 AM Clicked on Card Diamonds 2
+11/9/2022 11:27:56 AM Player: Jeroen is trying to play card Diamonds 2
+11/9/2022 11:27:56 AM InHand: Diamonds : 2
+11/9/2022 11:27:56 AM Chaning last played card value from 0 to 0
+11/9/2022 11:27:56 AM Removing card Diamonds 2 from cards in hand
+11/9/2022 11:27:56 AM Instantiating card: Hearts 3
+11/9/2022 11:27:56 AM Checking player Jeroen's state
+11/9/2022 11:27:56 AM Checking player Jeroen's state
+11/9/2022 11:27:56 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:27:56 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:27:56 AM Current player state: WaitingForTurn
+11/9/2022 11:27:56 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:27:56 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:27:57 AM Chaning last played card value from 0 to 4
+11/9/2022 11:27:57 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:57 AM Current player state: CurrentTurn
+11/9/2022 11:27:57 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:27:57 AM Jeroen is able to play a card
+11/9/2022 11:27:57 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:27:57 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:27:57 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:28:07 AM Clicked on Card Hearts 6
+11/9/2022 11:28:07 AM Player: Jeroen is trying to play card Hearts 6
+11/9/2022 11:28:07 AM InHand: Hearts : 6
+11/9/2022 11:28:07 AM Chaning last played card value from 6 to 6
+11/9/2022 11:28:07 AM Removing card Hearts 6 from cards in hand
+11/9/2022 11:28:07 AM Instantiating card: Spades 2
+11/9/2022 11:28:07 AM Checking player Jeroen's state
+11/9/2022 11:28:07 AM Checking player Jeroen's state
+11/9/2022 11:28:07 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:28:07 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:28:07 AM Current player state: WaitingForTurn
+11/9/2022 11:28:07 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:28:07 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:28:19 AM Chaning last played card value from 6 to 11
+11/9/2022 11:28:19 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:19 AM Current player state: CurrentTurn
+11/9/2022 11:28:19 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:28:19 AM Jeroen is able to play a card
+11/9/2022 11:28:19 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:28:19 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:19 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:28:29 AM Clicked on Card Spades 2
+11/9/2022 11:28:29 AM Player: Jeroen is trying to play card Spades 2
+11/9/2022 11:28:29 AM InHand: Spades : 2
+11/9/2022 11:28:29 AM Chaning last played card value from 0 to 0
+11/9/2022 11:28:29 AM Removing card Spades 2 from cards in hand
+11/9/2022 11:28:29 AM Instantiating card: Spades 13
+11/9/2022 11:28:29 AM Checking player Jeroen's state
+11/9/2022 11:28:29 AM Checking player Jeroen's state
+11/9/2022 11:28:29 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:28:29 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:28:29 AM Current player state: WaitingForTurn
+11/9/2022 11:28:29 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:28:29 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:28:32 AM Chaning last played card value from 0 to 4
+11/9/2022 11:28:32 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:32 AM Current player state: CurrentTurn
+11/9/2022 11:28:32 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:28:32 AM Jeroen is able to play a card
+11/9/2022 11:28:32 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:28:32 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:32 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:28:33 AM Clicked on Card Spades 13
+11/9/2022 11:28:33 AM Player: Jeroen is trying to play card Spades 13
+11/9/2022 11:28:33 AM InHand: Spades : 13
+11/9/2022 11:28:33 AM Chaning last played card value from 13 to 13
+11/9/2022 11:28:33 AM Removing card Spades 13 from cards in hand
+11/9/2022 11:28:33 AM Instantiating card: Hearts 13
+11/9/2022 11:28:33 AM Checking player Jeroen's state
+11/9/2022 11:28:33 AM Checking player Jeroen's state
+11/9/2022 11:28:33 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:28:33 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:28:33 AM Current player state: WaitingForTurn
+11/9/2022 11:28:33 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:28:33 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:28:37 AM Chaning last played card value from 13 to 1
+11/9/2022 11:28:37 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:37 AM Current player state: CurrentTurn
+11/9/2022 11:28:37 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:28:37 AM Jeroen is able to play a card
+11/9/2022 11:28:37 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:28:37 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:37 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:28:41 AM Clicked on Card Hearts 3
+11/9/2022 11:28:42 AM Player: Jeroen is trying to play card Hearts 3
+11/9/2022 11:28:42 AM InHand: Hearts : 3
+11/9/2022 11:28:42 AM Chaning last played card value from 1 to 1
+11/9/2022 11:28:42 AM Removing card Hearts 3 from cards in hand
+11/9/2022 11:28:42 AM Instantiating card: Spades 12
+11/9/2022 11:28:42 AM Checking player Jeroen's state
+11/9/2022 11:28:42 AM Checking player Jeroen's state
+11/9/2022 11:28:42 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:28:42 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:28:42 AM Current player state: WaitingForTurn
+11/9/2022 11:28:42 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:28:42 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:28:44 AM Chaning last played card value from 1 to 1
+11/9/2022 11:28:44 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:44 AM Current player state: CurrentTurn
+11/9/2022 11:28:44 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:28:44 AM Jeroen is able to play a card
+11/9/2022 11:28:44 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:28:44 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:44 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:28:46 AM Clicked on Card Hearts 10
+11/9/2022 11:28:46 AM Player: Jeroen is trying to play card Hearts 10
+11/9/2022 11:28:46 AM InHand: Hearts : 10
+11/9/2022 11:28:46 AM Chaning last played card value from 0 to 0
+11/9/2022 11:28:46 AM Removing card Hearts 10 from cards in hand
+11/9/2022 11:28:46 AM Instantiating card: Clubs 13
+11/9/2022 11:28:47 AM Clicked on Card Spades 12
+11/9/2022 11:28:47 AM Player: Jeroen is trying to play card Spades 12
+11/9/2022 11:28:47 AM InHand: Spades : 12
+11/9/2022 11:28:47 AM Chaning last played card value from 12 to 12
+11/9/2022 11:28:47 AM Removing card Spades 12 from cards in hand
+11/9/2022 11:28:47 AM Instantiating card: Clubs 2
+11/9/2022 11:28:47 AM Checking player Jeroen's state
+11/9/2022 11:28:47 AM Checking player Jeroen's state
+11/9/2022 11:28:47 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:28:47 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:28:47 AM Current player state: WaitingForTurn
+11/9/2022 11:28:47 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:28:47 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:28:47 AM Chaning last played card value from 12 to 0
+11/9/2022 11:28:47 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:47 AM Current player state: CurrentTurn
+11/9/2022 11:28:47 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:28:47 AM Jeroen is able to play a card
+11/9/2022 11:28:47 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:28:47 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:47 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:28:50 AM Clicked on Card Clubs 13
+11/9/2022 11:28:50 AM Player: Jeroen is trying to play card Clubs 13
+11/9/2022 11:28:50 AM InHand: Clubs : 13
+11/9/2022 11:28:50 AM Chaning last played card value from 13 to 13
+11/9/2022 11:28:50 AM Removing card Clubs 13 from cards in hand
+11/9/2022 11:28:50 AM Instantiating card: Diamonds 12
+11/9/2022 11:28:50 AM Checking player Jeroen's state
+11/9/2022 11:28:50 AM Checking player Jeroen's state
+11/9/2022 11:28:50 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:28:50 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:28:50 AM Current player state: WaitingForTurn
+11/9/2022 11:28:50 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:28:50 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:28:50 AM Chaning last played card value from 13 to 0
+11/9/2022 11:28:50 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:50 AM Current player state: CurrentTurn
+11/9/2022 11:28:50 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:28:50 AM Jeroen is able to play a card
+11/9/2022 11:28:50 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:28:50 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:50 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:28:51 AM Clicked on Card Diamonds 12
+11/9/2022 11:28:51 AM Player: Jeroen is trying to play card Diamonds 12
+11/9/2022 11:28:51 AM InHand: Diamonds : 12
+11/9/2022 11:28:51 AM Chaning last played card value from 12 to 12
+11/9/2022 11:28:51 AM Removing card Diamonds 12 from cards in hand
+11/9/2022 11:28:51 AM Instantiating card: Clubs 9
+11/9/2022 11:28:51 AM Checking player Jeroen's state
+11/9/2022 11:28:51 AM Checking player Jeroen's state
+11/9/2022 11:28:51 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:28:51 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:28:51 AM Current player state: WaitingForTurn
+11/9/2022 11:28:51 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:28:51 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:28:53 AM Chaning last played card value from 12 to 12
+11/9/2022 11:28:53 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:53 AM Current player state: CurrentTurn
+11/9/2022 11:28:53 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:28:53 AM Jeroen is able to play a card
+11/9/2022 11:28:53 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:28:53 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:28:53 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:29:06 AM Clicked on Card Hearts 13
+11/9/2022 11:29:06 AM Player: Jeroen is trying to play card Hearts 13
+11/9/2022 11:29:06 AM InHand: Hearts : 13
+11/9/2022 11:29:06 AM Chaning last played card value from 13 to 13
+11/9/2022 11:29:06 AM Removing card Hearts 13 from cards in hand
+11/9/2022 11:29:06 AM Instantiating card: Diamonds 6
+11/9/2022 11:29:06 AM Checking player Jeroen's state
+11/9/2022 11:29:06 AM Checking player Jeroen's state
+11/9/2022 11:29:06 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:29:06 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:29:06 AM Current player state: WaitingForTurn
+11/9/2022 11:29:06 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:29:06 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:29:09 AM Chaning last played card value from 13 to 13
+11/9/2022 11:29:09 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:29:09 AM Current player state: CurrentTurn
+11/9/2022 11:29:09 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:29:09 AM Jeroen is able to play a card
+11/9/2022 11:29:09 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:29:09 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:29:09 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:29:14 AM Clicked on Card Clubs 2
+11/9/2022 11:29:15 AM Player: Jeroen is trying to play card Clubs 2
+11/9/2022 11:29:15 AM InHand: Clubs : 2
+11/9/2022 11:29:15 AM Chaning last played card value from 0 to 0
+11/9/2022 11:29:15 AM Removing card Clubs 2 from cards in hand
+11/9/2022 11:29:15 AM Instantiating card: Diamonds 9
+11/9/2022 11:29:15 AM Checking player Jeroen's state
+11/9/2022 11:29:15 AM Checking player Jeroen's state
+11/9/2022 11:29:15 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:29:15 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:29:15 AM Current player state: WaitingForTurn
+11/9/2022 11:29:15 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:29:15 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:29:18 AM Chaning last played card value from 0 to 5
+11/9/2022 11:29:18 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:29:18 AM Current player state: CurrentTurn
+11/9/2022 11:29:18 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:29:18 AM Jeroen is able to play a card
+11/9/2022 11:29:18 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:29:18 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:29:18 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:29:51 AM Clicked on Card Diamonds 6
+11/9/2022 11:29:51 AM Player: Jeroen is trying to play card Diamonds 6
+11/9/2022 11:29:51 AM InHand: Diamonds : 6
+11/9/2022 11:29:51 AM Chaning last played card value from 6 to 6
+11/9/2022 11:29:51 AM Removing card Diamonds 6 from cards in hand
+11/9/2022 11:29:51 AM Checking player Jeroen's state
+11/9/2022 11:29:51 AM Checking player Jeroen's state
+11/9/2022 11:29:51 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:29:51 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:29:51 AM Current player state: WaitingForTurn
+11/9/2022 11:29:51 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:29:51 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:29:53 AM Chaning last played card value from 6 to 6
+11/9/2022 11:29:53 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:29:53 AM Current player state: CurrentTurn
+11/9/2022 11:29:53 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:29:53 AM Jeroen is able to play a card
+11/9/2022 11:29:53 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:29:53 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:29:53 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:29:59 AM Clicked on Card Diamonds 9
+11/9/2022 11:29:59 AM Player: Jeroen is trying to play card Diamonds 9
+11/9/2022 11:29:59 AM InHand: Diamonds : 9
+11/9/2022 11:29:59 AM Chaning last played card value from 9 to 9
+11/9/2022 11:29:59 AM Removing card Diamonds 9 from cards in hand
+11/9/2022 11:29:59 AM Checking player Jeroen's state
+11/9/2022 11:29:59 AM Checking player Jeroen's state
+11/9/2022 11:29:59 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:29:59 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:29:59 AM Current player state: WaitingForTurn
+11/9/2022 11:29:59 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:29:59 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:29:59 AM Chaning last played card value from 9 to 0
+11/9/2022 11:29:59 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:29:59 AM Current player state: CurrentTurn
+11/9/2022 11:29:59 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:29:59 AM Jeroen is able to play a card
+11/9/2022 11:29:59 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:29:59 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:29:59 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:30:01 AM Clicked on Card Clubs 9
+11/9/2022 11:30:01 AM Player: Jeroen is trying to play card Clubs 9
+11/9/2022 11:30:01 AM InHand: Clubs : 9
+11/9/2022 11:30:01 AM Chaning last played card value from 9 to 9
+11/9/2022 11:30:01 AM Removing card Clubs 9 from cards in hand
+11/9/2022 11:30:01 AM Checking player Jeroen's state
+11/9/2022 11:30:01 AM Checking player Jeroen's state
+11/9/2022 11:30:01 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:30:01 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:30:01 AM Current player state: WaitingForTurn
+11/9/2022 11:30:01 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:30:01 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:30:08 AM Chaning last played card value from 9 to 9
+11/9/2022 11:30:08 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:30:08 AM Current player state: CurrentTurn
+11/9/2022 11:30:08 AM Player: Jeroen has less then 0 cards in hand
+11/9/2022 11:30:08 AM Jeroen is able to play a card
+11/9/2022 11:30:08 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:30:08 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:30:08 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:30:11 AM Clicked on Card Diamonds 13
+11/9/2022 11:30:11 AM Player: Jeroen is trying to play card Diamonds 13
+11/9/2022 11:30:11 AM FaceUp: Diamonds : 13
+11/9/2022 11:30:11 AM Chaning last played card value from 13 to 13
+11/9/2022 11:30:11 AM Removing card Diamonds 13 True from cards face up
+11/9/2022 11:30:11 AM can remove card Diamonds 13 Card Type: Diamonds
+ Card Value: 13 is True
+11/9/2022 11:30:11 AM Checking player Jeroen's state
+11/9/2022 11:30:11 AM Checking player Jeroen's state
+11/9/2022 11:30:11 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:30:11 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:30:11 AM Current player state: WaitingForTurn
+11/9/2022 11:30:11 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:30:11 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:30:20 AM Chaning last played card value from 13 to 13
+11/9/2022 11:30:20 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:30:20 AM Current player state: CurrentTurn
+11/9/2022 11:30:20 AM Player: Jeroen has less then 0 cards in hand
+11/9/2022 11:30:20 AM Jeroen is able to play a card
+11/9/2022 11:30:20 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:30:20 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:30:20 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:30:22 AM Clicked on Card Clubs 3
+11/9/2022 11:30:22 AM Player: Jeroen is trying to play card Clubs 3
+11/9/2022 11:30:22 AM FaceUp: Clubs : 3
+11/9/2022 11:30:22 AM Chaning last played card value from 13 to 13
+11/9/2022 11:30:22 AM Removing card Clubs 3 True from cards face up
+11/9/2022 11:30:22 AM can remove card Clubs 3 Card Type: Clubs
+ Card Value: 3 is True
+11/9/2022 11:30:22 AM Checking player Jeroen's state
+11/9/2022 11:30:22 AM Checking player Jeroen's state
+11/9/2022 11:30:22 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:30:22 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:30:22 AM Current player state: WaitingForTurn
+11/9/2022 11:30:22 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:30:22 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:30:23 AM Chaning last played card value from 13 to 13
+11/9/2022 11:30:23 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:30:23 AM Current player state: CurrentTurn
+11/9/2022 11:30:23 AM Player: Jeroen has less then 0 cards in hand
+11/9/2022 11:30:23 AM No cards are playable. Grabbing all cards
+11/9/2022 11:30:23 AM Instantiating card: Clubs 9
+11/9/2022 11:30:23 AM Instantiating card: Diamonds 9
+11/9/2022 11:30:23 AM Instantiating card: Diamonds 13
+11/9/2022 11:30:23 AM Instantiating card: Clubs 13
+11/9/2022 11:30:23 AM Instantiating card: Clubs 3
+11/9/2022 11:30:23 AM Instantiating card: Hearts 13
+11/9/2022 11:30:23 AM Chaning last played card value from 13 to 0
+11/9/2022 11:30:23 AM Starting next round
+11/9/2022 11:30:23 AM Checking state
+11/9/2022 11:30:23 AM Checking state
+11/9/2022 11:30:23 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:30:23 AM Current player state: WaitingForTurn
+11/9/2022 11:30:23 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:30:23 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:30:23 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:30:23 AM Setting player Jeroen turn text to Your turn, while current state is WaitingForTurn
+11/9/2022 11:30:29 AM Chaning last played card value from 0 to 5
+11/9/2022 11:30:29 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:30:29 AM Current player state: CurrentTurn
+11/9/2022 11:30:29 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:30:29 AM Jeroen is able to play a card
+11/9/2022 11:30:29 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:30:29 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:30:29 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:31:03 AM Clicked on Card Diamonds 9
+11/9/2022 11:31:03 AM Player: Jeroen is trying to play card Diamonds 9
+11/9/2022 11:31:03 AM InHand: Diamonds : 9
+11/9/2022 11:31:03 AM Chaning last played card value from 9 to 9
+11/9/2022 11:31:03 AM Removing card Diamonds 9 from cards in hand
+11/9/2022 11:31:03 AM Checking player Jeroen's state
+11/9/2022 11:31:03 AM Checking player Jeroen's state
+11/9/2022 11:31:03 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:31:03 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:31:03 AM Current player state: WaitingForTurn
+11/9/2022 11:31:03 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:31:03 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:31:09 AM Chaning last played card value from 9 to 12
+11/9/2022 11:31:09 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:09 AM Current player state: CurrentTurn
+11/9/2022 11:31:09 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:31:09 AM Jeroen is able to play a card
+11/9/2022 11:31:09 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:31:09 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:09 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:31:18 AM Clicked on Card Hearts 13
+11/9/2022 11:31:18 AM Player: Jeroen is trying to play card Hearts 13
+11/9/2022 11:31:18 AM InHand: Hearts : 13
+11/9/2022 11:31:18 AM Chaning last played card value from 13 to 13
+11/9/2022 11:31:18 AM Removing card Hearts 13 from cards in hand
+11/9/2022 11:31:18 AM Checking player Jeroen's state
+11/9/2022 11:31:18 AM Checking player Jeroen's state
+11/9/2022 11:31:18 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:31:18 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:31:18 AM Current player state: WaitingForTurn
+11/9/2022 11:31:18 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:31:18 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:31:22 AM Chaning last played card value from 13 to 0
+11/9/2022 11:31:22 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:22 AM Current player state: CurrentTurn
+11/9/2022 11:31:22 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:31:22 AM Jeroen is able to play a card
+11/9/2022 11:31:22 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:31:22 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:22 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:31:30 AM Clicked on Card Clubs 9
+11/9/2022 11:31:30 AM Player: Jeroen is trying to play card Clubs 9
+11/9/2022 11:31:30 AM InHand: Clubs : 9
+11/9/2022 11:31:30 AM Chaning last played card value from 9 to 9
+11/9/2022 11:31:30 AM Removing card Clubs 9 from cards in hand
+11/9/2022 11:31:30 AM Checking player Jeroen's state
+11/9/2022 11:31:30 AM Checking player Jeroen's state
+11/9/2022 11:31:30 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:31:30 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:31:30 AM Current player state: WaitingForTurn
+11/9/2022 11:31:30 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:31:30 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:31:33 AM Chaning last played card value from 9 to 12
+11/9/2022 11:31:33 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:33 AM Current player state: CurrentTurn
+11/9/2022 11:31:33 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:31:33 AM Jeroen is able to play a card
+11/9/2022 11:31:33 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:31:33 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:33 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:31:36 AM Clicked on Card Clubs 13
+11/9/2022 11:31:36 AM Player: Jeroen is trying to play card Clubs 13
+11/9/2022 11:31:36 AM InHand: Clubs : 13
+11/9/2022 11:31:36 AM Chaning last played card value from 13 to 13
+11/9/2022 11:31:36 AM Removing card Clubs 13 from cards in hand
+11/9/2022 11:31:36 AM Checking player Jeroen's state
+11/9/2022 11:31:36 AM Checking player Jeroen's state
+11/9/2022 11:31:36 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:31:36 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:31:36 AM Current player state: WaitingForTurn
+11/9/2022 11:31:36 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:31:36 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:31:36 AM Chaning last played card value from 13 to 0
+11/9/2022 11:31:36 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:36 AM Current player state: CurrentTurn
+11/9/2022 11:31:36 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:31:36 AM Jeroen is able to play a card
+11/9/2022 11:31:36 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:31:36 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:36 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:31:40 AM Clicked on Card Diamonds 13
+11/9/2022 11:31:40 AM Player: Jeroen is trying to play card Diamonds 13
+11/9/2022 11:31:40 AM InHand: Diamonds : 13
+11/9/2022 11:31:40 AM Chaning last played card value from 13 to 13
+11/9/2022 11:31:40 AM Removing card Diamonds 13 from cards in hand
+11/9/2022 11:31:40 AM Checking player Jeroen's state
+11/9/2022 11:31:40 AM Checking player Jeroen's state
+11/9/2022 11:31:40 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:31:40 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:31:40 AM Current player state: WaitingForTurn
+11/9/2022 11:31:40 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:31:40 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:31:44 AM Chaning last played card value from 13 to 0
+11/9/2022 11:31:44 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:44 AM Current player state: CurrentTurn
+11/9/2022 11:31:44 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:31:44 AM Jeroen is able to play a card
+11/9/2022 11:31:44 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:31:44 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:44 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:31:45 AM Clicked on Card Clubs 3
+11/9/2022 11:31:45 AM Player: Jeroen is trying to play card Clubs 3
+11/9/2022 11:31:45 AM InHand: Clubs : 3
+11/9/2022 11:31:45 AM Chaning last played card value from 0 to 0
+11/9/2022 11:31:45 AM Removing card Clubs 3 from cards in hand
+11/9/2022 11:31:45 AM Checking player Jeroen's state
+11/9/2022 11:31:45 AM Checking player Jeroen's state
+11/9/2022 11:31:45 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:31:45 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:31:45 AM Current player state: WaitingForTurn
+11/9/2022 11:31:45 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:31:45 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:31:48 AM Chaning last played card value from 0 to 7
+11/9/2022 11:31:48 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:48 AM Current player state: CurrentTurn
+11/9/2022 11:31:48 AM Player: Jeroen has less then 0 cards in hand
+11/9/2022 11:31:48 AM No cards are playable. Grabbing all cards
+11/9/2022 11:31:48 AM Instantiating card: Diamonds 13
+11/9/2022 11:31:48 AM Instantiating card: Clubs 2
+11/9/2022 11:31:48 AM Instantiating card: Clubs 3
+11/9/2022 11:31:48 AM Instantiating card: Spades 7
+11/9/2022 11:31:48 AM Chaning last played card value from 7 to 0
+11/9/2022 11:31:48 AM Starting next round
+11/9/2022 11:31:48 AM Checking state
+11/9/2022 11:31:48 AM Checking state
+11/9/2022 11:31:48 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:31:48 AM Current player state: WaitingForTurn
+11/9/2022 11:31:48 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:31:48 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:31:48 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:48 AM Setting player Jeroen turn text to Your turn, while current state is WaitingForTurn
+11/9/2022 11:31:55 AM Chaning last played card value from 0 to 5
+11/9/2022 11:31:55 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:55 AM Current player state: CurrentTurn
+11/9/2022 11:31:55 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:31:55 AM Jeroen is able to play a card
+11/9/2022 11:31:55 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:31:55 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:31:55 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:31:59 AM Clicked on Card Spades 7
+11/9/2022 11:31:59 AM Player: Jeroen is trying to play card Spades 7
+11/9/2022 11:31:59 AM InHand: Spades : 7
+11/9/2022 11:31:59 AM Chaning last played card value from 7 to 7
+11/9/2022 11:31:59 AM Removing card Spades 7 from cards in hand
+11/9/2022 11:31:59 AM Checking player Jeroen's state
+11/9/2022 11:31:59 AM Checking player Jeroen's state
+11/9/2022 11:31:59 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:31:59 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:31:59 AM Current player state: WaitingForTurn
+11/9/2022 11:31:59 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:31:59 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:05 AM Chaning last played card value from 7 to 5
+11/9/2022 11:32:05 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:05 AM Current player state: CurrentTurn
+11/9/2022 11:32:05 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:32:05 AM Jeroen is able to play a card
+11/9/2022 11:32:05 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:05 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:05 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:09 AM Clicked on Card Diamonds 13
+11/9/2022 11:32:09 AM Player: Jeroen is trying to play card Diamonds 13
+11/9/2022 11:32:09 AM InHand: Diamonds : 13
+11/9/2022 11:32:09 AM Chaning last played card value from 13 to 13
+11/9/2022 11:32:09 AM Removing card Diamonds 13 from cards in hand
+11/9/2022 11:32:09 AM Checking player Jeroen's state
+11/9/2022 11:32:09 AM Checking player Jeroen's state
+11/9/2022 11:32:09 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:09 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:09 AM Current player state: WaitingForTurn
+11/9/2022 11:32:09 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:09 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:13 AM Chaning last played card value from 13 to 13
+11/9/2022 11:32:13 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:13 AM Current player state: CurrentTurn
+11/9/2022 11:32:13 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:32:13 AM Jeroen is able to play a card
+11/9/2022 11:32:13 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:13 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:13 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:15 AM Clicked on Card Clubs 3
+11/9/2022 11:32:15 AM Player: Jeroen is trying to play card Clubs 3
+11/9/2022 11:32:15 AM InHand: Clubs : 3
+11/9/2022 11:32:15 AM Chaning last played card value from 13 to 13
+11/9/2022 11:32:15 AM Removing card Clubs 3 from cards in hand
+11/9/2022 11:32:15 AM Checking player Jeroen's state
+11/9/2022 11:32:15 AM Checking player Jeroen's state
+11/9/2022 11:32:15 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:15 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:15 AM Current player state: WaitingForTurn
+11/9/2022 11:32:15 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:15 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:17 AM Chaning last played card value from 13 to 13
+11/9/2022 11:32:17 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:17 AM Current player state: CurrentTurn
+11/9/2022 11:32:17 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:32:17 AM Jeroen is able to play a card
+11/9/2022 11:32:17 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:17 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:17 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:18 AM Clicked on Card Clubs 2
+11/9/2022 11:32:18 AM Player: Jeroen is trying to play card Clubs 2
+11/9/2022 11:32:18 AM InHand: Clubs : 2
+11/9/2022 11:32:18 AM Chaning last played card value from 0 to 0
+11/9/2022 11:32:18 AM Removing card Clubs 2 from cards in hand
+11/9/2022 11:32:18 AM Checking player Jeroen's state
+11/9/2022 11:32:18 AM Checking player Jeroen's state
+11/9/2022 11:32:18 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:18 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:18 AM Current player state: WaitingForTurn
+11/9/2022 11:32:18 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:18 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:22 AM Chaning last played card value from 0 to 6
+11/9/2022 11:32:22 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:22 AM Current player state: CurrentTurn
+11/9/2022 11:32:22 AM Player: Jeroen has less then 0 cards in hand
+11/9/2022 11:32:22 AM Jeroen is able to play a card
+11/9/2022 11:32:22 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:22 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:22 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:23 AM Clicked on Card Spades 8
+11/9/2022 11:32:23 AM Player: Jeroen is trying to play card Spades 8
+11/9/2022 11:32:23 AM FaceUp: Spades : 8
+11/9/2022 11:32:23 AM Chaning last played card value from 8 to 8
+11/9/2022 11:32:23 AM Removing card Spades 8 True from cards face up
+11/9/2022 11:32:23 AM can remove card Spades 8 Card Type: Spades
+ Card Value: 8 is True
+11/9/2022 11:32:23 AM Checking player Jeroen's state
+11/9/2022 11:32:23 AM Checking player Jeroen's state
+11/9/2022 11:32:23 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:23 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:23 AM Current player state: WaitingForTurn
+11/9/2022 11:32:23 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:23 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:24 AM Chaning last played card value from 8 to 9
+11/9/2022 11:32:24 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:25 AM Current player state: CurrentTurn
+11/9/2022 11:32:25 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:25 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:25 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:26 AM Clicked on Card Spades 11
+11/9/2022 11:32:26 AM Player: Jeroen is trying to play card Spades 11
+11/9/2022 11:32:26 AM FaceDown: Spades : 11
+11/9/2022 11:32:26 AM Chaning last played card value from 11 to 11
+11/9/2022 11:32:26 AM Removing card Spades 11 from cards face down
+11/9/2022 11:32:26 AM Checking player Jeroen's state
+11/9/2022 11:32:26 AM Checking player Jeroen's state
+11/9/2022 11:32:26 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:26 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:26 AM Current player state: WaitingForTurn
+11/9/2022 11:32:26 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:26 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:28 AM Chaning last played card value from 11 to 12
+11/9/2022 11:32:28 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:28 AM Current player state: CurrentTurn
+11/9/2022 11:32:28 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:28 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:28 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:30 AM Clicked on Card Hearts 12
+11/9/2022 11:32:30 AM Player: Jeroen is trying to play card Hearts 12
+11/9/2022 11:32:30 AM FaceDown: Hearts : 12
+11/9/2022 11:32:30 AM Chaning last played card value from 12 to 12
+11/9/2022 11:32:30 AM Removing card Hearts 12 from cards face down
+11/9/2022 11:32:30 AM Checking player Jeroen's state
+11/9/2022 11:32:30 AM Checking player Jeroen's state
+11/9/2022 11:32:30 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:30 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:30 AM Current player state: WaitingForTurn
+11/9/2022 11:32:30 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:30 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:33 AM Chaning last played card value from 12 to 12
+11/9/2022 11:32:33 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:33 AM Current player state: CurrentTurn
+11/9/2022 11:32:33 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:33 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:33 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:36 AM Clicked on Card Clubs 11
+11/9/2022 11:32:36 AM Player: Jeroen is trying to play card Clubs 11
+11/9/2022 11:32:36 AM FaceDown: Clubs : 11
+11/9/2022 11:32:36 AM Can't play card Clubs 11
+11/9/2022 11:32:36 AM No cards are playable. Grabbing all cards
+11/9/2022 11:32:36 AM Instantiating card: Hearts 5
+11/9/2022 11:32:36 AM Instantiating card: Spades 7
+11/9/2022 11:32:36 AM Instantiating card: Clubs 5
+11/9/2022 11:32:36 AM Instantiating card: Diamonds 13
+11/9/2022 11:32:36 AM Instantiating card: Hearts 13
+11/9/2022 11:32:36 AM Instantiating card: Clubs 3
+11/9/2022 11:32:36 AM Instantiating card: Clubs 13
+11/9/2022 11:32:36 AM Instantiating card: Clubs 2
+11/9/2022 11:32:36 AM Instantiating card: Diamonds 6
+11/9/2022 11:32:36 AM Instantiating card: Spades 8
+11/9/2022 11:32:36 AM Instantiating card: Diamonds 9
+11/9/2022 11:32:36 AM Instantiating card: Spades 11
+11/9/2022 11:32:36 AM Instantiating card: Diamonds 12
+11/9/2022 11:32:36 AM Instantiating card: Hearts 12
+11/9/2022 11:32:36 AM Instantiating card: Spades 12
+11/9/2022 11:32:36 AM Chaning last played card value from 12 to 0
+11/9/2022 11:32:36 AM Starting next round
+11/9/2022 11:32:36 AM Checking state
+11/9/2022 11:32:36 AM Checking state
+11/9/2022 11:32:36 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:36 AM Current player state: WaitingForTurn
+11/9/2022 11:32:36 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:36 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:36 AM Instantiating card: Clubs 11
+11/9/2022 11:32:38 AM Chaning last played card value from 0 to 6
+11/9/2022 11:32:38 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:38 AM Current player state: CurrentTurn
+11/9/2022 11:32:38 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:32:38 AM Jeroen is able to play a card
+11/9/2022 11:32:38 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:38 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:38 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:41 AM Clicked on Card Diamonds 6
+11/9/2022 11:32:41 AM Player: Jeroen is trying to play card Diamonds 6
+11/9/2022 11:32:41 AM InHand: Diamonds : 6
+11/9/2022 11:32:41 AM Chaning last played card value from 6 to 6
+11/9/2022 11:32:41 AM Removing card Diamonds 6 from cards in hand
+11/9/2022 11:32:41 AM Checking player Jeroen's state
+11/9/2022 11:32:41 AM Checking player Jeroen's state
+11/9/2022 11:32:41 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:41 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:41 AM Current player state: WaitingForTurn
+11/9/2022 11:32:41 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:41 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:43 AM Chaning last played card value from 6 to 9
+11/9/2022 11:32:43 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:43 AM Current player state: CurrentTurn
+11/9/2022 11:32:43 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:32:43 AM Jeroen is able to play a card
+11/9/2022 11:32:43 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:43 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:43 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:46 AM Clicked on Card Diamonds 9
+11/9/2022 11:32:46 AM Player: Jeroen is trying to play card Diamonds 9
+11/9/2022 11:32:46 AM InHand: Diamonds : 9
+11/9/2022 11:32:46 AM Chaning last played card value from 9 to 9
+11/9/2022 11:32:46 AM Removing card Diamonds 9 from cards in hand
+11/9/2022 11:32:46 AM Checking player Jeroen's state
+11/9/2022 11:32:46 AM Checking player Jeroen's state
+11/9/2022 11:32:46 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:46 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:46 AM Current player state: WaitingForTurn
+11/9/2022 11:32:46 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:46 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:47 AM Chaning last played card value from 9 to 11
+11/9/2022 11:32:47 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:47 AM Current player state: CurrentTurn
+11/9/2022 11:32:47 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:32:47 AM Jeroen is able to play a card
+11/9/2022 11:32:47 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:47 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:47 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:50 AM Clicked on Card Spades 11
+11/9/2022 11:32:50 AM Player: Jeroen is trying to play card Spades 11
+11/9/2022 11:32:50 AM InHand: Spades : 11
+11/9/2022 11:32:50 AM Chaning last played card value from 11 to 11
+11/9/2022 11:32:50 AM Removing card Spades 11 from cards in hand
+11/9/2022 11:32:50 AM Checking player Jeroen's state
+11/9/2022 11:32:50 AM Checking player Jeroen's state
+11/9/2022 11:32:50 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:50 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:50 AM Current player state: WaitingForTurn
+11/9/2022 11:32:50 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:50 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:52 AM Chaning last played card value from 11 to 11
+11/9/2022 11:32:52 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:52 AM Current player state: CurrentTurn
+11/9/2022 11:32:52 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:32:52 AM Jeroen is able to play a card
+11/9/2022 11:32:52 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:52 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:52 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:53 AM Clicked on Card Clubs 11
+11/9/2022 11:32:53 AM Player: Jeroen is trying to play card Clubs 11
+11/9/2022 11:32:53 AM InHand: Clubs : 11
+11/9/2022 11:32:53 AM Chaning last played card value from 11 to 11
+11/9/2022 11:32:53 AM Removing card Clubs 11 from cards in hand
+11/9/2022 11:32:53 AM Checking player Jeroen's state
+11/9/2022 11:32:53 AM Checking player Jeroen's state
+11/9/2022 11:32:53 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:53 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:53 AM Current player state: WaitingForTurn
+11/9/2022 11:32:53 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:53 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:32:53 AM Chaning last played card value from 11 to 0
+11/9/2022 11:32:53 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:53 AM Current player state: CurrentTurn
+11/9/2022 11:32:53 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:32:53 AM Jeroen is able to play a card
+11/9/2022 11:32:53 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:32:53 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:32:53 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:32:57 AM Clicked on Card Spades 7
+11/9/2022 11:32:57 AM Player: Jeroen is trying to play card Spades 7
+11/9/2022 11:32:57 AM InHand: Spades : 7
+11/9/2022 11:32:57 AM Chaning last played card value from 7 to 7
+11/9/2022 11:32:57 AM Removing card Spades 7 from cards in hand
+11/9/2022 11:32:57 AM Checking player Jeroen's state
+11/9/2022 11:32:57 AM Checking player Jeroen's state
+11/9/2022 11:32:57 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:32:57 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:32:57 AM Current player state: WaitingForTurn
+11/9/2022 11:32:57 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:32:57 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:00 AM Chaning last played card value from 7 to 6
+11/9/2022 11:33:00 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:00 AM Current player state: CurrentTurn
+11/9/2022 11:33:00 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:00 AM Jeroen is able to play a card
+11/9/2022 11:33:00 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:00 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:00 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:06 AM Clicked on Card Diamonds 12
+11/9/2022 11:33:06 AM Player: Jeroen is trying to play card Diamonds 12
+11/9/2022 11:33:06 AM InHand: Diamonds : 12
+11/9/2022 11:33:06 AM Chaning last played card value from 12 to 12
+11/9/2022 11:33:06 AM Removing card Diamonds 12 from cards in hand
+11/9/2022 11:33:06 AM Checking player Jeroen's state
+11/9/2022 11:33:06 AM Checking player Jeroen's state
+11/9/2022 11:33:06 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:06 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:06 AM Current player state: WaitingForTurn
+11/9/2022 11:33:06 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:06 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:06 AM Chaning last played card value from 12 to 0
+11/9/2022 11:33:06 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:06 AM Current player state: CurrentTurn
+11/9/2022 11:33:06 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:06 AM Jeroen is able to play a card
+11/9/2022 11:33:06 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:06 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:06 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:08 AM Clicked on Card Clubs 5
+11/9/2022 11:33:08 AM Player: Jeroen is trying to play card Clubs 5
+11/9/2022 11:33:08 AM InHand: Clubs : 5
+11/9/2022 11:33:08 AM Chaning last played card value from 5 to 5
+11/9/2022 11:33:08 AM Removing card Clubs 5 from cards in hand
+11/9/2022 11:33:08 AM Checking player Jeroen's state
+11/9/2022 11:33:08 AM Checking player Jeroen's state
+11/9/2022 11:33:08 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:08 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:08 AM Current player state: WaitingForTurn
+11/9/2022 11:33:08 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:08 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:17 AM Chaning last played card value from 5 to 6
+11/9/2022 11:33:17 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:17 AM Current player state: CurrentTurn
+11/9/2022 11:33:17 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:17 AM Jeroen is able to play a card
+11/9/2022 11:33:17 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:17 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:17 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:22 AM Clicked on Card Clubs 3
+11/9/2022 11:33:22 AM Player: Jeroen is trying to play card Clubs 3
+11/9/2022 11:33:22 AM InHand: Clubs : 3
+11/9/2022 11:33:22 AM Chaning last played card value from 6 to 6
+11/9/2022 11:33:22 AM Removing card Clubs 3 from cards in hand
+11/9/2022 11:33:22 AM Checking player Jeroen's state
+11/9/2022 11:33:22 AM Checking player Jeroen's state
+11/9/2022 11:33:22 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:22 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:22 AM Current player state: WaitingForTurn
+11/9/2022 11:33:22 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:22 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:24 AM Chaning last played card value from 6 to 6
+11/9/2022 11:33:24 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:24 AM Current player state: CurrentTurn
+11/9/2022 11:33:24 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:24 AM Jeroen is able to play a card
+11/9/2022 11:33:24 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:24 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:24 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:27 AM Clicked on Card Clubs 2
+11/9/2022 11:33:27 AM Player: Jeroen is trying to play card Clubs 2
+11/9/2022 11:33:27 AM InHand: Clubs : 2
+11/9/2022 11:33:27 AM Chaning last played card value from 0 to 0
+11/9/2022 11:33:27 AM Removing card Clubs 2 from cards in hand
+11/9/2022 11:33:27 AM Checking player Jeroen's state
+11/9/2022 11:33:27 AM Checking player Jeroen's state
+11/9/2022 11:33:27 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:27 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:27 AM Current player state: WaitingForTurn
+11/9/2022 11:33:27 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:27 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:31 AM Chaning last played card value from 0 to 7
+11/9/2022 11:33:31 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:31 AM Current player state: CurrentTurn
+11/9/2022 11:33:31 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:31 AM Jeroen is able to play a card
+11/9/2022 11:33:31 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:31 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:31 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:32 AM Clicked on Card Hearts 5
+11/9/2022 11:33:32 AM Player: Jeroen is trying to play card Hearts 5
+11/9/2022 11:33:32 AM InHand: Hearts : 5
+11/9/2022 11:33:32 AM Chaning last played card value from 5 to 5
+11/9/2022 11:33:32 AM Removing card Hearts 5 from cards in hand
+11/9/2022 11:33:32 AM Checking player Jeroen's state
+11/9/2022 11:33:32 AM Checking player Jeroen's state
+11/9/2022 11:33:32 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:32 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:32 AM Current player state: WaitingForTurn
+11/9/2022 11:33:32 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:32 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:35 AM Chaning last played card value from 5 to 9
+11/9/2022 11:33:35 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:35 AM Current player state: CurrentTurn
+11/9/2022 11:33:35 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:35 AM Jeroen is able to play a card
+11/9/2022 11:33:35 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:35 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:35 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:36 AM Clicked on Card Hearts 12
+11/9/2022 11:33:36 AM Player: Jeroen is trying to play card Hearts 12
+11/9/2022 11:33:36 AM InHand: Hearts : 12
+11/9/2022 11:33:36 AM Chaning last played card value from 12 to 12
+11/9/2022 11:33:36 AM Removing card Hearts 12 from cards in hand
+11/9/2022 11:33:36 AM Checking player Jeroen's state
+11/9/2022 11:33:36 AM Checking player Jeroen's state
+11/9/2022 11:33:36 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:36 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:36 AM Current player state: WaitingForTurn
+11/9/2022 11:33:36 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:36 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:38 AM Chaning last played card value from 12 to 12
+11/9/2022 11:33:38 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:38 AM Current player state: CurrentTurn
+11/9/2022 11:33:38 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:38 AM Jeroen is able to play a card
+11/9/2022 11:33:38 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:38 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:38 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:40 AM Clicked on Card Spades 12
+11/9/2022 11:33:40 AM Player: Jeroen is trying to play card Spades 12
+11/9/2022 11:33:40 AM InHand: Spades : 12
+11/9/2022 11:33:40 AM Chaning last played card value from 12 to 12
+11/9/2022 11:33:40 AM Removing card Spades 12 from cards in hand
+11/9/2022 11:33:40 AM Checking player Jeroen's state
+11/9/2022 11:33:40 AM Checking player Jeroen's state
+11/9/2022 11:33:40 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:40 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:40 AM Current player state: WaitingForTurn
+11/9/2022 11:33:40 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:40 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:40 AM Chaning last played card value from 12 to 0
+11/9/2022 11:33:40 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:40 AM Current player state: CurrentTurn
+11/9/2022 11:33:40 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:40 AM Jeroen is able to play a card
+11/9/2022 11:33:40 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:40 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:40 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:41 AM Clicked on Card Spades 8
+11/9/2022 11:33:41 AM Player: Jeroen is trying to play card Spades 8
+11/9/2022 11:33:41 AM InHand: Spades : 8
+11/9/2022 11:33:41 AM Chaning last played card value from 8 to 8
+11/9/2022 11:33:41 AM Removing card Spades 8 from cards in hand
+11/9/2022 11:33:41 AM Checking player Jeroen's state
+11/9/2022 11:33:41 AM Checking player Jeroen's state
+11/9/2022 11:33:41 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:41 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:41 AM Current player state: WaitingForTurn
+11/9/2022 11:33:41 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:41 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:45 AM Chaning last played card value from 8 to 9
+11/9/2022 11:33:45 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:45 AM Current player state: CurrentTurn
+11/9/2022 11:33:45 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:45 AM Jeroen is able to play a card
+11/9/2022 11:33:45 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:45 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:45 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:46 AM Clicked on Card Diamonds 13
+11/9/2022 11:33:46 AM Player: Jeroen is trying to play card Diamonds 13
+11/9/2022 11:33:46 AM InHand: Diamonds : 13
+11/9/2022 11:33:46 AM Chaning last played card value from 13 to 13
+11/9/2022 11:33:46 AM Removing card Diamonds 13 from cards in hand
+11/9/2022 11:33:46 AM Checking player Jeroen's state
+11/9/2022 11:33:46 AM Checking player Jeroen's state
+11/9/2022 11:33:46 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:46 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:46 AM Current player state: WaitingForTurn
+11/9/2022 11:33:46 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:46 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:33:57 AM Chaning last played card value from 13 to 0
+11/9/2022 11:33:57 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:57 AM Current player state: CurrentTurn
+11/9/2022 11:33:57 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:33:57 AM Jeroen is able to play a card
+11/9/2022 11:33:57 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:33:57 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:33:57 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:33:58 AM Clicked on Card Hearts 13
+11/9/2022 11:33:58 AM Player: Jeroen is trying to play card Hearts 13
+11/9/2022 11:33:58 AM InHand: Hearts : 13
+11/9/2022 11:33:58 AM Chaning last played card value from 13 to 13
+11/9/2022 11:33:58 AM Removing card Hearts 13 from cards in hand
+11/9/2022 11:33:58 AM Checking player Jeroen's state
+11/9/2022 11:33:58 AM Checking player Jeroen's state
+11/9/2022 11:33:58 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:33:58 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:33:58 AM Current player state: WaitingForTurn
+11/9/2022 11:33:58 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:33:58 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:34:03 AM Chaning last played card value from 13 to 13
+11/9/2022 11:34:03 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:34:03 AM Current player state: CurrentTurn
+11/9/2022 11:34:03 AM Player: Jeroen has more then 0 cards in hand
+11/9/2022 11:34:03 AM Jeroen is able to play a card
+11/9/2022 11:34:03 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:34:03 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:34:03 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:34:04 AM Clicked on Card Clubs 13
+11/9/2022 11:34:04 AM Player: Jeroen is trying to play card Clubs 13
+11/9/2022 11:34:04 AM InHand: Clubs : 13
+11/9/2022 11:34:04 AM Chaning last played card value from 13 to 13
+11/9/2022 11:34:04 AM Removing card Clubs 13 from cards in hand
+11/9/2022 11:34:04 AM Checking player Jeroen's state
+11/9/2022 11:34:04 AM Checking player Jeroen's state
+11/9/2022 11:34:04 AM Previous state: CurrentTurn. New state: WaitingForTurn
+11/9/2022 11:34:04 AM Setting player state. Function called by #02 'Jeroen'
+11/9/2022 11:34:04 AM Current player state: WaitingForTurn
+11/9/2022 11:34:04 AM Setting player turn indicatior text. Function called by #02 'Jeroen'
+11/9/2022 11:34:04 AM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/9/2022 11:34:04 AM Player won
+11/9/2022 11:34:04 AM Chaning last played card value from 13 to 0
+11/9/2022 11:34:04 AM Setting player state. Function called by #01 'Murtle Turtle'
+11/9/2022 11:34:04 AM Current player state: CurrentTurn
+11/9/2022 11:34:04 AM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/9/2022 11:34:04 AM Setting player turn indicatior text. Function called by #01 'Murtle Turtle'
+11/9/2022 11:34:04 AM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/9/2022 11:34:33 AM Players in Room: 2
+11/14/2022 9:03:38 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/14/2022 9:03:39 PM PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.
+11/14/2022 9:03:39 PM Loading the Room for 1
+11/14/2022 9:03:39 PM Players in Room: 1
+11/14/2022 9:03:43 PM PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN
+11/14/2022 9:03:44 PM Players in Room: 2
+11/14/2022 9:03:50 PM Player Ready: Jeroen
+11/14/2022 9:03:50 PM Total players ready = 1
+11/14/2022 9:03:50 PM Players in Room: 2
+11/14/2022 9:03:53 PM Player Ready: Clone
+11/14/2022 9:03:53 PM Total players ready = 2
+11/14/2022 9:03:53 PM Players in Room: 2
+11/14/2022 9:03:54 PM Instantiating local player object
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 7
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 13
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 9
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 2
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 10
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 1
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 2
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 11
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 4
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 3
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 12
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 7
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 1
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 12
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 6
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 9
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 2
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 4
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 7
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 11
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 13
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 9
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 8
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 12
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 3
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 8
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 13
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 11
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 7
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 5
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 13
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 6
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 9
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 6
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 8
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 12
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 3
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 1
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 6
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 2
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 3
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 10
+11/14/2022 9:03:57 PM Card Type: diamond
+ Card Value: 10
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 5
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 4
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 11
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 8
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 10
+11/14/2022 9:03:57 PM Card Type: spade
+ Card Value: 5
+11/14/2022 9:03:57 PM Card Type: heart
+ Card Value: 5
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 4
+11/14/2022 9:03:57 PM Card Type: club
+ Card Value: 1
+11/14/2022 9:03:57 PM Instantiating local player object
+11/14/2022 9:03:57 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/14/2022 9:03:57 PM Instantiating card: spade 2
+11/14/2022 9:03:57 PM Instantiating card: heart 11
+11/14/2022 9:03:57 PM Instantiating card: spade 4
+11/14/2022 9:03:57 PM Instantiated facedown UI for player Jeroen
+11/14/2022 9:03:57 PM Instantiated facedown UI for player Jeroen
+11/14/2022 9:03:57 PM Instantiated facedown UI for player Jeroen
+11/14/2022 9:03:57 PM Setting player state. Function called by #01 'Jeroen'
+11/14/2022 9:03:57 PM Current player state: CurrentTurn
+11/14/2022 9:03:57 PM Player: Jeroen has more then 0 cards in hand
+11/14/2022 9:03:57 PM Jeroen is able to play a card
+11/14/2022 9:03:57 PM Player Jeroen: chaning state from WaitingForTurn to CurrentTurn
+11/14/2022 9:03:57 PM Setting player turn indicatior text. Function called by #01 'Jeroen'
+11/14/2022 9:03:57 PM Setting player Jeroen turn text to Your turn, while current state is CurrentTurn
+11/14/2022 9:04:01 PM CardsInHandSystem.Collections.Generic.List`1[PlayingCard]
+11/14/2022 9:04:01 PM Instantiating card: diamond 12
+11/14/2022 9:04:01 PM Instantiating card: club 9
+11/14/2022 9:04:01 PM Instantiating card: diamond 4
+11/14/2022 9:04:01 PM Instantiated facedown UI for player Clone
+11/14/2022 9:04:01 PM Instantiated facedown UI for player Clone
+11/14/2022 9:04:01 PM Instantiated facedown UI for player Clone
+11/14/2022 9:04:01 PM Setting player state. Function called by #01 'Jeroen'
+11/14/2022 9:04:01 PM Current player state: WaitingForTurn
+11/14/2022 9:04:01 PM Setting player turn indicatior text. Function called by #01 'Jeroen'
+11/14/2022 9:04:01 PM Setting player Clone turn text to NOT your turn, while current state is WaitingForTurn
+11/14/2022 9:04:07 PM Clicked on Card spade 4
+11/14/2022 9:04:07 PM Player: Jeroen is trying to play card spade 4
+11/14/2022 9:04:07 PM InHand: spade : 4
+11/14/2022 9:04:07 PM Chaning last played card value from 4 to 4
+11/14/2022 9:04:07 PM Removing card spade 4 from cards in hand
+11/14/2022 9:04:07 PM Instantiating card: heart 2
+11/14/2022 9:04:07 PM Checking player Jeroen's state
+11/14/2022 9:04:07 PM Previous state: CurrentTurn. New state: WaitingForTurn
+11/14/2022 9:04:07 PM Setting player state. Function called by #01 'Jeroen'
+11/14/2022 9:04:07 PM Current player state: WaitingForTurn
+11/14/2022 9:04:07 PM Setting player turn indicatior text. Function called by #01 'Jeroen'
+11/14/2022 9:04:07 PM Setting player Jeroen turn text to NOT your turn, while current state is WaitingForTurn
+11/14/2022 9:04:07 PM Chaning last played card value from -1 to 4
+11/14/2022 9:04:07 PM Setting player state. Function called by #01 'Jeroen'
+11/14/2022 9:04:07 PM Current player state: CurrentTurn
+11/14/2022 9:04:07 PM Player: Clone has more then 0 cards in hand
+11/14/2022 9:04:07 PM Clone is able to play a card
+11/14/2022 9:04:07 PM Player Clone: chaning state from WaitingForTurn to CurrentTurn
+11/14/2022 9:04:07 PM Setting player turn indicatior text. Function called by #01 'Jeroen'
+11/14/2022 9:04:07 PM Setting player Clone turn text to Your turn, while current state is CurrentTurn

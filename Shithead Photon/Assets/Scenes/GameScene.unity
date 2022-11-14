@@ -1646,6 +1646,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1737089487}
     - target: {fileID: 2396435618035291260, guid: b7627853ed280b64393781e0cb84d517, type: 3}
+      propertyPath: spriteAtlas
+      value: 
+      objectReference: {fileID: 4343727234628468602, guid: 2c6f70852a27971469fc7726e552e225, type: 2}
+    - target: {fileID: 2396435618035291260, guid: b7627853ed280b64393781e0cb84d517, type: 3}
       propertyPath: cardSpawnPos
       value: 
       objectReference: {fileID: 1509401581}
@@ -1665,6 +1669,10 @@ PrefabInstance:
       propertyPath: winIndication
       value: 
       objectReference: {fileID: 102013563}
+    - target: {fileID: 2396435618035291260, guid: b7627853ed280b64393781e0cb84d517, type: 3}
+      propertyPath: cardBackSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4867ecdcdfc53f74590abafe95b37807, type: 3}
     - target: {fileID: 2396435618035291260, guid: b7627853ed280b64393781e0cb84d517, type: 3}
       propertyPath: faceDownCardPos
       value: 

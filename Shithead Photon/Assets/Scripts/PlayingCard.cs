@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using System.Linq;
 
-public enum CardType { Clubs, Spades, Diamonds, Hearts, Joker };
+public enum CardType { club, spade, diamond, heart, Joker };
 
 [Serializable]
 public class PlayingCard
@@ -138,11 +138,11 @@ public class PlayingCard
     /// <returns>Returns an INT based on the card type and value. Hearts = 100, Clubs = 200, Diamonds = 300, Spades = 400</returns>
     public static int CardToInt(PlayingCard pCard)
     {
-        if (pCard.cardType == CardType.Hearts)
+        if (pCard.cardType == CardType.heart)
             return 100 + pCard.cardValue;
-        else if (pCard.cardType == CardType.Clubs)
+        else if (pCard.cardType == CardType.club)
             return 200 + pCard.cardValue;
-        else if (pCard.cardType == CardType.Diamonds)
+        else if (pCard.cardType == CardType.diamond)
             return 300 + pCard.cardValue;
         else // Spades
             return 400 + pCard.cardValue;
@@ -154,13 +154,13 @@ public class PlayingCard
     public static PlayingCard IntToCard(int pValue)
     {
         if (pValue >= 100 && pValue <= 113)
-            return new PlayingCard(CardType.Hearts, pValue - 100);
+            return new PlayingCard(CardType.heart, pValue - 100);
         else if (pValue >= 200 && pValue <= 213)
-            return new PlayingCard(CardType.Clubs, pValue - 200);
+            return new PlayingCard(CardType.club, pValue - 200);
         else if (pValue >= 300 && pValue <= 313)
-            return new PlayingCard(CardType.Diamonds, pValue - 300);
+            return new PlayingCard(CardType.diamond, pValue - 300);
         else if (pValue >= 400 && pValue <= 413)
-            return new PlayingCard(CardType.Spades, pValue - 400);
+            return new PlayingCard(CardType.spade, pValue - 400);
         else
             return null;
     }
